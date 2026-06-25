@@ -1,0 +1,4 @@
+# Runtime dependencies for parse_85k_weekly.py
+pdfplumber>=0.10.0
+pypdf>=4.0.0
+python-dotenv>=1.0.0

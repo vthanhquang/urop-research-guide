@@ -1,0 +1,2225 @@
+{
+  "source": "Thực đơn cơm thông thường và bệnh lý  tháng 5 năm 2026 mức ăn 85k.pdf",
+  "title": "Thực đơn cơm thông thường và bệnh lý tháng 5 năm 2026",
+  "month": "Tháng 05/2026",
+  "mealLevel": "85.680đ",
+  "gridPages": 11,
+  "note": "Pages 12-19 of the PDF contain supplementary cháo/OT (liquid/tube-feed) menus, not part of this weekly grid extract.",
+  "groups": [
+    {
+      "page": 1,
+      "code": "BT01-CƠM",
+      "codes": [
+        "BT01-CƠM"
+      ],
+      "label": "Cơm thông thường (chuẩn)",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1771,
+      "plgG": "83g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": true,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "code": "PT01-CƠM, PT02-CƠM, PT06-CƠM, PT07-CƠM, PT08-CƠM",
+      "codes": [
+        "PT01-CƠM",
+        "PT02-CƠM",
+        "PT06-CƠM",
+        "PT07-CƠM",
+        "PT08-CƠM"
+      ],
+      "label": "Phẫu thuật / bệnh lý chung",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1771,
+      "plgG": "83g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "code": "SẢN - không ăn rau cải",
+      "codes": [
+        "SẢN"
+      ],
+      "label": "Sản khoa",
+      "note": "không ăn rau cải",
+      "mealCost": "85.680đ",
+      "kcal": 2072,
+      "plgG": "87g :59g :299g",
+      "plgPct": "17%:25%:58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Tôm rim hành: 75g",
+              "Thịt lợn nạc vai kho nghệ: 50g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai kho nghệ: 100g",
+              "Trứng đúc thịt: 01 quả, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rim hành: 75g",
+              "Thịt lợn băm xào hành lá: 50g, 5g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai kho nghệ: 100g",
+              "Trứng ốp: 01 quả"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai kho nghệ: 100g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Tôm rim hành: 75g",
+              "Thịt lợn nạc luộc: 50g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Thịt lợn vai rim mắm: 80g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai kho nghệ: 120g",
+              "Trứng ốp: 01 quả"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Tôm rim hành: 75g",
+              "Thịt lợn vai rim mắm: 50g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai kho nghệ: 120g",
+              "Trứng ốp: 01 quả"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "code": "TN01-CƠM, TN02-CƠM (nấu nhạt)",
+      "codes": [
+        "TN01-CƠM",
+        "TN02-CƠM"
+      ],
+      "label": "Bệnh thận",
+      "note": "nấu nhạt",
+      "mealCost": "85.680đ",
+      "kcal": 1781,
+      "plgG": "82g :57g :234g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "code": "TM01-CƠM, TH01-CƠM (nấu nhạt)",
+      "codes": [
+        "TM01-CƠM",
+        "TH01-CƠM"
+      ],
+      "label": "Tim mạch",
+      "note": "nấu nhạt",
+      "mealCost": "85.680đ",
+      "kcal": 1771,
+      "plgG": "83g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "code": "ĐĐ01-CƠM, ĐĐ02-CƠM",
+      "codes": [
+        "ĐĐ01-CƠM",
+        "ĐĐ02-CƠM"
+      ],
+      "label": "Đái tháo đường",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1515,
+      "plgG": "79g :57g :171g",
+      "plgPct": "25% :21% :54%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Bánh cuốn chả + sữa Fami ít đường 180ml",
+            "detail": "Bánh cuốn: 180g, Chả lợn: 50g, rau thơm Sữa Fami ít đường180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải thảo xào thì là: 230g, 5g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải bắp xào cà rốt: 210g, 20g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải chíp luộc: 230g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Rau muống xào: 230g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải thảo xào thì là: 230g, 5g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải chíp xào: 230g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Đậu cove luộc: 230g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải bắp luộc mềm: 230g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải ngọt luộc: 230g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải chíp luộc: 230g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Rau muống xào: 230g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải bắp luộc mềm: 230g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Rau dền luộc: 230g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 100g",
+            "vegetable": "Cải chíp luộc: 230g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "code": "GM01-CƠM",
+      "codes": [
+        "GM01-CƠM"
+      ],
+      "label": "Gan mật",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1782,
+      "plgG": "85g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "code": "UT01-CƠM",
+      "codes": [
+        "UT01-CƠM"
+      ],
+      "label": "Ung thư",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1782,
+      "plgG": "85g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "code": "GU01-CƠM, GU03-CƠM",
+      "codes": [
+        "GU01-CƠM",
+        "GU03-CƠM"
+      ],
+      "label": "Gút",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1782,
+      "plgG": "85g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "code": "IOD - không ăn rau cải, trứng, đậu phụ",
+      "codes": [
+        "IOD"
+      ],
+      "label": "Kiêng i-ốt (tuyến giáp)",
+      "note": "không ăn rau cải, trứng, đậu phụ",
+      "mealCost": "85.680đ",
+      "kcal": 1726,
+      "plgG": "78g :49g :244g",
+      "plgPct": "18% :25% :57%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Cháo thịt nạc băm + Sữa Grandcare Gold 180ml",
+            "detail": "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Lạc rim: 80g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn kho tàu: 90g",
+              "Giò lụa: 70g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Lạc rim: 80g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Đậu cove luộc: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Lạc rim: 80g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Thái: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn kho tàu: 90g",
+              "Giò lụa: 70g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 50g, 10g"
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "code": "NGƯỜI NHÀ NGƯỜI BỆNH",
+      "codes": [
+        "NGƯỜI NHÀ NGƯỜI BỆNH"
+      ],
+      "label": "Người nhà người bệnh",
+      "note": null,
+      "mealCost": "85.680đ",
+      "kcal": 1771,
+      "plgG": "83g :58g :230g",
+      "plgPct": "21% :21% :58%",
+      "isBase": false,
+      "days": [
+        {
+          "key": "mon",
+          "label": "Thứ 2",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp xào: 200g",
+            "proteins": [
+              "Thịt lợn vai quay mềm: 120g",
+              "Ức gà xào hành tây, cà rốt: 60g, 10g, 10g"
+            ],
+            "soup": "Canh bí xanh nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "tue",
+          "label": "Thứ 3",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí đỏ xào: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          }
+        },
+        {
+          "key": "wed",
+          "label": "Thứ 4",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Tôm rang: 60g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "thu",
+          "label": "Thứ 5",
+          "breakfast": {
+            "name": "Bún sườn",
+            "detail": "Bún: 150g, sườn lợn: 60g, cà chua: 30g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt bò xào cần tỏi tây, hành tây: 60g, 20g, 10g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Cá trắm kho giềng xả: 140g",
+              "Thịt lợn xào hành tây, cà rốt: 50g, 10g, 10g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "fri",
+          "label": "Thứ 6",
+          "breakfast": {
+            "name": "Phở bò",
+            "detail": "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải ngọt luộc: 200g",
+            "proteins": [
+              "Thịt gà CN (cả xương) rang gừng sả: 150g",
+              "Thịt lợn xào ớt đà lạt: 70g, 20g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Khoai tây xào: 200g",
+            "proteins": [
+              "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g",
+              "Chả cá rán: 60g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          }
+        },
+        {
+          "key": "sat",
+          "label": "Thứ 7",
+          "breakfast": {
+            "name": "Bún thịt ngan",
+            "detail": "Bún: 150g, thịt ngan: 60g, xương ống: 20g, hành lá, rau mùi, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Củ cải luộc: 200g",
+            "proteins": [
+              "Cá trắm rán xốt cà chua: 140g, 20g",
+              "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+            ],
+            "soup": "Canh cải xanh nấu thịt nạc: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải bắp luộc mềm: 200g",
+            "proteins": [
+              "Thịt lợn nạc vai luộc: 80g",
+              "Thịt bê xào sả ớt: 50g, 10g, 5g"
+            ],
+            "soup": "Canh khoai tây nấu thịt nạc: 30g, 10g"
+          }
+        },
+        {
+          "key": "sun",
+          "label": "Chủ nhật",
+          "breakfast": {
+            "name": "Phở gà ta",
+            "detail": "Phở: 150g, thịt gà xé 70g, xương ống: 20g, hành lá, rau thơm, gia vị"
+          },
+          "lunch": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Bí xanh luộc: 200g",
+            "proteins": [
+              "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g",
+              "Đậu phụ rán: 80g",
+              "Lạc rim: 50g"
+            ],
+            "soup": "Canh cải bắp nấu cà chua: 20g, 10g"
+          },
+          "dinner": {
+            "rice": "Gạo tám Lào: 150g",
+            "vegetable": "Cải chíp xào: 200g",
+            "proteins": [
+              "Thịt lợn, trứng gà kho tàu: 90g, 1 quả",
+              "Giò lụa: 50g"
+            ],
+            "soup": "Canh mồng tơi nấu bột nêm: 20g, 2g"
+          }
+        }
+      ]
+    }
+  ]
+}
