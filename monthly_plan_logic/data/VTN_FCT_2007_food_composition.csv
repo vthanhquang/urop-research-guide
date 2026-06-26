@@ -1,0 +1,527 @@
+﻿stt,code,group_no,group_name_vi,group_name_en,vietnamese_name,vietnamese_name_raw,english_name,refuse_percent,pdf_page,water_g,energy_kcal,energy_kj,protein_g,fat_g,carbohydrate_g,fiber_g,ash_g,sugar_g
+1,1001,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Gạo nếp cái,G¹o nÕp c¸i,"Glutinous rice, milled",0.0,14,14,344,1441,8.6,1.5,74.5,0.6,0.8,
+2,1002,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Gạo nếp máy (Loại thường),G¹o nÕp m¸y (Lo¹i th−êng),"Glutinous rice, milled",0.0,15,13.9,346,1447,8.4,1.6,74.9,0.5,0.7,
+3,1003,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Gạo tẻ giã,G¹o tÎ gi·,"Under milled, home-pounded rice",0.0,16,14,344,1439,8.1,1.3,75,0.7,0.9,
+4,1004,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Gạo tẻ máy,G¹o tÎ m¸y,Ordinary polished rice,0.0,17,14,344,1439,7.9,1,75.9,0.4,0.8,
+5,1005,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Gạo lứt,G¹o løt,"Rice, brown or hulled",0.0,18,12.4,345,1443,7.5,2.7,72.8,3.4,1.3,
+6,1006,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Kê,Kª,Foxtail millet,2.0,19,14,331,1385,7,3,69,3.4,3.6,
+7,1007,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Ngô bắp tươi,Ng« b¾p t−¬i,"Fresh maize seeds, raw",45.0,20,52,196,818,4.1,2.3,39.6,1.2,0.8,1.7
+8,1008,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Ngô vàng hạt khô,Ng« vμng h¹t kh«,"Yellow maize, dried seeds",2.0,21,14,354,1482,8.6,4.7,69.4,2,1.3,0.64
+9,1009,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh bao nhân thịt,B¸nh bao nh©n thÞt,"Ball shaped dumpling, Vietnamese steamed buns",0.0,22,44,219,916,6.1,0.5,47.5,0.5,1.4,
+10,1010,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh đa nem,B¸nh ®a nem,Rice paper for rollers,0.0,23,15,333,1394,4,0.2,78.9,0.5,1.4,
+11,1011,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh đúc,B¸nh ®óc,Rice pudding,0.0,24,86.8,52,215,0.9,0.3,11.3,0.1,0.6,
+12,1012,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh mỳ,B¸nh mú,French bread,0.0,25,37.2,249,1043,7.9,0.8,52.6,0.2,1.3,
+13,1013,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh phở,B¸nh phë,Rice noodles,0.0,26,64.3,143,599,3.2,0.4,31.7,0,0.4,
+14,1014,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bánh quẩy,B¸nh quÈy,Wheat fritters twisted fried,0.0,27,38.7,292,1222,8,10.8,40.7,0.7,1.1,
+15,1015,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bỏng ngô,Báng ng«,Corn flakes,0.0,28,3,372,1556,8.6,1.6,80.8,3.4,2.6,
+16,1016,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bột gạo nếp,Bét g¹o nÕp,Glutinous rice flour,0.0,29,10,362,1516,8.2,1.6,78.8,0.6,0.8,
+17,1017,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bột gạo tẻ,Bét g¹o tÎ,Rice ordinary flour,0.0,30,10,359,1501,6.6,0.4,82.2,0.4,0.4,
+18,1018,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bột mì,Bét m×,Wheat flour,0.0,31,14,346,1446,10.3,1.1,73.6,0.3,0.7,
+19,1019,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bột ngô vàng,Bét ng« vμng,Yellow maize flour,0.0,32,12,361,1511,8.3,4,73,1.5,1.2,
+20,1020,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Bún,Bón,Rice vermicelli,0.0,33,72,110,459,1.7,,25.7,0.5,0.1,
+21,1021,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Cốm,Cèm,"Rice, unriped. Raw",0.0,34,25,297,1242,6.1,0.8,66.3,0.6,1.2,
+22,1022,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Mỳ sợi,Mú sîi,Wheat noodles,0.0,35,13,349,1460,11,0.9,74.2,0.3,0.6,
+23,1023,1,Ngũ cốc và sản phẩm chế biến,Cereals and processed products,Ngô nếp luộc,Ng« nÕp luéc,"Glutinous maize, boiled",50.0,36,59,167,699,3.9,2.2,32.9,1.2,0.8,
+24,2001,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ ấu,Cñ Êu,Water-caltrops,50.0,39,69.2,115,481,3.6,0.5,24,1,1.7,
+25,2002,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ cái,Cñ c¸i,Yam winged,15.0,40,65.5,127,532,3.1,0.2,28.3,1.8,1.1,
+26,2003,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ dong,Cñ dong,Bermuda tuber,4.0,41,66.5,119,499,1.4,,28.4,2.4,1.3,
+27,2004,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ sắn,Cñ s¾n,Bitter cassava,25.0,42,60,152,635,1.1,0.2,36.4,1.5,0.8,
+28,2005,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ sắn dây,Cñ s¾n d©y,Radix puerariae,10.0,43,60.3,119,499,1.6,0.1,28,9.2,0.8,
+29,2006,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ súng khô (đã bỏ vỏ),Cñ sóng kh« (®· bá vá),"Nymphaea stellata wild, dried, unshelled",0.0,44,8.6,350,1465,16.1,0.5,70.3,2.3,2.2,
+30,2007,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Củ từ,Cñ tõ,"Igname Yam, Chinese",6.0,45,75,92,385,1.5,,21.5,1.2,0.8,
+31,2008,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai lang,Khoai lang,"Sweet potato, white",17.0,46,68,119,498,0.8,0.2,28.5,1.3,1.2,
+32,2009,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai lang nghệ,Khoai lang nghÖ,"Sweet potato, yellow",13.0,47,69.9,116,485,1.2,0.3,27.1,0.8,0.7,
+33,2010,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai môn,Khoai m«n,"Chinese Yam, spiny yam",14.0,48,70.8,109,454,1.5,0.2,25.2,1.2,1.1,
+34,2011,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai nước,Khoai n−íc,Water-taro,14.0,49,72.5,98,410,1,0.1,23.3,2,1.1,
+35,2012,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai riềng,Khoai riÒng,Edible canna,19.0,50,70,104,433,0.8,,25.1,2.5,1.6,
+36,2013,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai sọ,Khoai sä,Taro tuber,18.0,51,69,114,477,1.8,0.1,26.5,1.2,1.4,
+37,2014,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai tây,Khoai t©y,"Potato, white",13.0,52,75,93,387,2,0.1,20.9,1,1,
+38,2015,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Miến dong,MiÕn dong,Vermicelli from Bermuda tuber,0.0,53,14.5,332,1390,0.6,0.1,82.2,1.5,1.1,
+39,2016,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột dong lọc,Bét dong läc,Bermuda flour,0.0,54,14,341,1428,0.6,,84.7,0.5,0.2,
+40,2017,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột khoai lang,Bét khoai lang,Sweet potato flour,0.0,55,14,334,1398,2.2,0.5,80.2,1.6,1.5,
+41,2018,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột khoai riềng (bột đao),Bét khoai riÒng (bét ®ao),"Canna edulis Ker, flour",0.0,56,14,337,1411,0.2,,84.1,1.5,0.2,
+42,2019,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột khoai tây (lọc),Bét khoai t©y (läc),"Potato flour, white",0.0,57,13.6,345,1441,1,0.3,84.4,0.4,0.3,
+43,2020,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột sắn,Bét s¾n,Cassava flour,0.0,58,14,333,1391,2.4,0.5,79.6,2.2,1.3,
+44,2021,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Bột sắn dây,Bét s¾n d©y,Radix puerariae flour,0.0,59,14,340,1423,0.7,,84.3,0.8,0.2,
+45,2022,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai lang khô,Khoai lang kh«,"Sweet potato, dried",5.0,60,11,333,1395,2.2,0.5,80,3.6,2.7,
+46,2023,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai tây khô,Khoai t©y kh«,"Potato, white, dried",0.0,61,11,330,1379,6.6,0.3,75.1,3.4,3.6,
+47,2024,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Khoai tây lát chiên,Khoai t©y l¸t chiªn,"Potato crisp, fried",0.0,62,3,525,2195,2.2,35.4,49.3,6.3,3.8,
+48,2025,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Sắn khô,S¾n kh«,Dried bitter cassava,5.0,63,11,340,1420,3,0.7,80.3,3,2,
+49,2026,2,Khoai củ và sản phẩm chế biến,Tubers and processed products,Trân châu sắn,Tr©n ch©u s¾n,"Tapioca, pearls E.P",0.0,64,14,341,1428,1,,84.3,0.6,0.1,
+50,3001,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Cùi dừa già,Cïi dõa giμ,"Coconut meat, mature, raw",20.0,67,47.6,368,1540,4.8,36,6.2,4.2,1.2,
+51,3002,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Cùi dừa non,Cïi dõa non,"Coconut meat, immature, raw",0.0,68,87.8,40,166,3.5,1.7,2.6,3.5,0.9,
+52,3003,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu cô ve (hạt),§Ëu c« ve (h¹t),"French bean seeds, dried",10.0,69,14,321,1344,21.8,1.6,54.9,3.5,4.2,
+53,3004,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu đen (hạt),§Ëu ®en (h¹t),"Black bean seeds, dried",2.0,70,14,325,1361,24.2,1.7,53.3,4,2.8,
+54,3005,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu đũa (hạt),§Ëu ®òa (h¹t),"Cow pea whole seeds, dried",10.0,71,14,320,1341,23.7,2,51.9,4.3,4.1,
+55,3006,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu Hà lan (hạt),§Ëu Hμ lan (h¹t),"Peas garden and field, seeds, dried",0.0,72,13.6,318,1330,22.2,1.4,54.1,6,2.7,
+56,3007,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu tương (đậu nành),§Ëu t−¬ng (®Ëu nμnh),"Yellow dried soybean seeds, dried",2.0,73,14,400,1674,34,18.4,24.6,4.5,4.5,
+57,3008,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu trắng hạt (Đậu Tây),§Ëu tr¾ng h¹t (§Ëu T©y),"Kidney bean whole seeds, dried",2.0,74,14,327,1368,23.2,2.1,53.8,3.6,3.3,
+58,3009,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu trứng cuốc,§Ëu trøng cuèc,"Egg bird bean seeds, dried",2.0,75,14,321,1344,25.8,2,50,4.8,3.4,
+59,3010,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu xanh (đậu tắt),§Ëu xanh (®Ëu t¾t),"Mungo bean seeds, dried",2.0,76,14,328,1371,23.4,2.4,53.1,4.7,2.4,
+60,3011,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt dẻ to,H¹t dÎ to,"Chestnut, Chinese whole, raw",30.0,77,9,638,2669,18,59,8.7,3.5,1.8,
+61,3012,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt dẻ tươi,H¹t dÎ t−¬i,"Chestnut, Chinese whole, raw",18.0,78,44,223,933,4.2,1.1,49.1,,1.7,
+62,3013,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt dẻ khô,H¹t dÎ kh«,"Chestnut, dried",20.0,79,8.9,363,1517,6.8,1.8,79.8,,2.7,
+63,3014,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt đen,H¹t ®en,Black seed,50.0,80,12,472,1976,17.3,29,35.5,3.5,2.7,
+64,3015,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt điều,H¹t ®iÒu,"Cashew nut, common",0.0,81,3.4,605,2532,18.4,46.3,28.7,0.6,2.6,5.91
+65,3016,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt mít,H¹t mÝt,"Jack fruit, seed, raw",15.0,82,58.2,166,694,0.7,1.1,38.3,,1.7,
+66,3017,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Lạc hạt,L¹c h¹t,Dried peanut seed,2.0,83,7.5,573,2395,27.5,44.5,15.5,2.5,2.5,
+67,3018,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Quả cọ tươi,Qu¶ cä t−¬i,Palm fruit fresh,40.0,84,67.1,178,746,2.3,13.4,12.1,3.5,1.6,
+68,3019,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Quả đại hái tươi,Qu¶ ®¹i h¸i t−¬i,Hodgsonia fruit,90.0,85,35,427,1786,20,38,1.2,3.4,2.4,
+69,3020,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,"Vừng (đen, trắng)","Võng (®en, tr¾ng)","Sesame oriental seeds, whole, dried black or white",5.0,86,7.6,568,2378,20.1,46.4,17.6,3.5,4.8,0.3
+70,3021,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Bột đậu tương đã loại béo (đậu nành),Bét ®Ëu t−¬ng ®· lo¹i bÐo (®Ëu nμnh),"Soybeans flour, defatted",0.0,87,14,321,1343,49,1,29,2.5,4.5,
+71,3022,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Bột đậu tương rang chín,Bét ®Ëu t−¬ng rang chÝn,Roasted soybeans flour,0.0,88,10,418,1747,41,18,22.9,2.5,5.6,
+72,3023,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Bột đậu xanh,Bét ®Ëu xanh,Mungo bean flour,0.0,89,10,347,1451,24.6,2.5,56.5,3.9,2.5,
+73,3024,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Bột lạc,Bét l¹c,Peanut flour,0.0,90,8,575,2406,27.5,45,15,2.1,2.4,
+74,3025,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu phụ,§Ëu phô,"Soybean curt cake pressed, raw",0.0,91,82,95,397,10.9,5.4,0.7,0.4,0.6,
+75,3026,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu phụ chúc,§Ëu phô chóc,Curd tofu concentrated,0.0,92,18.5,414,1732,50.2,20.8,6.5,0.3,3.7,
+76,3027,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Đậu phụ nướng,§Ëu phô n−íng,"Curd tofu, fried",0.0,93,78.2,114,479,13.4,6.4,0.8,0.5,0.7,
+77,3028,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt bí đỏ rang,H¹t bÝ ®á rang,"Pumpkin seeds, fried",19.0,94,3.6,519,2170,35.1,31.8,23,2.3,4.2,
+78,3029,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Hạt dưa đỏ rang (dưa hấu),H¹t d−a ®á rang (d−a hÊu),"Water melon seeds whole, fried",22.0,95,4.8,551,2306,31.8,39.1,18,1.8,4.5,
+79,3030,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,"Hạt điều khô, chiên dầu","H¹t ®iÒu kh«, chiªn dÇu","Cashew, common, roasted with oil",0.0,96,12.7,583,2437,18.3,49.3,16.4,0.7,2.6,
+80,3031,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Sữa bột đậu nành,S÷a bét ®Ëu nμnh,"Milk flour, made from roasted soybeans",0.0,97,3.5,405,1692,31.1,9.7,48.2,2.2,5.3,
+81,3032,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Sữa đậu nành (100g đậu/lít),S÷a ®Ëu nμnh (100g ®Ëu/lÝt),Soybean milk (100 g soybean/l),0.0,98,94.4,28,119,3.1,1.6,0.4,0.1,0.4,
+82,3033,3,"Hạt, quả giàu đạm, béo và sản phẩm chế biến",Nuts/seeds rich in protein/fat and processed products,Tào phớ,Tμo phí,"Tofu in light syrup (Tofu 160g, sirup 65ml)",0.0,99,90,37,153,2.3,0.2,6.4,0.2,0.9,
+83,4001,4,"Rau, quả, củ dùng làm rau",Vegetables,Bầu,BÇu,"Calabash, Bottle gourd",35.3,103,95.1,14,59,0.6,0.02,2.9,1,0.4,
+84,4002,4,"Rau, quả, củ dùng làm rau",Vegetables,Bí đao (bí xanh),BÝ ®ao (bÝ xanh),"Asgourd Waxgoured, Winter melon",25.0,104,95.5,12,50,0.6,,2.4,1,0.5,
+85,4003,4,"Rau, quả, củ dùng làm rau",Vegetables,Bí ngô,BÝ ng«,Pumpkin squash,18.3,105,92,27,111,0.3,0.1,6.1,0.7,0.8,
+86,4004,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà bát,Cμ b¸t,"Egg plant big, Brinja aubergine",5.0,106,92.5,23,94,1.2,0.2,4,1.5,0.6,
+87,4005,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà chua,Cμ chua,Tomato,5.0,107,94,20,85,0.6,0.2,4,0.8,0.4,2.63
+88,4006,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà pháo,Cμ ph¸o,Egg plant - small,10.0,108,92.5,20,85,1.5,,3.6,1.6,0.8,
+89,4007,4,"Rau, quả, củ dùng làm rau",Vegetables,"Cà rốt (củ đỏ, vàng)","Cμ rèt (cñ ®á, vμng)",Carrots,10.5,109,88.5,39,164,1.5,0.2,7.8,1.2,0.8,4.54
+90,4008,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà rốt khô,Cμ rèt kh«,Dried carrot,0.0,110,14,292,1221,9.2,1.5,60.4,9.6,5.3,
+91,4009,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà tím,Cμ tÝm,Aubergine,5.0,111,92.5,22,92,1,,4.5,1.5,0.5,
+92,4010,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải bắp,C¶i b¾p,"Cabbage, common",10.0,112,90,29,123,1.8,0.1,5.3,1.6,1.2,3.58
+93,4011,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải bắp đỏ,C¶i b¾p ®á,"Cabbage, red",22.0,113,84,45,190,1.9,0.2,9,4,0.9,3.91
+94,4012,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải bắp khô,C¶i b¾p kh«,"Dried cabbage, white",0.0,114,16,245,1026,18,1.6,39.7,14,10.7,
+95,4013,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải cúc,C¶i cóc,Chrysanthemum. crown-daisy,25.0,115,93.8,14,59,1.6,,1.9,2,0.7,
+96,4014,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải soong,C¶i soong,Watercress,30.0,116,93.7,15,61,2.1,0.1,1.3,2,0.8,0.2
+97,4015,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải thìa (cải trắng),C¶i th×a (c¶i tr¾ng),"Chinese cabbage, white",25.0,117,93.2,17,71,1.4,0.2,2.4,1.8,1,1.18
+98,4016,4,"Rau, quả, củ dùng làm rau",Vegetables,Cải xanh,C¶i xanh,"Mustard greens, India, leaves and stems",24.0,118,93.8,16,68,1.7,0.2,1.9,1.8,0.6,1.6
+99,4017,4,"Rau, quả, củ dùng làm rau",Vegetables,Cần ta,CÇn ta,Water drop-wort; Celery water,20.0,119,95.3,10,42,1,,1.5,1.5,0.7,
+100,4018,4,"Rau, quả, củ dùng làm rau",Vegetables,Cần tây,CÇn t©y,"Celery, Chinese",16.0,120,85,48,201,3.7,0.2,7.9,1.5,1.7,1.83
+101,4019,4,"Rau, quả, củ dùng làm rau",Vegetables,Chuối xanh,Chuèi xanh,"Banana common varieties, unripe",32.0,121,80.2,74,311,1.2,0.5,16.4,1,0.8,1.95
+102,4020,4,"Rau, quả, củ dùng làm rau",Vegetables,Củ cải đỏ,Cñ c¶i ®á,"Red radish oriental, raw",20.0,122,86,48,203,1.3,,10.8,0.9,1,
+103,4021,4,"Rau, quả, củ dùng làm rau",Vegetables,Củ cải trắng,Cñ c¶i tr¾ng,"Radish garden while, raw",13.2,123,92.1,21,89,1.5,0.1,3.6,1.5,1.2,2.5
+104,4022,4,"Rau, quả, củ dùng làm rau",Vegetables,Củ cải trắng khô,Cñ c¶i tr¾ng kh«,"Dried radish, white",0.0,124,16,220,918,17.6,1.5,33.9,17.7,13.3,
+105,4023,4,"Rau, quả, củ dùng làm rau",Vegetables,Củ đậu,Cñ ®Ëu,Pachyrrhizus,15.0,125,92,28,117,1,,6,0.7,0.3,
+106,4024,4,"Rau, quả, củ dùng làm rau",Vegetables,Củ niễng,Cñ niÔng,"Manchurian water-rice, Manchurian Wild rice",13.0,126,90.2,30,124,2,,5.4,1.8,0.6,
+107,4025,4,"Rau, quả, củ dùng làm rau",Vegetables,Dọc củ cải (non),Däc cñ c¶i (non),"Horse radish; dish - tree, drumstick leave",4.0,127,93.6,14,59,1.9,,1.6,1.8,1.1,
+108,4026,4,"Rau, quả, củ dùng làm rau",Vegetables,Dọc mùng,Däc mïng,Colocasia indica,20.0,128,96,5,20,0.4,,0.8,2,0.8,
+109,4027,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa chuột,D−a chuét,Cucumber,5.0,129,95,16,66,0.8,0.1,2.9,0.7,0.5,1.67
+110,4028,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa gang,D−a gang,Large cucumber,5.0,130,96.2,11,47,0.8,,2,0.7,0.3,
+111,4029,4,"Rau, quả, củ dùng làm rau",Vegetables,Đậu cô ve,§Ëu c« ve,"Beans, kidney, in pod, French bean; Navy been",10.0,131,80,73,306,5,,13.3,1,0.7,
+112,4030,4,"Rau, quả, củ dùng làm rau",Vegetables,Đậu đũa,§Ëu ®òa,"Cow-peas, yard long, Chinese long bean",10.0,132,83,59,248,6,0.4,7.9,2,0.7,
+113,4031,4,"Rau, quả, củ dùng làm rau",Vegetables,Đậu Hà Lan,§Ëu Hμ Lan,Green peas; field pea; Peas garden,10.0,133,81,72,301,6.5,0.4,10.6,1,0.5,5.67
+114,4032,4,"Rau, quả, củ dùng làm rau",Vegetables,Đậu rồng (quả non),§Ëu rång (qu¶ non),"Winged bean goabean, Indies, asparagus pea",5.0,134,89.5,34,141,1.9,0.1,6.3,1.6,0.6,
+115,4033,4,"Rau, quả, củ dùng làm rau",Vegetables,Đu đủ xanh,§u ®ñ xanh,"Papaya, unripe, raw",25.0,135,92.1,22,90,0.8,,4.6,2,0.5,
+116,4034,4,"Rau, quả, củ dùng làm rau",Vegetables,Gấc,GÊc,"Gac fruit, whole",80.0,136,77,122,508,2.1,7.9,10.5,1.8,0.7,
+117,4035,4,"Rau, quả, củ dùng làm rau",Vegetables,Giá đậu tương,Gi¸ ®Ëu t−¬ng,Sprout of soybeans,0.0,137,80.8,79,331,7.7,1.8,8,0.7,1,
+118,4036,4,"Rau, quả, củ dùng làm rau",Vegetables,Giá đậu xanh,Gi¸ ®Ëu xanh,"Mungobean sprouts, Green gram, Tiensin green bean",5.0,138,86.5,44,185,5.5,0.2,5.1,2,0.7,4.13
+119,4037,4,"Rau, quả, củ dùng làm rau",Vegetables,Hành củ tươi,Hμnh cñ t−¬i,"Onion, Welsh",24.0,139,92.5,26,110,1.3,0.4,4.4,0.7,0.7,
+120,4038,4,"Rau, quả, củ dùng làm rau",Vegetables,Hành lá (hành hoa),Hμnh l¸ (hμnh hoa),"Onion, Welsh",20.0,140,92.5,22,94,1.3,,4.3,0.9,1,
+121,4039,4,"Rau, quả, củ dùng làm rau",Vegetables,Hành tây,Hμnh t©y,"Onion, common, garden",17.0,141,88,41,171,1.8,0.1,8.2,1.1,0.8,4.28
+122,4040,4,"Rau, quả, củ dùng làm rau",Vegetables,Hạt sen tươi,H¹t sen t−¬i,"Lotus seed, raw",39.0,142,57.9,161,672,9.5,0.5,29.5,0.8,1.8,
+123,4041,4,"Rau, quả, củ dùng làm rau",Vegetables,Hạt sen khô,H¹t sen kh«,Dried lotus seed,0.0,143,14,334,1396,20,2.4,58,2.2,3.4,
+124,4042,4,"Rau, quả, củ dùng làm rau",Vegetables,Hẹ lá,HÑ l¸,"Onion, fragrant, Chinese leek",13.0,144,94.5,18,73,2.2,0.3,1.5,0.9,0.6,3.9
+125,4043,4,"Rau, quả, củ dùng làm rau",Vegetables,Hoa chuối,Hoa chuèi,"Banana, buds and flowers",29.0,145,92,20,84,1.5,,3.5,2,1,
+126,4044,4,"Rau, quả, củ dùng làm rau",Vegetables,Hoa lý,Hoa lý,"Daylily, lemon flowers, Pergularia, raw",3.0,146,90.5,23,95,2.9,,2.8,3,0.8,
+127,4045,4,"Rau, quả, củ dùng làm rau",Vegetables,Khế,KhÕ,Carambola; Star fruit,13.0,147,93.5,16,69,0.6,0.3,2.8,2.6,0.2,3.98
+128,4046,4,"Rau, quả, củ dùng làm rau",Vegetables,Lá lốt,L¸ lèt,Lolot,0.0,148,86.5,39,162,4.3,,5.4,2.5,1.3,
+129,4047,4,"Rau, quả, củ dùng làm rau",Vegetables,Lá me,L¸ me,"Tamarind, leaves",0.0,149,86,46,192,7.5,,4,,2.5,
+130,4048,4,"Rau, quả, củ dùng làm rau",Vegetables,Lá mơ lông,L¸ m¬ l«ng,Wild plant,0.0,150,86.1,27,114,3.9,,2.9,5.1,2,
+131,4049,4,"Rau, quả, củ dùng làm rau",Vegetables,Lá sắn tươi,L¸ s¾n t−¬i,Cassava leaves,0.0,151,74.8,78,328,7,,12.6,4.3,1.3,
+132,4050,4,"Rau, quả, củ dùng làm rau",Vegetables,Măng chua,M¨ng chua,"Bamboo shoot, unspecified",24.0,152,92.8,11,47,1.4,,1.4,4.1,0.3,
+133,4051,4,"Rau, quả, củ dùng làm rau",Vegetables,Măng khô,M¨ng kh«,Dried bamboo shoots,0.0,153,23,157,656,13,2.1,21.5,36,4.4,
+134,4052,4,"Rau, quả, củ dùng làm rau",Vegetables,Măng tây,M¨ng t©y,"Asparagus, white",50.0,154,93.7,14,59,2.2,0.1,1.1,2.3,0.6,1.88
+135,4053,4,"Rau, quả, củ dùng làm rau",Vegetables,Măng tre,M¨ng tre,"Bamboo shoots, spring variety",50.0,155,92,15,63,1.7,0.3,1.4,4.1,0.5,3
+136,4054,4,"Rau, quả, củ dùng làm rau",Vegetables,Mướp,M−íp,"Gourd, sponge gourd",18.8,156,95.1,17,69,0.9,0.2,2.8,0.5,0.5,
+137,4055,4,"Rau, quả, củ dùng làm rau",Vegetables,Mướp đắng,M−íp ®¾ng,"Balsam-pear, balsam-apple, bitter melon, bitter gourd",20.0,157,94.4,16,69,0.9,0.2,2.8,1.1,0.6,
+138,4056,4,"Rau, quả, củ dùng làm rau",Vegetables,Mướp Nhật bản,M−íp NhËt b¶n,"Gourd, sponge gourd, Japanese",10.0,158,95.4,10,44,0.8,0,1.8,1.4,0.6,
+139,4057,4,"Rau, quả, củ dùng làm rau",Vegetables,Ngải cứu,Ng¶i cøu,"Mugwort, common sagebrush",31.0,159,89.7,25,104,3.8,0,2.4,2,2.1,
+140,4058,4,"Rau, quả, củ dùng làm rau",Vegetables,Ngô bao tử,Ng« bao tö,"Corn, small variety immature, baby corn",0.0,160,89.2,40,168,2.2,0.2,7.4,0.4,0.6,
+141,4059,4,"Rau, quả, củ dùng làm rau",Vegetables,Ngó sen,Ngã sen,"Lotus, stem underground",11.0,161,82.9,61,253,1,0.1,13.9,1.2,0.9,
+142,4060,4,"Rau, quả, củ dùng làm rau",Vegetables,Nụ mướp,Nô m−íp,"Sponge gourd, rag, young flower",18.0,162,90,30,124,4.9,,2.5,1.5,1.1,
+143,4061,4,"Rau, quả, củ dùng làm rau",Vegetables,ớt đỏ to,ít ®á to,"Chili pepper, peppers red",18.0,163,92.2,23,95,1,0.3,4,2,0.5,4.2
+144,4062,4,"Rau, quả, củ dùng làm rau",Vegetables,ớt vàng to,ít vμng to,"Peppers, yellow",10.0,164,91,29,122,1.3,0.2,5.5,1.4,0.6,
+145,4063,4,"Rau, quả, củ dùng làm rau",Vegetables,ớt xanh to,ít xanh to,"Peppers, green",10.0,165,92,25,104,1.3,0.2,4.5,1.5,0.5,2.4
+146,4064,4,"Rau, quả, củ dùng làm rau",Vegetables,Quả dọc,Qu¶ däc,,36.0,166,95,19,79,0.8,0,3.9,,0.3,
+147,4065,4,"Rau, quả, củ dùng làm rau",Vegetables,Quả me chua,Qu¶ me chua,"Tamarind fruit, pulp raw",15.0,167,90.3,27,112,1.9,,4.8,2,1,
+148,4066,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau bí,Rau bÝ,Pumpkin leaves,23.4,168,93.2,18,74,2.7,,1.7,1.7,0.7,
+149,4067,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau câu khô,Rau c©u kh«,Dried seaweed,0.0,169,20,198,828,11.2,1.1,35.8,20.8,11.1,2.97
+150,4068,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau câu tươi,Rau c©u t−¬i,Seaweed fresh,4.0,170,86.2,25,104,1.9,0.1,4.1,5,2.7,0.28
+151,4069,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau diếp,Rau diÕp,Lettuce garden,10.0,171,95.7,14,57,1.2,0.2,1.8,0.5,0.6,0.78
+152,4070,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau đay,Rau ®ay,Jute potherb,20.0,172,91.4,25,106,2.8,0.3,3,1.5,1.1,
+153,4071,4,"Rau, quả, củ dùng làm rau",Vegetables,"Rau giấp cá, diếp cá","Rau giÊp c¸, diÕp c¸",Wild plant,0.0,173,91.5,22,94,2.9,,2.7,1.8,1.1,
+154,4072,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau giền cơm,Rau giÒn c¬m,"Amaranth, spineless",0.0,174,92,21,87,3.4,0.3,1.1,1.6,1.6,
+155,4073,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau giền đỏ,Rau giÒn ®á,"Amaranth, sp. Red",38.0,175,86.2,41,170,3.3,0.3,6.2,1.6,2.4,
+156,4074,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau giền trắng,Rau giÒn tr¾ng,"Amaranth, sp White",14.0,176,86.7,42,174,3.2,0.4,6.3,1.5,1.9,
+157,4075,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau húng,Rau hóng,"Basil sweet leaves, raw",20.0,177,91.4,20,85,2.2,0.6,1.5,3.5,0.8,0.3
+158,4076,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau khoai lang,Rau khoai lang,"Sweet potato, leaves",5.0,178,91.9,23,97,2.6,0.3,2.5,1.4,1.3,
+159,4077,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau kinh giới,Rau kinh giíi,Sweet marjoram,16.0,179,90.3,22,92,2.7,,2.8,3.6,0.6,
+160,4078,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau má rừng,Rau m¸ rõng,Wild plant,0.0,180,91.1,25,104,3.1,,3.1,1.5,1.2,
+161,4079,4,"Rau, quả, củ dùng làm rau",Vegetables,"Rau má, má mơ","Rau m¸, m¸ m¬","Wort, India penny",0.0,181,88.2,20,84,3.2,,1.8,4.5,2.3,
+162,4080,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau mồng tơi,Rau mång t¬i,"Malabar night shade, Vinespinach, Ceylon spinach",17.0,182,93.2,14,57,2,,1.4,2.5,0.9,
+163,4081,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau mùi,Rau mïi,Coriander,15.0,183,93.3,16,66,2.6,0.5,0.2,1.8,1.6,0.87
+164,4082,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau mùi tàu,Rau mïi tμu,"Parsley, curley",20.0,184,92,25,105,2.1,0.8,2.4,1.6,1.1,0.85
+165,4083,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau muống,Rau muèng,"Swamp cabbage, water spinach, water convol",37.5,185,92,25,104,3.2,0.4,2.1,1,1.3,0.42
+166,4084,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau muống khô,Rau muèng kh«,"Water spinach, dried",0.0,186,14,245,1025,34.2,1.8,23,12,15,
+167,4085,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau ngổ,Rau ngæ,Limnophila aromatic,29.0,187,93.3,15,64,1.5,,2.3,2.1,0.8,
+168,4086,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau ngót,Rau ngãt,"Sauropus, sp. leaves",23.0,188,86.4,35,146,5.3,,3.4,2.5,2.4,
+169,4087,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau ngót khô,Rau ngãt kh«,"Sauropus, dried",0.0,189,14,239,1002,32.2,2.6,21.8,15,14.4,
+170,4088,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau răm,Rau r¨m,Polygonum odoratum,25.0,190,86.7,30,126,4.7,,2.8,3.8,2,
+171,4089,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau rút,Rau rót,"Neptunia, dismanthus",55.0,191,90.4,28,115,5.1,,1.8,1.9,0.8,
+172,4090,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau sà lách,Rau sμ l¸ch,"Lettuce, garden asparagus",10.0,192,95,17,70,1.5,0.4,1.8,0.5,0.8,
+173,4091,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau sam,Rau sam,"Purslane, common",0.0,193,93.6,18,74,1.4,,3,0.7,1.3,
+174,4092,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau sắng (chùa Hương),Rau s¾ng (chïa H−¬ng),Perfume pagoda wild plant,40.0,194,82.4,48,201,6.5,,5.5,3.4,2.2,
+175,4093,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau tàu bay,Rau tμu bay,Gynura crepidioides,0.0,195,93.1,18,74,2.5,,1.9,1.6,0.9,
+176,4094,4,"Rau, quả, củ dùng làm rau",Vegetables,Rau thơm,Rau th¬m,Mint leaves,25.0,196,91.7,18,74,2,,2.4,3,0.9,
+177,4095,4,"Rau, quả, củ dùng làm rau",Vegetables,Sấu xanh,SÊu xanh,"Dracontomelum fruit, unripe, raw",35.0,197,94.7,19,80,1.8,,3,,0.5,
+178,4096,4,"Rau, quả, củ dùng làm rau",Vegetables,Su hào,Su hμo,Kohlrabi,22.4,198,88,37,154,2.8,0.1,6.2,1.7,1.2,2.6
+179,4097,4,"Rau, quả, củ dùng làm rau",Vegetables,Su hào khô,Su hμo kh«,Dried kohlrabi,0.0,199,15,261,1092,20,1.4,42.1,12.5,9,
+180,4098,4,"Rau, quả, củ dùng làm rau",Vegetables,"Su su, quả","Su su, qu¶","Chayote, fruit raw",20.0,200,94,19,78,0.8,0.1,3.6,1,0.5,1.85
+181,4099,4,"Rau, quả, củ dùng làm rau",Vegetables,Súp lơ trắng,Sóp l¬ tr¾ng,"Cauliflower, white",40.0,201,90.9,30,126,2.5,0.1,4.8,0.9,0.8,2.4
+182,4100,4,"Rau, quả, củ dùng làm rau",Vegetables,Súp lơ xanh,Sóp l¬ xanh,"Cauliflower, green",39.0,202,89.8,26,109,3,0.3,2.9,3.2,0.9,3.03
+183,4101,4,"Rau, quả, củ dùng làm rau",Vegetables,Thìa là,Th×a lμ,Dill,25.0,203,88.4,28,115,2.6,1.1,1.8,5,1.1,
+184,4102,4,"Rau, quả, củ dùng làm rau",Vegetables,Tía tô,TÝa t«,"Balm-mint, garden- balm",20.0,204,89.1,25,105,2.9,,3.4,3.6,1,
+185,4103,4,"Rau, quả, củ dùng làm rau",Vegetables,Tỏi ta,Tái ta,Garlic bulbs,20.0,205,67.7,121,504,6,0.5,23,1.5,1.3,1
+186,4104,4,"Rau, quả, củ dùng làm rau",Vegetables,Tỏi tây (cả lá),Tái t©y (c¶ l¸),"Chinese Leek, Onion fragrant",20.0,206,90,29,122,1.4,,5.9,1.5,1.2,
+187,4105,4,"Rau, quả, củ dùng làm rau",Vegetables,Trám đen chín,Tr¸m ®en chÝn,Variety of canarium,50.0,207,77,114,479,2.5,10,3.6,4.9,2,
+188,4106,4,"Rau, quả, củ dùng làm rau",Vegetables,"Trám xanh sống, trám trắng","Tr¸m xanh sèng, tr¸m tr¾ng",Chinese olive,34.0,208,86.7,37,154,1.2,1.6,4.4,4.9,1.2,
+189,4107,4,"Rau, quả, củ dùng làm rau",Vegetables,Xương sông,X−¬ng s«ng,Edible herbaceous plant,10.0,209,91.7,15,62,2.2,,1.5,3.2,1.4,
+190,4108,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà chua muối,Cμ chua muèi,"Tomato, pickled",5.0,210,94,6,27,0.6,,1,0.8,3.6,
+191,4109,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà muối nén,Cμ muèi nÐn,"Eggplant, garden, brinjan; aubergine, pickled",5.0,211,81,13,55,1.3,,2,1.7,14,
+192,4110,4,"Rau, quả, củ dùng làm rau",Vegetables,Cà muối sổi,Cμ muèi sæi,"Eggplant, garden, brinjan; aubergine, pickled",5.0,212,84.3,16,67,1.5,,2.5,1.7,10,
+193,4111,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa cải bắp,D−a c¶i b¾p,"Cabbage Chinese, pickled",5.0,213,90.9,18,75,1.2,,3.3,1.6,3,
+194,4112,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa cải bẹ,D−a c¶i bÑ,"Mustard green, pickled",5.0,214,90.1,17,70,1.8,,2.4,2.1,3.6,
+195,4113,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa cải sen,D−a c¶i sen,"Rape bird, pickled",5.0,215,93.8,10,40,1.1,,1.3,1.8,2,
+196,4114,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa chuột muối,D−a chuét muèi,"Cucumber, pickled",5.0,216,92.1,13,55,0.8,,2.5,0.7,3.9,
+197,4115,4,"Rau, quả, củ dùng làm rau",Vegetables,Dưa giá (đậu xanh),D−a gi¸ (®Ëu xanh),"Mung bean sprouts, pickled",0.0,217,86.2,39,164,5,,4.8,2,2,
+198,4116,4,"Rau, quả, củ dùng làm rau",Vegetables,Hành củ muối,Hμnh cñ muèi,"Onion, pickled",30.0,218,88.5,22,90,1.4,,4,0.7,5.4,
+199,4117,4,"Rau, quả, củ dùng làm rau",Vegetables,Kiệu muối,KiÖu muèi,"Onion shallot, scallion, pickled",30.0,219,89.5,24,100,1.3,,4.7,1.2,3.3,
+200,4118,4,"Rau, quả, củ dùng làm rau",Vegetables,"Nhút (muối từ mít non, ngọn đậu xanh non...)","Nhót (muèi tõ mÝt non, ngän ®Ëu xanh non...)",Mix pickled from young jack fruit,0.0,220,84.9,16,67,2.5,,1.5,2.3,8.8,
+201,4119,4,"Rau, quả, củ dùng làm rau",Vegetables,Men bia khô,Men bia kh«,"Brewer's yeast, fried",0.0,221,7.5,340,1424,52.5,3.2,25.4,6.6,4.8,
+202,4120,4,"Rau, quả, củ dùng làm rau",Vegetables,Men bia tươi,Men bia t−¬i,"Baker's yeast, fresh",0.0,222,74.6,95,395,16.2,1.3,4.5,2,1.4,
+203,4121,4,"Rau, quả, củ dùng làm rau",Vegetables,Mộc nhĩ,Méc nhÜ,"Jew's ear, Juda's ear, dried, Wood-ear, Tender variety",10.0,223,11.4,304,1273,10.6,0.2,65,7,5.8,
+204,4122,4,"Rau, quả, củ dùng làm rau",Vegetables,Nấm hương khô,NÊm h−¬ng kh«,"Mushroom Chinese, dried",10.0,224,13,274,1146,36,4,23.5,17,6.5,
+205,4123,4,"Rau, quả, củ dùng làm rau",Vegetables,Nấm hương tươi,NÊm h−¬ng t−¬i,"Mushroom, Chinese, raw",25.0,225,87,39,163,5.5,0.5,3.1,3,0.9,
+206,4124,4,"Rau, quả, củ dùng làm rau",Vegetables,Nấm mỡ (Nấm tây),NÊm mì (NÊm t©y),Mushroom,10.0,226,90.4,32,135,4,0.3,3.4,1.1,0.8,
+207,4125,4,"Rau, quả, củ dùng làm rau",Vegetables,Nấm rơm,NÊm r¬m,"Mushroom, straw",10.0,227,87.9,57,238,3.6,3.2,3.4,1.1,0.8,
+208,4126,4,"Rau, quả, củ dùng làm rau",Vegetables,Nấm thường tươi,NÊm th−êng t−¬i,"Mushroom, common",25.0,228,88,34,144,4.6,0.8,2.2,3.5,0.9,1.65
+209,5001,5,Quả chín,Fruits,Bưởi,B−ëi,"Pomelo, Pummelo; Shaddock",35.0,231,91.4,30,126,0.2,0,7.3,0.7,0.4,
+210,5002,5,Quả chín,Fruits,Cam,Cam,Orange,31.1,232,88.8,38,158,0.9,0.1,8.3,1.4,0.5,9.35
+211,5003,5,Quả chín,Fruits,Chanh,Chanh,Lemon,25.0,233,92.5,24,102,0.9,0.3,4.5,1.3,0.5,
+212,5004,5,Quả chín,Fruits,Chôm chôm,Ch«m ch«m,Rambutan,50.0,234,80.3,72,300,1.5,0,16.4,1.3,0.5,
+213,5005,5,Quả chín,Fruits,Chuối khô,Chuèi kh«,"Banana, dried",0.0,235,22,292,1222,5,0,68,2.3,2.7,
+214,5006,5,Quả chín,Fruits,Chuối tây,Chuèi t©y,Banana,26.5,236,83.2,56,234,0.9,0.3,12.4,2.6,0.6,12.23
+215,5007,5,Quả chín,Fruits,Chuối tiêu,Chuèi tiªu,"Banana, dwarf",35.0,237,74.4,97,404,1.5,0.2,22.2,0.8,0.9,
+216,5008,5,Quả chín,Fruits,Dâu gia,D©u gia,Blackberry,56.0,238,92.8,27,114,0.6,,6.2,,0.4,
+217,5009,5,Quả chín,Fruits,Dâu tây,D©u t©y,Strawberry,15.0,239,84.9,43,181,1.8,0.4,8.1,4,0.8,
+218,5010,5,Quả chín,Fruits,Dưa bở,D−a bë,"Musk melon, Spanish melon, Cantaloupe",10.0,240,94.5,18,76,0.5,0.2,3.6,0.7,0.5,7.89
+219,5011,5,Quả chín,Fruits,Dưa hấu,D−a hÊu,Watermelon,48.0,241,95.5,16,66,1.2,0.2,2.3,0.5,0.3,6.2
+220,5012,5,Quả chín,Fruits,Dưa hồng,D−a hång,Honey dew melon,16.0,242,95,17,72,0.3,0.1,3.7,0.4,0.5,8.12
+221,5013,5,Quả chín,Fruits,Dưa lê,D−a lª,,18.0,243,93.3,18,77,0.4,0,4.2,0.5,1.6,
+222,5014,5,Quả chín,Fruits,Dứa ta,Døa ta,"Pineapple, wild",40.0,244,91.5,29,122,0.8,,6.5,0.8,0.4,
+223,5015,5,Quả chín,Fruits,Dứa tây,Døa t©y,Pineapple,40.0,245,89.7,38,160,0.5,0.1,8.8,0.4,0.5,9.26
+224,5016,5,Quả chín,Fruits,Đào,§μo,Peach,12.0,246,90.5,31,128,0.9,0.2,6.3,1.5,0.6,8.39
+225,5017,5,Quả chín,Fruits,Đu đủ chín,§u ®ñ chÝn,"Papaya, ripe",12.4,247,90.1,36,149,1,0.1,7.6,0.6,0.6,5.9
+226,5018,5,Quả chín,Fruits,Gioi,Gioi,Ohia; Malaya roseapple,19.0,248,93,16,65,0.4,0.3,3.2,2.9,0.2,
+227,5019,5,Quả chín,Fruits,Hồng bì,Hång b×,"Wampee, Chinese; Wampi",46.0,249,88.2,34,144,1.4,,7.2,2.4,0.8,
+228,5020,5,Quả chín,Fruits,Hồng đỏ,Hång ®á,"Persimmon kaki, soft type, ripe",8.8,250,90,29,119,0.7,0.2,6,2.5,0.6,12.53
+229,5021,5,Quả chín,Fruits,Hồng ngâm,Hång ng©m,"Persimmon kaki, Hard-type, ripe",17.7,251,87.5,38,159,0.9,,8.6,2.5,0.5,
+230,5022,5,Quả chín,Fruits,Hồng xiêm,Hång xiªm,"Sapodilla, sapota ponderosa",10.0,252,85.7,48,202,0.5,0.7,10,2.5,0.6,
+231,5023,5,Quả chín,Fruits,Lê,Lª,Pear,12.0,253,87.8,45,190,0.7,0.2,10.2,0.6,0.5,9.8
+232,5024,5,Quả chín,Fruits,Lựu,Lùu,Pome granate,85.0,254,79.6,70,292,0.6,0.3,16.2,2.5,0.8,16.57
+233,5025,5,Quả chín,Fruits,Mãng cầu xiêm,M·ng cÇu xiªm,"Siamese custard apple, soursop",21.0,255,84.7,53,222,1.8,0.6,10.1,1.9,0.9,
+234,5026,5,Quả chín,Fruits,Mắc coọc,M¾c coäc,Pyrus pashia Ham,14.0,256,93.8,24,99,0.2,,5.7,,0.3,
+235,5027,5,Quả chín,Fruits,Mận,MËn,"Japanese, plum",15.0,257,94.1,20,83,0.6,0.2,3.9,0.7,0.5,9.92
+236,5028,5,Quả chín,Fruits,Mít dai,MÝt dai,"Jackfruit, jackfruit mature",55.0,258,85.4,50,207,0.6,0.3,11.1,1.2,1.4,
+237,5029,5,Quả chín,Fruits,Mít khô,MÝt kh«,Dried jackfruit,0.0,259,26,280,1170,2.9,,67,1.5,2.6,
+238,5030,5,Quả chín,Fruits,Mít mật,MÝt mËt,"Jack fruit, honey",55.0,260,82.2,62,259,1.5,,14,1.2,1.1,
+239,5031,5,Quả chín,Fruits,Mơ,M¬,"Apricot, Apricot nectar",14.0,261,87.1,48,199,0.9,0.4,10.1,0.8,0.7,9.24
+240,5032,5,Quả chín,Fruits,Mơ khô,M¬ kh«,"Apricot dried, unsulfured",0.0,262,25.9,273,1143,3,1.1,62.8,4.1,3.1,53.44
+241,5033,5,Quả chín,Fruits,"Muỗm, quéo","Muçm, quÐo","Mango, common; Indian mango, unripe",20.0,263,82.9,67,281,0.6,0.4,15.3,0.4,0.4,
+242,5034,5,Quả chín,Fruits,Na,Na,"Sugarapple, sweetsop",44.4,264,82.5,66,276,1.6,0.3,14.2,0.8,0.6,
+243,5035,5,Quả chín,Fruits,Nhãn,Nh·n,Longan,45.0,265,86.3,48,201,0.9,0.1,10.9,1,0.8,
+244,5036,5,Quả chín,Fruits,Nhãn khô,Nh·n kh«,"Longan, dried",0.0,266,25,285,1194,4.3,0.5,65.9,1.7,2.6,
+245,5037,5,Quả chín,Fruits,Nho ngọt,Nho ngät,"Grape, European, sweet",1.9,267,82.1,68,286,0.4,0.2,16.3,0.6,0.4,15.48
+246,5038,5,Quả chín,Fruits,Nho ta (nho chua),Nho ta (nho chua),"Grape fruit, sour",13.0,268,93.6,14,59,0.4,,3.1,2.4,0.5,
+247,5039,5,Quả chín,Fruits,Nhót,Nhãt,Silver berry,24.0,269,94,13,55,1.2,,2.1,2.3,0.4,
+248,5040,5,Quả chín,Fruits,ổi,æi,"Guava, common",5.0,270,85,38,159,0.6,1,6.8,6,0.7,8.92
+249,5041,5,Quả chín,Fruits,Quả bơ vỏ tím,Qu¶ b¬ vá tÝm,"Avocado, purple",27.0,271,88.3,74,310,1.8,6.2,2.8,0.4,0.5,
+250,5042,5,Quả chín,Fruits,Quả bơ vỏ xanh,Qu¶ b¬ vá xanh,"Avocado, green",28.0,272,85.4,101,424,1.9,9.4,2.3,0.5,0.5,2.42
+251,5043,5,Quả chín,Fruits,Quả cóc,Qu¶ cãc,-,25.0,273,83.9,58,244,1.8,,12.8,0.9,0.6,
+252,5044,5,Quả chín,Fruits,Quả thanh long,Qu¶ thanh long,Dragon's eyes fruit,,274,87.6,40,167,1.3,,8.7,1.8,0.6,
+253,5045,5,Quả chín,Fruits,Quả trứng gà,Qu¶ trøng gμ,-,25.0,275,73.4,106,444,4.3,0.4,21.3,,0.6,
+254,5046,5,Quả chín,Fruits,Quất chín (cả vỏ),QuÊt chÝn (c¶ vá),"Mandarin, whole fruit",4.0,276,89,26,107,0.9,,5.5,4.1,0.5,
+255,5047,5,Quả chín,Fruits,Quít,QuÝt,Tangerine; Orange; Mandarin,19.8,277,89.5,39,164,0.8,0.3,8.3,0.6,0.5,10.58
+256,5048,5,Quả chín,Fruits,Sầu riêng,SÇu riªng,"Durian, Civet",75.0,278,66.8,132,552,2.5,1.6,26.9,1.4,0.8,
+257,5049,5,Quả chín,Fruits,Sấu chín,SÊu chÝn,"Sanpidus, ripe",24.0,279,87,38,159,1.3,,8.2,2.7,0.8,
+258,5050,5,Quả chín,Fruits,Táo ta,T¸o ta,"Jujube, common or Chinese; Chinese date",14.0,280,89.5,38,160,0.8,0.2,8.3,0.7,0.5,
+259,5051,5,Quả chín,Fruits,Táo tây,T¸o t©y,"Apple, common, domestic",12.0,281,87.2,48,199,0.5,0.2,11,0.6,0.5,10.39
+260,5052,5,Quả chín,Fruits,Vải,V¶i,Litchi; lychee,48.0,282,87.8,45,188,0.7,0.4,9.6,1.1,0.4,15.23
+261,5053,5,Quả chín,Fruits,Vải khô,V¶i kh«,"Litchi, dried with shells",44.0,283,34.9,260,1086,3,1.9,57.6,1,1.6,66.1
+262,5054,5,Quả chín,Fruits,Vú sữa,Vó s÷a,"Starapple, cainito",22.0,284,86.5,42,174,1,,9.4,2.3,0.8,
+263,5055,5,Quả chín,Fruits,Xoài chín,Xoμi chÝn,"Mango, common; India mango, ripe",20.0,285,82.6,62,257,0.6,0.3,14.1,1.8,0.6,14.8
+264,5056,5,Quả chín,Fruits,Quả kiwi,Qu¶ kiwi,Kiwi fruit,14.0,286,83.1,56,234,1.1,0.5,11.7,3,0.6,8.99
+265,6001,6,"Dầu, mỡ, bơ","Oils, fats, butter",Bơ,B¬,"Butter, unsalted",0.0,289,15.4,756,3161,0.5,83.5,0.5,0,0.1,
+266,6002,6,"Dầu, mỡ, bơ","Oils, fats, butter","Dầu thảo mộc (Lạc, vừng, cám...)","DÇu th¶o méc (L¹c, võng, c¸m...)","Vegetable oil, mix",0.0,290,0.3,897,3754,0,99.7,0,0,0,0
+267,6003,6,"Dầu, mỡ, bơ","Oils, fats, butter",Mỡ lợn muối,Mì lîn muèi,"Lard, salted",0.0,291,3,827,3460,2,91,0,0,4,0
+268,6004,6,"Dầu, mỡ, bơ","Oils, fats, butter",Mỡ lợn nước,Mì lîn n−íc,"Lard, liquid",0.0,292,0.4,896,3751,0,99.6,0,0,0,0
+269,6005,6,"Dầu, mỡ, bơ","Oils, fats, butter",Bơ thực vật,B¬ thùc vËt,"Butter-margarine blend, stick, unsalted",0.0,293,18.5,729,3049,0.5,80.7,0.1,0,0.2,
+270,6006,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu bông,DÇu b«ng,"Cottonseed oil, salad or cooking",0.0,294,0,900,3766,0,100,0,0,0,0
+271,6007,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu cám gạo,DÇu c¸m g¹o,Rice bran oil,0.0,295,0,900,3766,0,100,0,0,0,0
+272,6008,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu cọ,DÇu cä,Palm oil,0.0,296,0,900,3766,0,100,0,0,0,0
+273,6009,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu dừa,DÇu dõa,Coconut oil,0.0,297,0,900,3766,0,100,0,0,0,0
+274,6010,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu đậu tương,DÇu ®Ëu t−¬ng,"Soybean oil, salad or cooking",0.0,298,0,900,3766,0,100,0,0,0,0
+275,6011,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu lạc,DÇu l¹c,"Peanut oil, salad or cooking",0.0,299,0,900,3766,0,100,0,0,0,0
+276,6012,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu mè,DÇu mÌ,"Sesame oil, salad or cooking",0.0,300,0,900,3766,0,100,0,0,0,0
+277,6013,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu ngô,DÇu ng«,"Corn oil, salad or cooking",0.0,301,0,900,3766,0,100,0,0,0,0
+278,6014,6,"Dầu, mỡ, bơ","Oils, fats, butter",Dầu oliu,DÇu oliu,"Olive oil, salad or cooking",0.0,302,0,900,3766,0,100,0,0,0,0
+279,7001,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bê mỡ,ThÞt bª mì,"Veal meat, lean and fat",2.0,305,72.8,144,600,19,7.5,0,0,0.7,0
+280,7002,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bê nạc,ThÞt bª n¹c,"Veal meat, lean only",2.0,306,78.2,85,354,20,0.5,0,0,1.3,0
+281,7003,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bò loại I,ThÞt bß lo¹i I,"Beef, grade I",2.0,307,74.1,118,495,21,3.8,0,0,1.1,0
+282,7004,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bò loại II,ThÞt bß lo¹i II,"Beef, grade II",2.0,308,70.5,167,697,18,10.5,0,0,1,0
+283,7005,7,Thịt và sản phẩm chế biến,Meat and processed products,"Thịt bò, lưng, nạc","ThÞt bß, l−ng, n¹c","Beef, top loin, seperable lean only, trimmed to 1/8"" fat, prime, raw",2.0,309,72.7,127,532,23.1,3.9,0,0,1,0
+284,7006,7,Thịt và sản phẩm chế biến,Meat and processed products,"Thịt bò, lưng, nạc và mỡ","ThÞt bß, l−ng, n¹c vμ mì","Beef, top loin, seperable lean only, trimmed to 1/4"" fat, prime, raw",2.0,310,67.4,182,763,21.5,10.7,0,0,0.9,0
+285,7007,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bồ câu ra ràng,ThÞt bå c©u ra rμng,Pigeon young bird flesh skin and giblets,60.0,311,51.7,340,1423,17.5,30,0,0,0.8,0
+286,7008,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt chó sấn,ThÞt chã sÊn,Dog meat,2.0,312,53,338,1413,16,30.4,0,0,0.6,0
+287,7009,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt chó vai,ThÞt chã vai,"Dog, shoulder",2.0,313,63.8,230,964,18,17.6,0,0,0.6,0
+288,7010,7,Thịt và sản phẩm chế biến,Meat and processed products,"Thịt cừu, nạc","ThÞt cõu, n¹c","Mutton meat, lean",2.0,314,65.8,219,915,16.4,17,0,0,0.8,0
+289,7011,7,Thịt và sản phẩm chế biến,Meat and processed products,"Thịt dê, nạc","ThÞt dª, n¹c","Goat, meat, lean",2.0,315,74.4,122,508,20.7,4.3,0,0,0.6,0
+290,7012,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt gà rừng,ThÞt gμ rõng,Grouse field chicken,58.0,316,69.7,141,589,24.4,4.8,0,0,1.1,0
+291,7013,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt gà ta,ThÞt gμ ta,"Chicken meat, average",52.0,317,65.6,199,833,20.3,13.1,0,0,1,0
+292,7014,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt gà tây,ThÞt gμ t©y,Turkey raw flesh and skin giblets,53.0,318,63.6,218,913,20.1,15.3,0,0,1,0
+293,7015,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt hươu,ThÞt h−¬u,Deer meat,2.0,319,77.9,94,393,19,2,0,0,1.1,0
+294,7016,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt lợn mỡ,ThÞt lîn mì,"Pork, lean and fat",2.0,320,47.5,394,1647,14.5,37.3,0,0,0.7,0
+295,7017,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt lợn nạc,ThÞt lîn n¹c,"Pork, lean",2.0,321,73,139,582,19,7,0,0,1,0
+296,7018,7,Thịt và sản phẩm chế biến,Meat and processed products,"Thịt lợn nửa nạc, nửa mỡ","ThÞt lîn nöa n¹c, nöa mì","Pork, medium fat",2.0,322,60.9,260,1086,16.5,21.5,0,0,1.1,0
+297,7019,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt ngỗng,ThÞt ngçng,Goose,52.0,323,46.1,409,1710,14,39.2,0,0,0.7,0
+298,7020,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt ngựa,ThÞt ngùa,Horse meat,2.0,324,66.8,176,736,21.5,10,0,0,1.7,0
+299,7021,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt thỏ nhà,ThÞt thá nhμ,"Rabbit meat, raw",45.0,325,69.3,158,661,21.5,8,0,0,1.2,
+300,7022,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt thỏ rừng,ThÞt thá rõng,Hare rabbit (field or wild),45.0,326,74.3,103,431,23.5,1,0,0,1.2,
+301,7023,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu,ThÞt tr©u,"Buffalo meat, average",0.0,327,76.3,97,408,20.4,1.4,0.9,0,1.1,
+302,7024,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu bắp,ThÞt tr©u b¾p,Buffalo meat (shoulder),2.0,328,74.2,115,479,21.9,3,0,0,0.9,0
+303,7025,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu cổ,ThÞt tr©u cæ,"Buffalo meat, neck",2.0,329,74.9,112,467,20.9,3.1,0,0,1.1,0
+304,7026,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu đùi,ThÞt tr©u ®ïi,"Buffalo meat, leg",2.0,330,74.9,112,468,21.2,3,0,0,0.9,0
+305,7027,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu thăn,ThÞt tr©u th¨n,"Buffalo meat, lean (loin)",2.0,331,73,121,506,22.8,3.3,0,0,0.9,0
+306,7028,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt vịt,ThÞt vÞt,"Duck meat, average",55.0,332,59.5,267,1119,17.8,21.8,0,0,0.9,0
+307,7029,7,Thịt và sản phẩm chế biến,Meat and processed products,Bầu dục bò,BÇu dôc bß,"Beef, kidney",7.0,333,84.3,67,282,12.5,1.8,0.3,0,1.1,
+308,7030,7,Thịt và sản phẩm chế biến,Meat and processed products,Bầu dục lợn,BÇu dôc lîn,"Pork, kidney",2.0,334,82.5,81,339,13,3.1,0.3,0,1.1,0
+309,7031,7,Thịt và sản phẩm chế biến,Meat and processed products,Bì lợn,B× lîn,Pork skin,10.0,335,73.3,118,492,23.3,2.7,0,0,0.7,0
+310,7032,7,Thịt và sản phẩm chế biến,Meat and processed products,Chân giò lợn,Ch©n giß lîn,"Pork, leg",38.0,336,64.7,230,963,15.7,18.6,0,0,1,
+311,7033,7,Thịt và sản phẩm chế biến,Meat and processed products,Dạ dày bò,D¹ dμy bß,"Stomach, beef",5.0,337,80.5,97,406,14.8,4.2,0,0,0.5,0
+312,7034,7,Thịt và sản phẩm chế biến,Meat and processed products,Dạ dày lợn,D¹ dμy lîn,"Stomach, hog",2.0,338,81.7,85,354,14.6,2.9,0,0,0.8,0
+313,7035,7,Thịt và sản phẩm chế biến,Meat and processed products,Đầu bò,§Çu bß,"Head beef (without tongue, brain, ears).",68.0,339,68.7,185,774,18.1,12.5,0,0,0.7,0
+314,7036,7,Thịt và sản phẩm chế biến,Meat and processed products,Đầu lợn,§Çu lîn,"Hog, head",68.0,340,54.6,335,1403,13.4,31.3,0,0,0.7,0
+315,7037,7,Thịt và sản phẩm chế biến,Meat and processed products,Đuôi bò,§u«i bß,"Beef, tail",46.0,341,73,137,574,19.7,6.5,0,0,0.8,0
+316,7038,7,Thịt và sản phẩm chế biến,Meat and processed products,Đuôi lợn,§u«i lîn,"Hog, tail",30.0,342,41.8,467,1954,10.8,47.1,0,0,0.3,
+317,7039,7,Thịt và sản phẩm chế biến,Meat and processed products,Gan bò,Gan bß,"Beef, liver",0.0,343,75.2,109,458,17.4,3.1,3,0,1.3,
+318,7040,7,Thịt và sản phẩm chế biến,Meat and processed products,Gan gà,Gan gμ,Chicken liver,0.0,344,75,111,466,18.2,3.4,2,0,1.4,
+319,7041,7,Thịt và sản phẩm chế biến,Meat and processed products,Gan lợn,Gan lîn,Pork liver,0.0,345,74.1,116,484,18.8,3.6,2,0,1.5,
+320,7042,7,Thịt và sản phẩm chế biến,Meat and processed products,Gan vịt,Gan vÞt,Duck liver,0.0,346,74.1,122,510,17.1,4.7,2.8,0,1.3,
+321,7043,7,Thịt và sản phẩm chế biến,Meat and processed products,Gân chân bò,G©n ch©n bß,,0.0,347,69.2,124,517,30.2,0.3,0,0,0.3,
+322,7044,7,Thịt và sản phẩm chế biến,Meat and processed products,Lưỡi bò,L−ìi bß,Beef tongue,8.0,348,73.2,164,687,13.6,12.1,0.2,0,0.9,
+323,7045,7,Thịt và sản phẩm chế biến,Meat and processed products,Lưỡi lợn,L−ìi lîn,"Hog, tongue",3.0,349,70.8,178,743,14.2,12.8,1.4,0,0.8,0
+324,7046,7,Thịt và sản phẩm chế biến,Meat and processed products,Lòng lợn (ruột già),Lßng lîn (ruét giμ),"Hog, intestine large raw",2.0,350,76.6,167,697,6.9,15.1,0.8,0,0.6,
+325,7047,7,Thịt và sản phẩm chế biến,Meat and processed products,Lòng lợn (ruột non),Lßng lîn (ruét non),Hog intestine small raw without fat,2.0,351,90.5,44,183,7.2,1.3,0.8,0,0.2,
+326,7048,7,Thịt và sản phẩm chế biến,Meat and processed products,Mề gà,MÒ gμ,Chicken gizzard,4.0,352,75.6,99,415,21.3,1.3,0.6,0,1.2,0
+327,7049,7,Thịt và sản phẩm chế biến,Meat and processed products,óc bò,ãc bß,Brain beef,8.0,353,79.4,124,517,9,9.5,0.5,0,1.6,
+328,7050,7,Thịt và sản phẩm chế biến,Meat and processed products,óc lợn,ãc lîn,Hog brain,8.0,354,80.1,123,515,9,9.5,0.4,0,1,
+329,7051,7,Thịt và sản phẩm chế biến,Meat and processed products,Phổi bò,Phæi bß,"Beef, lung",8.0,355,79.1,103,431,15.2,4.7,0,0,1,
+330,7052,7,Thịt và sản phẩm chế biến,Meat and processed products,Phổi lợn,Phæi lîn,"Hog lung, raw",8.0,356,80.6,92,383,14.8,3.6,0,0,1,
+331,7053,7,Thịt và sản phẩm chế biến,Meat and processed products,Sườn lợn,S−ên lîn,"Pork, ribs",57.0,357,68.2,187,782,17.9,12.8,0,0,1.1,0
+332,7054,7,Thịt và sản phẩm chế biến,Meat and processed products,Tai lợn,Tai lîn,Hog ears,4.0,358,72.9,126,528,21,4.1,1.3,0,0.7,
+333,7055,7,Thịt và sản phẩm chế biến,Meat and processed products,Tim bò,Tim bß,"Beef, heart",8.0,359,80.4,89,374,15,3,0.6,0,1,
+334,7056,7,Thịt và sản phẩm chế biến,Meat and processed products,Tim gà,Tim gμ,Chicken heart,0.0,360,77.5,114,475,16,5.5,0,0,1,
+335,7057,7,Thịt và sản phẩm chế biến,Meat and processed products,Tim lợn,Tim lîn,Hog heart,6.0,361,79.5,94,393,15.1,3.2,1.2,0,1,
+336,7058,7,Thịt và sản phẩm chế biến,Meat and processed products,Tiết bò,TiÕt bß,"Beef, blood",0.0,362,80.4,75,315,18,0.2,0.4,0,1,
+337,7059,7,Thịt và sản phẩm chế biến,Meat and processed products,Tiết lợn luộc,TiÕt lîn luéc,"Hog blood, boiled",0.0,363,86.8,44,183,10.7,0.1,0,0,2.4,0
+338,7060,7,Thịt và sản phẩm chế biến,Meat and processed products,Tiết lợn sống,TiÕt lîn sèng,"Hog blood, raw",0.0,364,91.9,25,103,5.7,0.1,0.2,0,2.1,
+339,7061,7,Thịt và sản phẩm chế biến,Meat and processed products,Tủy xương bò,Tñy x−¬ng bß,Beef bone marrow,0.0,365,8.7,814,3404,1.1,89.9,0,0,0.3,0
+340,7062,7,Thịt và sản phẩm chế biến,Meat and processed products,Tủy xương lợn,Tñy x−¬ng lîn,"Hog, bone marrow",0.0,366,15,749,3134,2.3,82.2,0,0,0.5,0
+341,7063,7,Thịt và sản phẩm chế biến,Meat and processed products,Ba tê,Ba tª,Pa tª,0.0,367,47.5,326,1365,10.8,24.6,15.4,0,1.7,
+342,7064,7,Thịt và sản phẩm chế biến,Meat and processed products,Chả lợn,Ch¶ lîn,"Pork, mince fat meat grilled",0.0,368,32.6,517,2164,10.8,50.4,5.1,0,1.1,
+343,7065,7,Thịt và sản phẩm chế biến,Meat and processed products,Chả quế lợn,Ch¶ quÕ lîn,"Pork, cinnamon mince grilled",0.0,369,42.5,416,1740,16.2,39,0,0,2.3,0
+344,7066,7,Thịt và sản phẩm chế biến,Meat and processed products,Dăm bông lợn,D¨m b«ng lîn,"Ham, pork",0.0,370,48.7,318,1331,23,25,0.3,0,3,
+345,7067,7,Thịt và sản phẩm chế biến,Meat and processed products,Dồi lợn,Dåi lîn,Blood mix-pudding with viscera in large intestine,0.0,371,78.9,114,475,12.4,7.1,0,0,1.6,0
+346,7068,7,Thịt và sản phẩm chế biến,Meat and processed products,Giò bò,Giß bß,Beef dumpling,0.0,372,48.8,357,1492,13.8,33.5,0,0,3.9,0
+347,7069,7,Thịt và sản phẩm chế biến,Meat and processed products,Giò lụa,Giß lôa,"Pork, mince lean meat steamed",0.0,373,72,136,567,21.5,5.5,0,0,1,0
+348,7070,7,Thịt và sản phẩm chế biến,Meat and processed products,Giò thủ lợn,Giß thñ lîn,"Pork, head meat, steamed",0.0,374,29,553,2312,16,54.3,0,0,0.7,0
+349,7071,7,Thịt và sản phẩm chế biến,Meat and processed products,Lạp xường,L¹p x−êng,Chinese sausage,0.0,375,18.8,585,2448,20.8,55,1.7,0,3.7,
+350,7072,7,Thịt và sản phẩm chế biến,Meat and processed products,Nem chạo,Nem ch¹o,,0.0,376,68.1,153,638,16.6,6.5,6.9,0,1.9,
+351,7073,7,Thịt và sản phẩm chế biến,Meat and processed products,Nem chua,Nem chua,"Pork mince, fermented",0.0,377,68,137,574,21.7,3.7,4.3,0,2.3,
+352,7074,7,Thịt và sản phẩm chế biến,Meat and processed products,Ruốc thịt lợn,Ruèc thÞt lîn,,0.0,378,25.8,369,1544,46.6,20.3,0,0,7.3,0
+353,7075,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt bò khô,ThÞt bß kh«,Dried beef,0.0,379,32.4,239,1001,51,1.6,5.2,0,9.8,
+354,7076,7,Thịt và sản phẩm chế biến,Meat and processed products,Thịt trâu khô,ThÞt tr©u kh«,"Buffalo meat, dried",0.0,380,36.4,226,945,50.4,2.7,0,0,10.5,0
+355,7077,7,Thịt và sản phẩm chế biến,Meat and processed products,Xúc xích,Xóc xÝch,Pork sausage,2.0,381,17,535,2240,27.2,47.4,0,0,8.4,0
+356,7078,7,Thịt và sản phẩm chế biến,Meat and processed products,Bột cóc,Bét cãc,Toad meat powder,0.0,382,7.2,342,1432,55.4,13.4,0,0,24,0
+357,7079,7,Thịt và sản phẩm chế biến,Meat and processed products,Châu chấu,Ch©u chÊu,Locust,20.0,383,71.1,130,542,24.3,3.6,0,0,1,0
+358,7080,7,Thịt và sản phẩm chế biến,Meat and processed products,ếch (thịt đùi),Õch (thÞt ®ïi),Frog,0.0,384,75,90,376,20,1.1,0,0,3.9,0
+359,7081,7,Thịt và sản phẩm chế biến,Meat and processed products,Nhộng,Nhéng,Silk worm,2.0,385,79.7,111,462,13,6.5,0,0,0.8,0
+360,7082,7,Thịt và sản phẩm chế biến,Meat and processed products,Lòng gà (cả bộ),Lßng gμ (c¶ bé),Chicken giblets,0.0,386,74.9,119,498,17.9,4.5,1.8,0,1,
+361,8001,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá bống,C¸ bèng,"Goby, gudgeon",45.0,389,81.9,70,295,15.8,0.8,0,0,1.5,0
+362,8002,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá chày,C¸ chμy,Pond fish,31.0,390,75.1,113,472,20.1,3.6,0,0,1.2,0
+363,8003,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá chép,C¸ chÐp,Carp,40.0,391,79.1,96,403,16,3.6,0,0,1.3,0
+364,8004,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá dưa,C¸ d−a,Conger pike,,392,75.6,115,483,17.6,5,0,0,1.8,0
+365,8005,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá dầu,C¸ dÇu,,10.0,393,75.1,96,403,18.9,2.3,0,0,3.7,0
+366,8006,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá diếc,C¸ diÕc,"Mullet, harder",45.0,394,78.9,87,364,17.7,1.8,0,0,1.6,0
+367,8007,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá đao,C¸ ®ao,"Sawfish, wolfherring",,395,78.3,94,393,18.3,2.3,0,0,1.1,0
+368,8008,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá đé,C¸ ®Ð,Chinese herring,,396,78.8,83,347,18.7,0.9,0,0,1.6,0
+369,8009,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá đối,C¸ ®èi,"Mullet, gray mullet",42.0,397,76,108,451,19.5,3.3,0,0,1.2,0
+370,8010,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá đồng tiền,C¸ ®ång tiÒn,Goby,,398,76.4,98,412,20.1,2,0,0,1.5,0
+371,8011,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá hồi,C¸ håi,Salmon,40.0,399,71.3,136,568,22,5.3,0,0,1.4,0
+372,8012,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,"Cá khô (chim, thu, nụ, đé)","C¸ kh« (chim, thu, nô, ®Ð)","Dried fish, miscellaneous",15.0,400,37.8,208,872,43.3,3.9,0,0,15,0
+373,8013,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá lác,C¸ l¸c,,,401,78.1,71,298,16.7,0.5,0,0,4.7,0
+374,8014,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá mè,C¸ mÌ,"Hypophthalmichthys, chub, dory, tench bream",36.0,402,74.7,144,600,15.4,9.1,0,0,0.8,0
+375,8015,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá mòi,C¸ mßi,Sardin,45.0,403,75.3,124,519,17.5,6,0,0,1.2,0
+376,8016,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá mỡ,C¸ mì,,0.0,404,72.7,151,631,16.8,9.3,0,0,1.2,0
+377,8017,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá mối,C¸ mèi,,,405,73.3,116,487,22.1,3.1,0,0,1.5,0
+378,8018,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá nạc,C¸ n¹c,Fish low fat,39.0,406,80,80,334,17.5,1.1,0,0,1.4,0
+379,8019,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá ngừ,C¸ ngõ,"Flying fish, tuna",42.0,407,77.5,87,363,21,0.3,0,0,1.2,0
+380,8020,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá nục,C¸ nôc,"Scad, anchovy",,408,74.9,111,462,20.2,3.3,0,0,1.6,0
+381,8021,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá phèn,C¸ phÌn,"Goatfish, surmullet, red mullet",,409,78.2,104,436,15.9,4.5,0,0,1.4,0
+382,8022,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá quả,C¸ qu¶,"Fish, snake head",40.0,410,78,97,406,18.2,2.7,0,0,1.1,0
+383,8023,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá rô đồng,C¸ r« ®ång,Anabas,44.0,411,74.2,126,527,19.1,5.5,0,0,1.2,0
+384,8024,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá rô phi,C¸ r« phi,"Tilapia, African carp",43.0,412,76.8,100,416,19.7,2.3,0,0,1.2,0
+385,8025,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá thờn bơn (cá bơn),C¸ thên b¬n (c¸ b¬n),"Flounder, sole, turbot",,413,81.3,73,306,17.4,0.4,0,0,0.9,0
+386,8026,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá thu,C¸ thu,"Mackerel, codfish, kingfish",35.0,414,70.2,166,692,18.2,10.3,0,0,1.3,0
+387,8027,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá thu đao,C¸ thu ®ao,,30.0,415,70.3,156,651,20,8.4,0,0,1.3,0
+388,8028,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá trạch (cá chạch),C¸ tr¹ch (c¸ ch¹ch),Loach,26.0,416,74.2,110,462,20.4,3.2,0,0,2.2,0
+389,8029,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá trắm cỏ,C¸ tr¾m cá,"Carp, amur",35.0,417,79.4,91,382,17,2.6,0,0,1,0
+390,8030,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá trê,C¸ trª,"Catfish, silurus, sheatfish, hito",40.0,418,70.4,173,724,16.5,11.9,0,0,1.2,0
+391,8031,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá trích,C¸ trÝch,Herring,35.0,419,70.5,166,695,17.7,10.6,0,0,1.2,0
+392,8032,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cá trôi,C¸ tr«i,"Major carp, mud carp; cirrhina molitorella",27.6,420,74.3,127,529,18.8,5.7,0,0,1.2,0
+393,8033,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cua bể,Cua bÓ,"Crab, sea water",40.0,421,72.2,103,433,17.5,0.6,7,0,2.7,
+394,8034,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Cua đồng,Cua ®ång,"Crab, fresh water",69.0,422,74.4,87,364,12.3,3.3,2,0,8,
+395,8035,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,ghẹ,ghÑ,Crab,68.0,423,85.5,54,226,11.9,0.7,0,0,1.9,0
+396,8036,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Hải sâm,H¶i s©m,"Sea slug, sea cucumber",0.0,424,76.9,90,374,21.5,0.3,0.2,0,1.1,
+397,8037,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Hến,HÕn,Clam,82.0,425,88.8,45,187,4.5,0.7,5.1,0,0.9,
+398,8038,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Lươn,L−¬n,"Eel, silver - pike",35.0,426,68.3,180,752,18.4,11.7,0.2,0,1.4,
+399,8039,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Mực khô,Mùc kh«,"Dried cuttle fish, squid",4.0,427,26.2,291,1217,60.1,4.5,2.5,0,6.7,
+400,8040,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Mực tươi,Mùc t−¬i,"Cuttle fish, raw (Squid)",22.0,428,81.4,73,307,16.3,0.9,0,0,1.4,
+401,8041,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,ốc bươu,èc b−¬u,"Snail medium - size, edible",67.0,429,76.8,84,351,11.1,0.7,8.3,0,3.1,
+402,8042,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,ốc đá,èc ®¸,"Marble snail, edible",80.0,430,80.3,63,264,11.2,0.3,3.9,0,4.3,
+403,8043,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,ốc nhồi,èc nhåi,"Snail large, edible",79.0,431,77.6,84,353,11.9,0.7,7.6,0,2.2,
+404,8044,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,ốc vặn,èc vÆn,Helix,70.0,432,79.1,72,303,12.2,0.7,4.3,0,3.7,
+405,8045,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,"Rạm (muối, đồ)","R¹m (muèi, ®å)","Small sea - crab bicled, steamed",50.0,433,64.4,83,347,14.2,2.9,0,0,18.5,0
+406,8046,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Rạm tươi,R¹m t−¬i,Small sea - crab,50.0,434,78.2,77,321,12.9,2.8,0,0,6.1,0
+407,8047,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Rươi,R−¬i,Tylorhynchus sinensis,5.0,435,81.9,89,373,12.4,4.4,0,0,1.3,0
+408,8048,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Sò,Sß,Oyster,80.0,436,82.1,78,328,9.5,2.3,4.9,0,1.2,
+409,8049,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Tép gạo,TÐp g¹o,Tiny shrimp,8.0,437,84.5,58,241,11.7,1.2,0,0,2.6,0
+410,8050,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Tép khô,TÐp kh«,"Tiny shrimp, dried",5.0,438,23,269,1125,59.8,3,0.7,0,13.5,
+411,8051,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Tôm biển,T«m biÓn,"Sea shrimp, sea-water shrimp",54.0,439,79.2,82,344,17.6,0.9,0.9,0,1.4,
+412,8052,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Tôm đồng,T«m ®ång,Fresh-water shrimp,10.0,440,76.9,90,376,18.4,1.8,0,0,2.9,0
+413,8053,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Tôm khô,T«m kh«,"Shrimp, dried",5.0,441,12.6,347,1450,75.6,3.8,2.5,0,5.5,
+414,8054,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Trai,Trai,Manodonta,60.0,442,89.9,38,160,4.6,1.1,2.5,0,1.9,
+415,8055,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Bánh phồng tôm rán,B¸nh phång t«m r¸n,Deep fried shrimp paste,0.0,443,3.8,676,2827,1.6,59.2,34.1,0,1.3,
+416,8056,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Bánh phồng tôm sống,B¸nh phång t«m sèng,Shrimp paste,0.0,444,12,381,1596,3.4,7.4,75.3,0,1.9,
+417,8057,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Bột cá,Bét c¸,Fish flour with bones,0.0,445,11.6,323,1351,71.2,2.9,3,0,11.3,
+418,8058,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Ruốc cá quả,Ruèc c¸ qu¶,"Shredded snake-head fish, salted and dried",0.0,446,14,312,1304,65.7,4.1,3,0,13.2,
+419,8059,8,Thủy sản và sản phẩm chế biến,Aquatic products and processed products,Ruốc tôm,Ruèc t«m,"Shredded shrimp, salted and dried",0.0,447,13.1,305,1275,65.5,3.1,3.7,0,14.6,
+420,9001,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng gà,Trøng gμ,"Hen egg, raw, whole",14.0,450,72,166,693,14.8,11.6,0.5,0,1.1,0.77
+421,9002,9,Trứng và sản phẩm chế biến,Eggs and processed products,Lòng đỏ trứng gà,Lßng ®á trøng gμ,"Hen egg, yolk",0.0,451,54,327,1366,13.6,29.8,1,0,1.6,0.56
+422,9003,9,Trứng và sản phẩm chế biến,Eggs and processed products,Lòng trắng trứng gà,Lßng tr¾ng trøng gμ,"Hen egg, white",0.0,452,88,46,193,10.3,0.1,1,0,0.6,0.71
+423,9004,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng vịt,Trøng vÞt,"Duck egg, whole",12.0,453,70,184,769,13,14.2,1,0,1.8,0.93
+424,9005,9,Trứng và sản phẩm chế biến,Eggs and processed products,Lòng đỏ trứng vịt,Lßng ®á trøng vÞt,"Duck egg, yolk",0.0,454,47.5,364,1524,13.6,32.3,4.8,0,1.8,
+425,9006,9,Trứng và sản phẩm chế biến,Eggs and processed products,Lòng trắng trứng vịt,Lßng tr¾ng trøng vÞt,"Duck egg, white",0.0,455,87.8,47,196,10.7,0.1,0.8,0,0.6,0
+426,9007,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng chim cút,Trøng chim cót,Quail egg,11.0,456,74.4,154,643,13.1,11.1,0.4,0,1.1,0.41
+427,9008,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng cá,Trøng c¸,Fish roe,0.0,457,64.9,171,716,20.5,9.9,0,0,4.7,
+428,9009,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng cá muối,Trøng c¸ muèi,"Fish caviar, black and red, granule",0.0,458,47.5,274,14,24.6,17.9,3.5,0,6.5,0
+429,9010,9,Trứng và sản phẩm chế biến,Eggs and processed products,Trứng vịt lộn,Trøng vÞt lén,"Duck egg, embryonated",12.0,459,67,182,761,13.6,12.4,4,0,3,
+430,9011,9,Trứng và sản phẩm chế biến,Eggs and processed products,Bột trứng,Bét trøng,Chicken egg powder,0.0,460,8.5,563,2356,44,42.2,1.8,0,3.5,
+431,10001,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa bò tươi,S÷a bß t−¬i,"Milk cow, fresh (fluid)",0.0,463,86.2,74,311,3.9,4.4,4.8,0,0.7,5.26
+432,10002,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa dê tươi,S÷a dª t−¬i,"Milk goat's, whole",0.0,464,87.2,69,288,3.5,4.1,4.5,0,0.7,4.45
+433,10003,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa mẹ (sữa người),S÷a mÑ (s÷a ng−êi),"Breast milk (Human milk, whole).",0.0,465,88.3,61,255,1.5,3,7,0,0.2,6.89
+434,10004,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa chua (từ sữa bò),S÷a chua (tõ s÷a bß),Yogurt (whole milk),0.0,466,88.7,61,255,3.3,3.7,3.6,0,0.7,4.66
+435,10005,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa chua vớt béo,S÷a chua vít bÐo,"Yogurt, chocolate, nonfat milk",0.0,467,71.6,103,432,3.5,0,22.3,1.2,1.4,14.97
+436,10006,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa bột toàn phần,S÷a bét toμn phÇn,"Milk powder, whole",0.0,468,3.5,494,2067,27,26,38,0,5.5,38.42
+437,10007,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa bột tách béo,S÷a bét t¸ch bÐo,Skimmed milk powder,0.0,469,4,357,1494,35,1,52,0,8,51.48
+438,10008,10,Sữa và sản phẩm chế biến,Milk and processed products,Sữa đặc có đường Việt Nam,S÷a ®Æc cã ®−êng ViÖt Nam,"Milk condensed, sweetened",0.0,470,25.4,336,1404,8.1,8.8,56,0,1.7,
+439,10009,10,Sữa và sản phẩm chế biến,Milk and processed products,Pho mát,Pho m¸t,Cheese (whole fat),0.0,471,38.9,380,1590,25.5,30.9,0,0,4.7,0.52
+440,11001,11,Đồ hộp,Canned foods,Chuối nước đường,Chuèi n−íc ®−êng,"Banana, canned, sweetened",0.0,474,83.9,58,241,0.5,0,13.9,1.3,0.4,
+441,11002,11,Đồ hộp,Canned foods,Dưa chuột hộp,D−a chuét hép,Cucumber (canned),0.0,475,94.1,8,33,0.3,0.2,1.2,3.1,1.1,1.06
+442,11003,11,Đồ hộp,Canned foods,Dứa hộp,Døa hép,"Pineapple, canned, sweetened",0.0,476,85.7,53,223,0.4,0.1,12.7,0.8,0.3,12.65
+443,11004,11,Đồ hộp,Canned foods,Lạc chao dầu,L¹c chao dÇu,"Peanut, oil fried",0.0,477,1.8,680,2843,25.7,59.5,10.3,,2.7,
+444,11005,11,Đồ hộp,Canned foods,Mắc coọc nước đường,M¾c coäc n−íc ®−êng,Pyrus pachis in syrup,0.0,478,85.1,56,233,0.2,0,13.7,0.7,0.3,
+445,11006,11,Đồ hộp,Canned foods,Mận nước đường,MËn n−íc ®−êng,"Plum, canned, sweetened",10.0,479,83,64,268,0.4,0.1,15.4,0.9,0.2,15.35
+446,11007,11,Đồ hộp,Canned foods,Mứt bí ngô,Møt bÝ ng«,Dried preserved squash,0.0,480,49.4,198,830,0.5,0,49.1,0.7,0.3,
+447,11008,11,Đồ hộp,Canned foods,Mứt cam có vỏ,Møt cam cã vá,"Orange marmalade, jellies",0.0,481,42.8,218,914,0.4,0,54.2,2.2,0.4,
+448,11009,11,Đồ hộp,Canned foods,Mứt chuối,Møt chuèi,Banana jam,0.0,482,43.8,218,914,0.7,0,53.9,1.3,0.3,
+449,11010,11,Đồ hộp,Canned foods,Mứt dứa,Møt døa,Pineapple jam,0.0,483,47.2,208,870,0.5,0,51.5,0.4,0.4,
+450,11011,11,Đồ hộp,Canned foods,Tên thực phẩm ( Vietnamese) Mứt đu đủ,Tªn thùc phÈm ( Vietnamese) Møt ®u ®ñ,Papaya jam,0.0,484,53.2,178,745,0.4,0,44.1,2,0.3,
+451,11012,11,Đồ hộp,Canned foods,Nhãn nước đường,Nh·n n−íc ®−êng,"Longan, canned, sweetened",0.0,485,83.3,62,259,0.5,0,15,1,0.2,
+452,11013,11,Đồ hộp,Canned foods,Nước dứa hộp,N−íc døa hép,Pineapple juice,0.0,486,86.4,53,221,0.4,0.1,12.6,0.2,0.3,9.98
+453,11014,11,Đồ hộp,Canned foods,Vải nước đường,V¶i n−íc ®−êng,"Litchi, canned, sweetened",0.0,487,83.6,60,253,0.4,0,14.7,1.1,0.2,
+454,11015,11,Đồ hộp,Canned foods,Cá thu hộp,C¸ thu hép,"Mackerel, canned",0.0,488,57.5,207,867,24.8,12,0,,5.7,0
+455,11016,11,Đồ hộp,Canned foods,Cá trích hộp,C¸ trÝch hép,"Herring, canned",0.0,489,56.7,233,974,22.3,14.4,3.5,,3.1,
+456,11017,11,Đồ hộp,Canned foods,Thịt bò hộp,ThÞt bß hép,"Beef, canned",0.0,490,61.4,251,1050,16.4,20.6,0,,1.6,0
+457,11018,11,Đồ hộp,Canned foods,Thịt gà hộp,ThÞt gμ hép,"Chicken, canned",0.0,491,59,273,1143,17,22.8,0,,1.2,0
+458,11019,11,Đồ hộp,Canned foods,Thịt lợn hộp,ThÞt lîn hép,"Pork, canned",0.0,492,49,344,1438,17.3,29.3,2.7,,1.7,
+459,11020,11,Đồ hộp,Canned foods,"Thịt lợn, thịt bò xay hộp","ThÞt lîn, thÞt bß xay hép","Pork and beef, minced canned",0.0,493,62.8,244,1021,16,20,0,,1.2,0
+460,11021,11,Đồ hộp,Canned foods,Thịt vịt hầm,ThÞt vÞt hÇm,"Duck, stewed meat",0.0,494,59.9,224,938,19.6,16.2,0,,4.3,0
+461,12001,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh bích cốt,B¸nh bÝch cèt,Whole wheat rusk,0.0,497,12,346,1448,12.3,1.3,71.3,0.8,2.3,
+462,12002,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh bích quy,B¸nh bÝch quy,Biscuits,0.0,498,10.4,376,1574,8.8,4.5,75.1,0.5,0.7,
+463,12003,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh chả,B¸nh ch¶,Sweet meat pie in lumps,0.0,499,8,395,1653,3.4,6.6,80.5,1,0.5,
+464,12004,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh con cá,B¸nh con c¸,"Small biscuits, fish figured",0.0,500,10,368,1541,7.5,2.2,79.6,0.2,0.5,
+465,12005,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh đậu xanh,B¸nh ®Ëu xanh,Mungbean cake,0.0,501,6.8,416,1738,15.6,11.5,62.4,1.1,2.6,
+466,12006,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh kem xốp,B¸nh kem xèp,Wafers filled,0.0,502,1.9,492,2059,8.3,24,60.7,3.5,1.6,
+467,12007,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh khảo chay,B¸nh kh¶o chay,"Rice cake, plain",0.0,503,5.8,376,1574,3.2,0.3,90.2,0.2,0.3,
+468,12008,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh quế,B¸nh quÕ,Cinnamon waffle (roll),0.0,504,3.6,435,1820,8.3,10.7,76.4,0.3,0.7,
+469,12009,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh sô cô la,B¸nh s« c« la,"Chocolate, filled",0.0,505,8.5,449,1879,3.9,17.6,68.8,0,1.2,
+470,12010,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh thỏi sô cô la,B¸nh thái s« c« la,"Chocolate, sweet",0.0,506,0.8,543,2273,4.9,30.4,62.5,,1.4,
+471,12011,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bánh trứng nhện,B¸nh trøng nhÖn,Small biscuit,0.0,507,11.6,369,1542,9.6,3.7,74.2,0.2,0.7,
+472,12012,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Bột ca cao,Bét ca cao,Cocoa powder,0.0,508,3,414,1731,19.6,13.7,53,4.6,6.1,1.75
+473,12013,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Đường cát,§−êng c¸t,Refined sugar,0.0,509,1.7,390,1630,0,0,97.4,0,0.9,96.21
+474,12014,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Đường kính,§−êng kÝnh,Granulated sugar,0.0,510,0.5,397,1662,0,0,99.3,0,0.2,
+475,12015,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo bơ cứng,KÑo b¬ cøng,"Toffee, sweets",0.0,511,8.8,448,1873,2.1,17.2,71.1,0,0.8,
+476,12016,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo cà phê,KÑo cμ phª,Coffee sweets,0.0,512,6.6,378,1580,0,1.3,91.5,0,0.6,
+477,12017,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo cam chanh,KÑo cam chanh,"Sweets, caramel with citron, orange aroma",0.0,513,5.4,377,1577,0,0.5,93.1,0.3,0.7,
+478,12018,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo dừa mềm,KÑo dõa mÒm,Sweets with coconut aroma,0.0,514,8.5,415,1735,0.6,12.2,75.6,2.5,0.6,
+479,12019,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo dứa mềm,KÑo døa mÒm,Pineapple sweets candy,0.0,515,8.5,415,1735,0.6,12.2,75.6,2.5,0.6,
+480,12020,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo lạc,KÑo l¹c,Peanut candy,0.0,516,5,449,1878,10.3,16.5,64.8,2.2,1.2,
+481,12021,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo Pastille (kẹo ngậm bạc hà),KÑo Pastille (kÑo ngËm b¹c hμ),Menthol pastille,0.0,517,10.2,356,1490,5.2,0,83.8,,0.8,
+482,12022,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo sô cô la,KÑo s« c« la,Sweets with chocolate,0.0,518,6.8,388,1624,1.6,4.6,85.1,1.2,0.7,
+483,12023,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo sữa,KÑo s÷a,Sweets with milk,0.0,519,8.4,390,1633,2.9,5.2,83,,0.5,
+484,12024,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Kẹo vừng viên,KÑo võng viªn,Sesame candy,0.0,520,1.7,417,1744,2.8,6.9,85.9,1.7,1,
+485,12025,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Mạch nha,M¹ch nha,Malt,0.0,521,15,331,1384,0.2,0,82.5,0,2.3,
+486,12026,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Mật ong,MËt ong,Honey,0.0,522,18,327,1367,0.4,0,81.3,0,0.3,81.02
+487,12027,12,"Đồ ngọt (đường, bánh, mứt, kẹo)",Sweets,Mứt lạc,Møt l¹c,Peanut sugar (Jam),0.0,523,1.8,431,1802,5.4,8.6,82.9,0.7,0.6,
+488,13001,13,"Gia vị, nước chấm",Condiments and sauces,Cary bột,Cary bét,"Cari powder (Mix, turmeric, red pepper and other spices)",0.0,526,10,283,1182,8.2,7.3,46,8.9,19.6,
+489,13002,13,"Gia vị, nước chấm",Condiments and sauces,Gừng khô (bột),Gõng kh« (bét),"Ginger root, dried powder",0.0,527,9.4,323,1350,9.1,5.9,58.3,12.5,4.8,3.4
+490,13003,13,"Gia vị, nước chấm",Condiments and sauces,Gừng tươi,Gõng t−¬i,"Ginger root, fresh",10.0,528,90,29,119,0.4,0.8,5.1,3.3,0.5,1.7
+491,13004,13,"Gia vị, nước chấm",Condiments and sauces,Hạt tiêu,H¹t tiªu,"Peppercorn, seeds",0.0,529,13.5,231,967,7,7.4,34.1,33.5,4.5,0.64
+492,13005,13,"Gia vị, nước chấm",Condiments and sauces,Muối,Muèi,Table salt,0.0,530,1,0,0,0,0,0,0,99,0
+493,13006,13,"Gia vị, nước chấm",Condiments and sauces,"Nghệ khô, bột","NghÖ kh«, bét","Turmeric rhizome, dried powder",0.0,531,11.4,295,1236,7.8,9.9,43.8,21.1,6,3.21
+494,13007,13,"Gia vị, nước chấm",Condiments and sauces,Nghệ tươi,NghÖ t−¬i,"Turmeric, rhizome, fresh",10.0,532,86.7,25,103,1.1,0.3,4.4,6.5,1,
+495,13008,13,"Gia vị, nước chấm",Condiments and sauces,ớt khô bột,ít kh« bét,"Red pepper, dried powder",0.0,533,12,227,951,15.6,4.2,31.8,23.6,12.8,
+496,13009,13,"Gia vị, nước chấm",Condiments and sauces,Riềng,RiÒng,"Alpinia root, fresh",10.0,534,91.7,26,109,0.3,,2.5,3.7,1.8,
+497,13010,13,"Gia vị, nước chấm",Condiments and sauces,Magi,Magi,Soybean sauce,0.0,535,66,65,273,10.5,0.1,5.6,0,17.8,1.7
+498,13011,13,"Gia vị, nước chấm",Condiments and sauces,Mắm tôm đặc,M¾m t«m ®Æc,Shrimp sauce concentrate,0.0,536,48,73,304,14.8,1.5,0,0,35.7,0
+499,13012,13,"Gia vị, nước chấm",Condiments and sauces,Mắm tôm loãng,M¾m t«m lo·ng,"Shrimp sauce, diluted",0.0,537,68.6,44,182,7,0.8,2.1,0,21.5,0
+500,13013,13,"Gia vị, nước chấm",Condiments and sauces,Mắm tép chua,M¾m tÐp chua,"Tiny shrimp, sour sauce",0.0,538,55.5,68,283,8.7,1.2,5.5,0,29.1,0
+501,13014,13,"Gia vị, nước chấm",Condiments and sauces,Nước mắm cá (loại đặc biệt),N−íc m¾m c¸ (lo¹i ®Æc biÖt),Fish - sauce (super quality).,0.0,539,60,60,251,15,0,0,0,25,0
+502,13015,13,"Gia vị, nước chấm",Condiments and sauces,Nước mắm cá loại I,N−íc m¾m c¸ lo¹i I,"Fish sauce, grade I",0.0,540,67.9,28,119,7.1,0,0,0,25,
+503,13016,13,"Gia vị, nước chấm",Condiments and sauces,Nước mắm loại II,N−íc m¾m lo¹i II,"Fish sauce, grade II",0.0,541,66.8,21,87,5.2,0,0,0,28,0
+504,13017,13,"Gia vị, nước chấm",Condiments and sauces,Nước mắm cá,N−íc m¾m c¸,"Fish sauce, ready-to-serve",0.0,542,71.1,35,146,5.1,0.01,3.6,0,20.2,0
+505,13018,13,"Gia vị, nước chấm",Condiments and sauces,Nước mắm cô,N−íc m¾m c«,"Fish sauce, concentrated",0.0,543,20.2,131,549,32.8,0,0,0,47,0
+506,13019,13,"Gia vị, nước chấm",Condiments and sauces,Tương ngô,T−¬ng ng«,Soybean sauce with rice and maize,0.0,544,70.3,75,312,3.9,0.1,14.5,0,11.2,0
+507,13020,13,"Gia vị, nước chấm",Condiments and sauces,Tương nếp,T−¬ng nÕp,Soybean sauce with glutinous rice,0.0,545,68.3,86,361,4.3,0.7,15.7,0,11,0
+508,13021,13,"Gia vị, nước chấm",Condiments and sauces,Tương ớt,T−¬ng ít,Red pepper sauce concentrate,0.0,546,84,37,154,0.5,0.5,7.6,0.9,6.5,2.55
+509,13022,13,"Gia vị, nước chấm",Condiments and sauces,Xì dầu,X× dÇu,Soybean sauce,0.0,547,70.8,53,220,6.3,0.04,6.8,0.8,15.3,1.7
+510,13023,13,"Gia vị, nước chấm",Condiments and sauces,Sốt mayonnaise,Sèt mayonnaise,Mayonnaise,0.0,548,21.7,701,2931,0,77.8,0.1,0,0.4,0.1
+511,14001,14,"Nước giải khát, bia, rượu",Beverage and liquor,"Bia (cồn: 4,5 g)","Bia (cån: 4,5 g)","Beer light (4,5 % Alcohol)",0.0,551,92.5,11,47,0.5,0,2.3,0,0.2,
+512,14002,14,"Nước giải khát, bia, rượu",Beverage and liquor,Cô nhắc (cồn 32 g),C« nh¾c (cån 32 g),Cognac,0.0,552,67.8,0,0,0,0,0,0,0.2,
+513,14003,14,"Nước giải khát, bia, rượu",Beverage and liquor,Cốc tai (cồn 13 g),Cèc tai (cån 13 g),"Cocktail, vermouth sweet",0.0,553,71,63,263,0,0,15.7,0,0.3,
+514,14004,14,"Nước giải khát, bia, rượu",Beverage and liquor,Coca cola,Coca cola,Coca Cola,0.0,554,89.4,42,174,0,0,10.4,0,0.2,
+515,14005,14,"Nước giải khát, bia, rượu",Beverage and liquor,Nước cam tươi,N−íc cam t−¬i,"Orange juice, fresh",0.0,555,94.1,23,95,0.7,0.2,4.5,0.2,0.3,3.96
+516,14006,14,"Nước giải khát, bia, rượu",Beverage and liquor,Nước dừa non tươi,N−íc dõa non t−¬i,"Coconut milk, immature",0.0,556,94.4,21,87,0.4,0,4.8,0,0.4,
+517,14007,14,"Nước giải khát, bia, rượu",Beverage and liquor,Nước ép cà chua,N−íc Ðp cμ chua,Tomato juice,0.0,557,94.6,19,79,0.8,0.6,2.6,0.4,1,
+518,14008,14,"Nước giải khát, bia, rượu",Beverage and liquor,Nước khoáng,N−íc kho¸ng,Mineral water,0.0,558,99.7,0,0,0,0,0,0,0.3,0
+519,14009,14,"Nước giải khát, bia, rượu",Beverage and liquor,Nước quít tươi,N−íc quÝt t−¬i,Mandarins juice (fresh),0.0,559,93.8,24,100,0.4,0.2,5.1,0.2,0.3,5.39
+520,14010,14,"Nước giải khát, bia, rượu",Beverage and liquor,"Rượu cam, chanh (cồn 24,2 g)","R−îu cam, chanh (cån 24,2 g)","Liqueur, orange flavor",0.0,560,75.8,0,0,0,0,0,0,,
+521,14011,14,"Nước giải khát, bia, rượu",Beverage and liquor,Rượu nếp (80g/ 24 ml) (cồn 5 g),R−îu nÕp (80g/ 24 ml) (cån 5 g),Rice glutinous (Alcohol fermentation rice 80 g water 24 ml),0.0,561,52.4,167,698,4,0,37.7,0.2,0.7,
+522,14012,14,"Nước giải khát, bia, rượu",Beverage and liquor,Rượu trắng (cồn 39 g),R−îu tr¾ng (cån 39 g),Vodka,0.0,562,61,273,1142,,0,0,0,,
+523,14013,14,"Nước giải khát, bia, rượu",Beverage and liquor,"Rượu vang đỏ (cồn 9,5 g)","R−îu vang ®á (cån 9,5 g)",Red wine,0.0,563,88,9,37,0.2,0,2,0,0.3,
+524,14014,14,"Nước giải khát, bia, rượu",Beverage and liquor,"Rượu vang trắng (cồn 9,5 g)","R−îu vang tr¾ng (cån 9,5 g)",White wine,0.0,564,89.9,1,5,0.1,0,0.2,0,0.3,0.2
+525,14015,14,"Nước giải khát, bia, rượu",Beverage and liquor,Rượu vang trắng ngọt (cồn 10.2 g),R−îu vang tr¾ng ngät (cån 10.2 g),"White wine, sweet",0.0,565,83.4,24,102,0.2,0,5.9,0,0.3,5.9
+526,14016,14,"Nước giải khát, bia, rượu",Beverage and liquor,"Rượu Whisky (cồn 35,2 g)","R−îu Whisky (cån 35,2 g)",Whisky liqueur,0.0,566,64.7,0,0,0,0,0,0,0.1,0
