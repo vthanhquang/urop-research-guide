@@ -1,0 +1,311 @@
+[
+  {
+    "group_id": "BT01",
+    "label": "Cơm thông thường (chuẩn)",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2986.4,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2986.4mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.1,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.1g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "PT",
+    "label": "Phẫu thuật / bệnh lý chung",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2921.9,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2921.9mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 12.5,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 12.5g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "SK",
+    "label": "Sản khoa",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2665.6,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2665.6mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 12.0,
+        "limit": 16,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 12.0g (tối thiểu: 16g)"
+      }
+    ]
+  },
+  {
+    "group_id": "TN",
+    "label": "Bệnh thận",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.2,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.2g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "TM",
+    "label": "Tim mạch / Tăng huyết áp",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2266.2,
+        "limit": 3000,
+        "limit_hi": 5500,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2266.2mg (ngưỡng: 3000–5500mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 12.0,
+        "limit": 18,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 12.0g (tối thiểu: 18g)"
+      }
+    ]
+  },
+  {
+    "group_id": "DD",
+    "label": "Đái tháo đường",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2487.9,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2487.9mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.0,
+        "limit": 18,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.0g (tối thiểu: 18g)"
+      }
+    ]
+  },
+  {
+    "group_id": "GM",
+    "label": "Gan mật",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2165.1,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2165.1mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.1,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.1g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "UT",
+    "label": "Ung thư",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2899.8,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2899.8mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.1,
+        "limit": 16,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.1g (tối thiểu: 16g)"
+      }
+    ]
+  },
+  {
+    "group_id": "GU",
+    "label": "Gút",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 1994.8,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 1994.8mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 10.5,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 10.5g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "IOD",
+    "label": "Kiêng i-ốt (tuyến giáp)",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2934.2,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2934.2mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 12.0,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 12.0g (tối thiểu: 14g)"
+      }
+    ]
+  },
+  {
+    "group_id": "FAM",
+    "label": "Người nhà người bệnh",
+    "hard_passed": true,
+    "soft_passed": true,
+    "summary": "✅ Đạt tất cả ngưỡng HARD và SOFT.",
+    "violations": [
+      {
+        "nutrient": "Kali",
+        "actual": 2872.9,
+        "limit": 0.0,
+        "limit_hi": 0.0,
+        "unit": "mg",
+        "direction": "range",
+        "severity": "INFO",
+        "message": "Kali = 2872.9mg (ngưỡng: 0–0mg)"
+      },
+      {
+        "nutrient": "Chất xơ",
+        "actual": 11.1,
+        "limit": 14,
+        "limit_hi": null,
+        "unit": "g",
+        "direction": "min",
+        "severity": "INFO",
+        "message": "Chất xơ = 11.1g (tối thiểu: 14g)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thực đơn tháng — Bệnh viện</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f9; color: #222; line-height: 1.6; }
+  header { background: #1a5c8a; color: #fff; padding: 24px 32px; }
+  header h1 { font-size: 1.6rem; }
+  header p { opacity: 0.85; font-size: 0.9rem; margin-top: 4px; }
+  nav { background: #e8f0f8; padding: 10px 32px; display: flex; flex-wrap: wrap; gap: 8px; }
+  nav a { color: #1a5c8a; text-decoration: none; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; }
+  nav a:hover { background: #1a5c8a; color: #fff; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 20px 16px 60px; }
+  .group { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 24px;
+             box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .group h2 { color: #1a5c8a; border-bottom: 2px solid #1a5c8a; padding-bottom: 8px; margin-bottom: 10px; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;
+            font-weight: 600; margin-left: 8px; vertical-align: middle; }
+  .badge.ok { background: #d4edda; color: #155724; }
+  .badge.warn { background: #fff3cd; color: #856404; }
+  .violations { background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 14px;
+                  border-radius: 4px; margin: 10px 0; }
+  .violations ul { margin: 6px 0 0 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.85rem; }
+  th { background: #e8f0f8; padding: 8px 10px; text-align: left; border: 1px solid #c8d8e8; }
+  td { padding: 6px 10px; border: 1px solid #e0e8f0; vertical-align: top; }
+  tr:nth-child(even) td { background: #f9fbfe; }
+  .summary-table th, .summary-table td { padding: 5px 10px; }
+  .table-scroll { overflow-x: auto; }
+  table h3 { color: #1a5c8a; margin: 16px 0 6px; }
+  footer { text-align: center; padding: 20px; color: #888; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Thực đơn tháng — Bệnh viện</h1>
+  <p>Ngày tạo: 2026-06-26 &nbsp;|&nbsp;
+     Nguồn: hospital-meal-planner generator + model_generation &nbsp;|&nbsp;
+     11 nhóm</p>
+</header>
+<nav>
+  <span>Chuyển đến:</span>
+  <a href="#BT01">BT01</a><a href="#PT">PT</a><a href="#SK">SK</a><a href="#TN">TN</a><a href="#TM">TM</a><a href="#DD">DD</a><a href="#GM">GM</a><a href="#UT">UT</a><a href="#GU">GU</a><a href="#IOD">IOD</a><a href="#FAM">FAM</a>
+</nav>
+<div class="container">
+  
+<div class="group" id="BT01">
+  <h2>BT01 — Cơm thông thường (chuẩn)</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2100–2550 kcal, &nbsp;
+     P=17–24% &nbsp;
+     L=20–32% &nbsp;
+     G=46–58%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2279 kcal</td></tr>
+<tr><td>Protein</td><td>119 g</td></tr>
+<tr><td>Lipid</td><td>74 g</td></tr>
+<tr><td>Glucid</td><td>281 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>3272 mg</td></tr>
+<tr><td>Kali</td><td>2986 mg</td></tr>
+<tr><td>Cholesterol</td><td>377 mg</td></tr>
+
+    <tr><td>P%</td><td>21.0%</td></tr>
+    <tr><td>L%</td><td>29.4%</td></tr>
+    <tr><td>G%</td><td>49.6%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2293</td><td>20.0%</td><td>27.4%</td></tr>
+<tr><td>Thứ 3</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2284</td><td>19.8%</td><td>29.2%</td></tr>
+<tr><td>Thứ 4</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2248</td><td>23.9%</td><td>27.8%</td></tr>
+<tr><td>Thứ 5</td><td>Phở Bê</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2271</td><td>22.5%</td><td>27.3%</td></tr>
+<tr><td>Thứ 6</td><td>Bún gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2281</td><td>18.2%</td><td>32.4%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2280</td><td>20.8%</td><td>30.4%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2298</td><td>21.6%</td><td>31.1%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="PT">
+  <h2>PT — Phẫu thuật / bệnh lý chung</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2100–2550 kcal, &nbsp;
+     P=18–25% &nbsp;
+     L=20–32% &nbsp;
+     G=44–58%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2287 kcal</td></tr>
+<tr><td>Protein</td><td>120 g</td></tr>
+<tr><td>Lipid</td><td>74 g</td></tr>
+<tr><td>Glucid</td><td>282 g</td></tr>
+<tr><td>Chất xơ</td><td>12 g</td></tr>
+<tr><td>Natri</td><td>3261 mg</td></tr>
+<tr><td>Kali</td><td>2922 mg</td></tr>
+<tr><td>Cholesterol</td><td>381 mg</td></tr>
+
+    <tr><td>P%</td><td>21.2%</td></tr>
+    <tr><td>L%</td><td>29.2%</td></tr>
+    <tr><td>G%</td><td>49.7%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2285</td><td>22.6%</td><td>28.5%</td></tr>
+<tr><td>Thứ 3</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2269</td><td>22.4%</td><td>27.9%</td></tr>
+<tr><td>Thứ 4</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2326</td><td>20.9%</td><td>29.4%</td></tr>
+<tr><td>Thứ 5</td><td>Bún cá</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2298</td><td>17.4%</td><td>31.9%</td></tr>
+<tr><td>Thứ 6</td><td>Bún tôm</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2257</td><td>20.1%</td><td>27.6%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo khoái</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2300</td><td>23.0%</td><td>29.8%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2273</td><td>21.8%</td><td>29.1%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="SK">
+  <h2>SK — Sản khoa</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2100–2500 kcal, &nbsp;
+     P=14–22% &nbsp;
+     L=18–32% &nbsp;
+     G=45–62%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2269 kcal</td></tr>
+<tr><td>Protein</td><td>116 g</td></tr>
+<tr><td>Lipid</td><td>74 g</td></tr>
+<tr><td>Glucid</td><td>283 g</td></tr>
+<tr><td>Chất xơ</td><td>12 g</td></tr>
+<tr><td>Natri</td><td>3328 mg</td></tr>
+<tr><td>Kali</td><td>2666 mg</td></tr>
+<tr><td>Cholesterol</td><td>404 mg</td></tr>
+
+    <tr><td>P%</td><td>20.5%</td></tr>
+    <tr><td>L%</td><td>29.4%</td></tr>
+    <tr><td>G%</td><td>50.1%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2296</td><td>20.1%</td><td>28.5%</td></tr>
+<tr><td>Thứ 3</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2299</td><td>19.0%</td><td>32.2%</td></tr>
+<tr><td>Thứ 4</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2301</td><td>21.7%</td><td>29.2%</td></tr>
+<tr><td>Thứ 5</td><td>Bún tôm</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2200</td><td>20.6%</td><td>26.7%</td></tr>
+<tr><td>Thứ 6</td><td>Hủ tiếu nước</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2222</td><td>22.9%</td><td>27.4%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo thịt</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2302</td><td>20.1%</td><td>30.2%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo yến mạch</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2264</td><td>19.3%</td><td>31.7%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="TN">
+  <h2>TN — Bệnh thận</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> TN08-X</p>
+  <p><strong>Ngưỡng:</strong> 2000–2500 kcal, &nbsp;
+     P=14–20% &nbsp;
+     L=18–30% &nbsp;
+     G=48–62%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2025 kcal</td></tr>
+<tr><td>Protein</td><td>89 g</td></tr>
+<tr><td>Lipid</td><td>46 g</td></tr>
+<tr><td>Glucid</td><td>307 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>1792 mg</td></tr>
+<tr><td>Kali</td><td>2179 mg</td></tr>
+<tr><td>Cholesterol</td><td>157 mg</td></tr>
+
+    <tr><td>P%</td><td>17.8%</td></tr>
+    <tr><td>L%</td><td>20.8%</td></tr>
+    <tr><td>G%</td><td>61.4%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1971</td><td>14.8%</td><td>20.7%</td></tr>
+<tr><td>Thứ 3</td><td>Phở cuốn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1989</td><td>17.7%</td><td>21.7%</td></tr>
+<tr><td>Thứ 4</td><td>Cháo trắng</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1970</td><td>16.0%</td><td>18.6%</td></tr>
+<tr><td>Thứ 5</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2019</td><td>17.8%</td><td>19.4%</td></tr>
+<tr><td>Thứ 6</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2101</td><td>19.5%</td><td>24.4%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo yến mạch</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2032</td><td>20.4%</td><td>20.0%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2091</td><td>18.6%</td><td>20.4%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="TM">
+  <h2>TM — Tim mạch / Tăng huyết áp</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> TM01-X</p>
+  <p><strong>Ngưỡng:</strong> 1650–2000 kcal, &nbsp;
+     P=15–22% &nbsp;
+     L=18–30% &nbsp;
+     G=46–60%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>1717 kcal</td></tr>
+<tr><td>Protein</td><td>89 g</td></tr>
+<tr><td>Lipid</td><td>46 g</td></tr>
+<tr><td>Glucid</td><td>231 g</td></tr>
+<tr><td>Chất xơ</td><td>12 g</td></tr>
+<tr><td>Natri</td><td>1858 mg</td></tr>
+<tr><td>Kali</td><td>2266 mg</td></tr>
+<tr><td>Cholesterol</td><td>197 mg</td></tr>
+
+    <tr><td>P%</td><td>21.0%</td></tr>
+    <tr><td>L%</td><td>24.6%</td></tr>
+    <tr><td>G%</td><td>54.4%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1758</td><td>23.4%</td><td>25.1%</td></tr>
+<tr><td>Thứ 3</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1703</td><td>19.8%</td><td>22.4%</td></tr>
+<tr><td>Thứ 4</td><td>Phở cuốn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1688</td><td>21.3%</td><td>26.7%</td></tr>
+<tr><td>Thứ 5</td><td>Cháo đỗ đen</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1696</td><td>17.6%</td><td>25.5%</td></tr>
+<tr><td>Thứ 6</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1704</td><td>20.8%</td><td>23.8%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo yến mạch</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1794</td><td>22.7%</td><td>25.4%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1673</td><td>21.1%</td><td>23.1%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="DD">
+  <h2>DD — Đái tháo đường</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> DD01-X</p>
+  <p><strong>Ngưỡng:</strong> 1600–2400 kcal, &nbsp;
+     P=17–25% &nbsp;
+     L=18–32% &nbsp;
+     G=44–58%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>1714 kcal</td></tr>
+<tr><td>Protein</td><td>90 g</td></tr>
+<tr><td>Lipid</td><td>49 g</td></tr>
+<tr><td>Glucid</td><td>226 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>2858 mg</td></tr>
+<tr><td>Kali</td><td>2488 mg</td></tr>
+<tr><td>Cholesterol</td><td>276 mg</td></tr>
+
+    <tr><td>P%</td><td>21.1%</td></tr>
+    <tr><td>L%</td><td>25.8%</td></tr>
+    <tr><td>G%</td><td>53.1%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1732</td><td>24.1%</td><td>25.5%</td></tr>
+<tr><td>Thứ 3</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1714</td><td>21.2%</td><td>26.3%</td></tr>
+<tr><td>Thứ 4</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1701</td><td>20.4%</td><td>20.1%</td></tr>
+<tr><td>Thứ 5</td><td>Phở Bê</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1749</td><td>22.7%</td><td>25.4%</td></tr>
+<tr><td>Thứ 6</td><td>Miến gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1701</td><td>17.3%</td><td>25.0%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1710</td><td>19.3%</td><td>32.1%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo cá</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1694</td><td>22.7%</td><td>26.4%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="GM">
+  <h2>GM — Gan mật</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> TN08-X</p>
+  <p><strong>Ngưỡng:</strong> 1950–2500 kcal, &nbsp;
+     P=14–20% &nbsp;
+     L=10–22% &nbsp;
+     G=52–70%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2006 kcal</td></tr>
+<tr><td>Protein</td><td>86 g</td></tr>
+<tr><td>Lipid</td><td>44 g</td></tr>
+<tr><td>Glucid</td><td>311 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>1898 mg</td></tr>
+<tr><td>Kali</td><td>2165 mg</td></tr>
+<tr><td>Cholesterol</td><td>159 mg</td></tr>
+
+    <tr><td>P%</td><td>17.4%</td></tr>
+    <tr><td>L%</td><td>19.9%</td></tr>
+    <tr><td>G%</td><td>62.7%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1973</td><td>15.3%</td><td>19.6%</td></tr>
+<tr><td>Thứ 3</td><td>Phở cuốn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1989</td><td>13.9%</td><td>20.0%</td></tr>
+<tr><td>Thứ 4</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2062</td><td>21.2%</td><td>20.6%</td></tr>
+<tr><td>Thứ 5</td><td>Cháo yến mạch</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1952</td><td>18.6%</td><td>16.1%</td></tr>
+<tr><td>Thứ 6</td><td>Cháo trắng</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2015</td><td>16.9%</td><td>22.9%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2076</td><td>19.7%</td><td>21.8%</td></tr>
+<tr><td>Chủ nhật</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1973</td><td>15.7%</td><td>18.1%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="UT">
+  <h2>UT — Ung thư</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2000–2550 kcal, &nbsp;
+     P=17–24% &nbsp;
+     L=18–30% &nbsp;
+     G=46–60%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2279 kcal</td></tr>
+<tr><td>Protein</td><td>118 g</td></tr>
+<tr><td>Lipid</td><td>75 g</td></tr>
+<tr><td>Glucid</td><td>280 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>3379 mg</td></tr>
+<tr><td>Kali</td><td>2900 mg</td></tr>
+<tr><td>Cholesterol</td><td>423 mg</td></tr>
+
+    <tr><td>P%</td><td>20.8%</td></tr>
+    <tr><td>L%</td><td>29.8%</td></tr>
+    <tr><td>G%</td><td>49.4%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2275</td><td>23.9%</td><td>28.7%</td></tr>
+<tr><td>Thứ 3</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2293</td><td>20.4%</td><td>31.0%</td></tr>
+<tr><td>Thứ 4</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2301</td><td>20.3%</td><td>27.6%</td></tr>
+<tr><td>Thứ 5</td><td>Phở Bê</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2299</td><td>21.7%</td><td>28.7%</td></tr>
+<tr><td>Thứ 6</td><td>Miến gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2299</td><td>17.4%</td><td>31.8%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo dinh dưỡng tôm</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2231</td><td>18.9%</td><td>30.7%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo thịt</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2256</td><td>22.9%</td><td>30.2%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="GU">
+  <h2>GU — Gút</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> TN08-X</p>
+  <p><strong>Ngưỡng:</strong> 1650–2000 kcal, &nbsp;
+     P=14–20% &nbsp;
+     L=10–22% &nbsp;
+     G=52–68%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>1984 kcal</td></tr>
+<tr><td>Protein</td><td>82 g</td></tr>
+<tr><td>Lipid</td><td>44 g</td></tr>
+<tr><td>Glucid</td><td>309 g</td></tr>
+<tr><td>Chất xơ</td><td>10 g</td></tr>
+<tr><td>Natri</td><td>2018 mg</td></tr>
+<tr><td>Kali</td><td>1995 mg</td></tr>
+<tr><td>Cholesterol</td><td>148 mg</td></tr>
+
+    <tr><td>P%</td><td>16.7%</td></tr>
+    <tr><td>L%</td><td>20.2%</td></tr>
+    <tr><td>G%</td><td>63.2%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1970</td><td>14.9%</td><td>20.0%</td></tr>
+<tr><td>Thứ 3</td><td>Phở cuốn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1972</td><td>15.6%</td><td>20.3%</td></tr>
+<tr><td>Thứ 4</td><td>Cháo đỗ đen</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1973</td><td>15.0%</td><td>20.7%</td></tr>
+<tr><td>Thứ 5</td><td>Cháo đậu đen đường</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1991</td><td>19.4%</td><td>18.7%</td></tr>
+<tr><td>Thứ 6</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1986</td><td>18.6%</td><td>21.1%</td></tr>
+<tr><td>Thứ 7</td><td>Phở cuốn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1972</td><td>13.8%</td><td>18.4%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo đậu xanh</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2021</td><td>19.2%</td><td>22.0%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="IOD">
+  <h2>IOD — Kiêng i-ốt (tuyến giáp)</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2000–2550 kcal, &nbsp;
+     P=15–22% &nbsp;
+     L=18–30% &nbsp;
+     G=46–62%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2270 kcal</td></tr>
+<tr><td>Protein</td><td>119 g</td></tr>
+<tr><td>Lipid</td><td>73 g</td></tr>
+<tr><td>Glucid</td><td>281 g</td></tr>
+<tr><td>Chất xơ</td><td>12 g</td></tr>
+<tr><td>Natri</td><td>3166 mg</td></tr>
+<tr><td>Kali</td><td>2934 mg</td></tr>
+<tr><td>Cholesterol</td><td>383 mg</td></tr>
+
+    <tr><td>P%</td><td>21.1%</td></tr>
+    <tr><td>L%</td><td>29.1%</td></tr>
+    <tr><td>G%</td><td>49.8%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2290</td><td>21.3%</td><td>29.2%</td></tr>
+<tr><td>Thứ 3</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2266</td><td>23.9%</td><td>28.2%</td></tr>
+<tr><td>Thứ 4</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2292</td><td>19.7%</td><td>28.1%</td></tr>
+<tr><td>Thứ 5</td><td>Bún cá</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2299</td><td>18.7%</td><td>30.7%</td></tr>
+<tr><td>Thứ 6</td><td>Bánh canh cá rô</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2255</td><td>21.3%</td><td>27.1%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo sườn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2277</td><td>21.7%</td><td>30.6%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo cá</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2213</td><td>21.2%</td><td>29.8%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+<div class="group" id="FAM">
+  <h2>FAM — Người nhà người bệnh</h2>
+  <span class="badge ok">OK</span>
+  <p><strong>Mã BV:</strong> BT01-X</p>
+  <p><strong>Ngưỡng:</strong> 2100–2550 kcal, &nbsp;
+     P=17–24% &nbsp;
+     L=20–32% &nbsp;
+     G=46–58%</p>
+
+  <h3>Tổng hợp</h3>
+  <table class="summary-table">
+    <tr><th>Chỉ tiêu</th><th>Giá trị</th></tr>
+    <tr><td>Năng lượng</td><td>2266 kcal</td></tr>
+<tr><td>Protein</td><td>118 g</td></tr>
+<tr><td>Lipid</td><td>74 g</td></tr>
+<tr><td>Glucid</td><td>278 g</td></tr>
+<tr><td>Chất xơ</td><td>11 g</td></tr>
+<tr><td>Natri</td><td>3318 mg</td></tr>
+<tr><td>Kali</td><td>2873 mg</td></tr>
+<tr><td>Cholesterol</td><td>362 mg</td></tr>
+
+    <tr><td>P%</td><td>21.0%</td></tr>
+    <tr><td>L%</td><td>29.7%</td></tr>
+    <tr><td>G%</td><td>49.3%</td></tr>
+  </table>
+  
+
+  <h3>Thực đơn 7 ngày</h3>
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Ngày</th><th>Bữa sáng</th>
+        <th>Cơm (T)</th><th>Protein (T)</th><th>Rau (T)</th>
+        <th>Cơm (C)</th><th>Protein (C)</th><th>Rau (C)</th>
+        <th>kcal</th><th>P%</th><th>L%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Thứ 2</td><td>Phở gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2301</td><td>19.4%</td><td>30.8%</td></tr>
+<tr><td>Thứ 3</td><td>Phở bò chín</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2290</td><td>21.0%</td><td>27.8%</td></tr>
+<tr><td>Thứ 4</td><td>Phở sốt vang</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2246</td><td>21.6%</td><td>28.9%</td></tr>
+<tr><td>Thứ 5</td><td>Phở Bê</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2330</td><td>21.0%</td><td>31.6%</td></tr>
+<tr><td>Thứ 6</td><td>Bún gà</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2201</td><td>24.2%</td><td>27.3%</td></tr>
+<tr><td>Thứ 7</td><td>Cháo thịt</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2291</td><td>20.1%</td><td>31.8%</td></tr>
+<tr><td>Chủ nhật</td><td>Cháo dinh dưỡng tôm</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2205</td><td>19.7%</td><td>29.4%</td></tr>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+</div>
+<footer>
+  Được tạo tự động bởi model_generation/report.py &mdash;
+  Nguồn: hospital-meal-planner &amp; urop-research-guide
+</footer>
+</body>
+</html>

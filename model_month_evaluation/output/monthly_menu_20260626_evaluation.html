@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đánh giá thực đơn tháng</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f9; color: #222; line-height: 1.6; }
+  header { background: #1a3c6e; color: #fff; padding: 20px 32px; }
+  header h1 { font-size: 1.5rem; }
+  nav { background: #e8f0f8; padding: 8px 32px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  nav span { color:#666; font-size:0.85rem; }
+  nav a { color:#1a3c6e; text-decoration:none; padding:3px 10px; border-radius:4px; font-size:0.85rem; }
+  nav a:hover { background:#1a3c6e; color:#fff; }
+  .container { max-width:1100px; margin:0 auto; padding:16px; }
+  h1,h2,h3 { color:#1a3c6e; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:12px; font-size:0.8rem; font-weight:600; margin-left:8px; }
+  .badge.ok { background:#d4edda; color:#155724; }
+  .badge.warn { background:#fff3cd; color:#856404; }
+  .group-card { background:#fff; border-radius:10px; padding:16px 20px; margin-bottom:20px;
+                 box-shadow:0 2px 8px rgba(0,0,0,.08); }
+  .mini-table { width:auto; border-collapse:collapse; margin:8px 0 14px; font-size:0.88rem; }
+  .mini-table td { padding:4px 14px 4px 0; border-bottom:1px solid #eee; }
+  .mini-table td:first-child { color:#555; }
+  table { width:100%; border-collapse:collapse; margin:8px 0; font-size:0.85rem; }
+  th { background:#e8f0f8; padding:8px 10px; text-align:left; border:1px solid #c8d8e8; }
+  td { padding:6px 10px; border:1px solid #e0e8f0; }
+  tr:nth-child(even) td { background:#f9fbfe; }
+  .violations-table td { vertical-align:top; }
+  .hard-row td { background:#ffeaea; }
+  .soft-row td { background:#fffbea; }
+  .ok-row td { background:#eafaf1; color:#155724; }
+  .heatmap td { text-align:center; padding:6px; }
+  .heatmap .high { background:#d4edda; color:#155724; font-weight:600; }
+  .heatmap .mid  { background:#fff3cd; color:#856404; }
+  .heatmap .low  { background:#ffeaea; color:#9c2d2d; }
+  footer { text-align:center; padding:20px; color:#888; font-size:0.8rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Đánh giá thực đơn tháng — model_month_evaluation</h1>
+</header>
+<nav>
+  <span>Chuyển đến:</span>
+  <a href="#BT01">BT01</a><a href="#PT">PT</a><a href="#SK">SK</a><a href="#TN">TN</a><a href="#TM">TM</a><a href="#DD">DD</a><a href="#GM">GM</a><a href="#UT">UT</a><a href="#GU">GU</a><a href="#IOD">IOD</a><a href="#FAM">FAM</a>
+  <a href="#heatmap">Heatmap</a>
+</nav>
+<div class="container">
+  <h2>📐 Heatmap tuân thủ ngưỡng</h2>
+  
+<table class="heatmap">
+  <thead>
+    <tr><th>Nhóm</th>
+      <th>Tổng</th><th>Kcal</th><th>P%</th><th>L%</th><th>G%</th><th>Natri</th><th>Kali</th><th>Cholesterol</th>
+      <th>Tuân thủ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>BT01</strong><br><small>Cơm thông thường (chuẩn)</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='low'>43%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>PT</strong><br><small>Phẫu thuật / bệnh lý chung</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>71%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>SK</strong><br><small>Sản khoa</small></td><td class='mid'>86%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='low'>57%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>⚠️</strong><br><small>86%</small></td></tr>
+<tr><td><strong>TN</strong><br><small>Bệnh thận</small></td><td class='mid'>86%</td><td class='low'>57%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='low'>57%</td><td class='high'>100%</td><td class='mid'>71%</td><td class='high'>100%</td><td><strong>⚠️</strong><br><small>86%</small></td></tr>
+<tr><td><strong>TM</strong><br><small>Tim mạch / Tăng huyết áp</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>71%</td><td class='high'>100%</td><td class='high'>100%</td><td class='high'>100%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>DD</strong><br><small>Đái tháo đường</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>GM</strong><br><small>Gan mật</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>71%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='high'>100%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>UT</strong><br><small>Ung thư</small></td><td class='mid'>71%</td><td class='high'>100%</td><td class='high'>100%</td><td class='low'>43%</td><td class='high'>100%</td><td class='low'>57%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>⚠️</strong><br><small>71%</small></td></tr>
+<tr><td><strong>GU</strong><br><small>Gút</small></td><td class='high'>100%</td><td class='mid'>86%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='high'>100%</td><td class='high'>100%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+<tr><td><strong>IOD</strong><br><small>Kiêng i-ốt (tuyến giáp)</small></td><td class='mid'>86%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='mid'>71%</td><td class='high'>100%</td><td class='mid'>71%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>⚠️</strong><br><small>86%</small></td></tr>
+<tr><td><strong>FAM</strong><br><small>Người nhà người bệnh</small></td><td class='high'>100%</td><td class='high'>100%</td><td class='mid'>86%</td><td class='high'>100%</td><td class='high'>100%</td><td class='low'>57%</td><td class='low'>0%</td><td class='high'>100%</td><td><strong>✅</strong><br><small>100%</small></td></tr>
+
+  </tbody>
+</table>
+
+
+  <h2 id="heatmap">Kết quả chi tiết theo nhóm</h2>
+  
+<div class="group-card" id="BT01">
+  <h2>BT01 — Cơm thông thường (chuẩn) <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2279 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>119 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>74 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>281 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3272 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2986 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.0%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2986.4</td><td>0 mg</td><td>Kali = 2986.4mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.1</td><td>14 g</td><td>Chất xơ = 11.1g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="PT">
+  <h2>PT — Phẫu thuật / bệnh lý chung <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2287 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>120 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>74 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>282 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3261 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2922 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.2%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2921.9</td><td>0 mg</td><td>Kali = 2921.9mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>12.5</td><td>14 g</td><td>Chất xơ = 12.5g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="SK">
+  <h2>SK — Sản khoa <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2269 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>116 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>74 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>283 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3328 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2666 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>20.5%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2665.6</td><td>0 mg</td><td>Kali = 2665.6mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>12.0</td><td>16 g</td><td>Chất xơ = 12.0g (tối thiểu: 16g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="TN">
+  <h2>TN — Bệnh thận <span class='badge warn'>⚠️ 1</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2025 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>89 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>46 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>307 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>1792 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2179 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>17.8%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.2</td><td>14 g</td><td>Chất xơ = 11.2g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="TM">
+  <h2>TM — Tim mạch / Tăng huyết áp <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>1717 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>89 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>46 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>231 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>1858 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2266 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.0%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2266.2</td><td>3000–5500 mg</td><td>Kali = 2266.2mg (ngưỡng: 3000–5500mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>12.0</td><td>18 g</td><td>Chất xơ = 12.0g (tối thiểu: 18g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="DD">
+  <h2>DD — Đái tháo đường <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>1714 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>90 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>49 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>226 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>2858 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2488 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.1%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2487.9</td><td>0 mg</td><td>Kali = 2487.9mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.0</td><td>18 g</td><td>Chất xơ = 11.0g (tối thiểu: 18g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="GM">
+  <h2>GM — Gan mật <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2006 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>86 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>44 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>311 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>1898 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2165 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>17.4%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2165.1</td><td>0 mg</td><td>Kali = 2165.1mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.1</td><td>14 g</td><td>Chất xơ = 11.1g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="UT">
+  <h2>UT — Ung thư <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2279 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>118 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>75 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>280 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3379 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2900 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>20.8%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2899.8</td><td>0 mg</td><td>Kali = 2899.8mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.1</td><td>16 g</td><td>Chất xơ = 11.1g (tối thiểu: 16g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="GU">
+  <h2>GU — Gút <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>1984 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>82 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>44 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>309 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>2018 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>1995 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>16.7%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>1994.8</td><td>0 mg</td><td>Kali = 1994.8mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>10.5</td><td>14 g</td><td>Chất xơ = 10.5g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="IOD">
+  <h2>IOD — Kiêng i-ốt (tuyến giáp) <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2270 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>119 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>73 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>281 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3166 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2934 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.1%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2934.2</td><td>0 mg</td><td>Kali = 2934.2mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>12.0</td><td>14 g</td><td>Chất xơ = 12.0g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+<div class="group-card" id="FAM">
+  <h2>FAM — Người nhà người bệnh <span class='badge warn'>⚠️ 2</span></h2>
+  <table class="mini-table">
+    <tr><td><strong>Năng lượng TB</strong></td><td>2266 kcal</td></tr>
+    <tr><td><strong>Protein TB</strong></td><td>118 g</td></tr>
+    <tr><td><strong>Lipid TB</strong></td><td>74 g</td></tr>
+    <tr><td><strong>Glucid TB</strong></td><td>278 g</td></tr>
+    <tr><td><strong>Natri TB</strong></td><td>3318 mg</td></tr>
+    <tr><td><strong>Kali TB</strong></td><td>2873 mg</td></tr>
+    <tr><td><strong>P%</strong></td><td>21.0%</td></tr>
+  </table>
+  <h3>Vi phạm ngưỡng</h3>
+  <table class="violations-table">
+    <thead><tr><th>Severity</th><th>Chỉ tiêu</th><th>Thực tế</th><th>Ngưỡng</th><th>Mô tả</th></tr></thead>
+    <tbody><tr class='soft-row'><td>[INFO]</td><td>Kali</td><td>2872.9</td><td>0 mg</td><td>Kali = 2872.9mg (ngưỡng: 0–0mg)</td></tr>
+<tr class='soft-row'><td>[INFO]</td><td>Chất xơ</td><td>11.1</td><td>14 g</td><td>Chất xơ = 11.1g (tối thiểu: 14g)</td></tr>
+</tbody>
+  </table>
+</div>
+
+</div>
+<footer>model_month_evaluation — tự động tạo bởi urop-research-guide</footer>
+</body>
+</html>
