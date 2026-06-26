@@ -1,0 +1,2 @@
+# model_generation requirements
+pydantic>=2.0.0

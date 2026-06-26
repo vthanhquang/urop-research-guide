@@ -1,0 +1,3338 @@
+{
+  "generated_date": "2026-06-26",
+  "source": "hospital-meal-planner generator + model_generation",
+  "n_weeks": 1,
+  "groups": [
+    {
+      "group_id": "BT01",
+      "label": "Cơm thông thường (chuẩn)",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2100,
+        "kcal_max": 2550,
+        "p_pct_range": [
+          17,
+          24
+        ],
+        "l_pct_range": [
+          20,
+          32
+        ],
+        "g_pct_range": [
+          46,
+          58
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2279.1,
+        "protein": 118.8,
+        "fat": 74.0,
+        "carb": 281.3,
+        "fiber": 11.1,
+        "sodium": 3272.4,
+        "potassium": 2986.4,
+        "cholesterol": 377.2,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.0,
+      "monthly_l_pct": 29.4,
+      "monthly_g_pct": 49.6,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.1974,
+          "daily_totals": [
+            {
+              "kcal": 2292.58,
+              "protein": 113.56,
+              "fat": 69.17,
+              "carb": 298.92,
+              "fiber": 11.04,
+              "sodium": 3629.35,
+              "potassium": 3060.17,
+              "cholesterol": 308.47,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2283.69,
+              "protein": 112.65,
+              "fat": 73.99,
+              "carb": 290.45,
+              "fiber": 10.1,
+              "sodium": 3027.4,
+              "potassium": 2679.0,
+              "cholesterol": 540.2,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2248.43,
+              "protein": 135.7,
+              "fat": 70.1,
+              "carb": 273.44,
+              "fiber": 13.46,
+              "sodium": 3796.39,
+              "potassium": 3272.27,
+              "cholesterol": 476.41,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2270.6,
+              "protein": 126.91,
+              "fat": 68.41,
+              "carb": 282.98,
+              "fiber": 13.93,
+              "sodium": 3547.72,
+              "potassium": 3470.16,
+              "cholesterol": 341.49,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2281.05,
+              "protein": 102.35,
+              "fat": 81.2,
+              "carb": 278.23,
+              "fiber": 8.66,
+              "sodium": 3135.52,
+              "potassium": 2727.03,
+              "cholesterol": 348.94,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2279.67,
+              "protein": 117.45,
+              "fat": 76.39,
+              "carb": 276.28,
+              "fiber": 12.68,
+              "sodium": 3649.34,
+              "potassium": 2850.74,
+              "cholesterol": 372.56,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2297.95,
+              "protein": 122.65,
+              "fat": 78.69,
+              "carb": 268.75,
+              "fiber": 7.7,
+              "sodium": 2120.74,
+              "potassium": 2845.2,
+              "cholesterol": 252.04,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2279.1,
+            "protein_avg": 118.8,
+            "fat_avg": 74.0,
+            "carb_avg": 281.3,
+            "sodium_avg": 3272.4,
+            "potassium_avg": 2986.4,
+            "fiber_avg": 11.1,
+            "cholesterol_avg": 377.2
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2292.58,
+                "protein": 113.56,
+                "fat": 69.17,
+                "carb": 298.92,
+                "fiber": 11.04,
+                "sodium": 3629.35,
+                "potassium": 3060.17,
+                "cholesterol": 308.47,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà hấp gừng",
+              "lunch_veg": "Ngọn su su luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Su hào, cà rốt luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2283.69,
+                "protein": 112.65,
+                "fat": 73.99,
+                "carb": 290.45,
+                "fiber": 10.1,
+                "sodium": 3027.4,
+                "potassium": 2679.0,
+                "cholesterol": 540.2,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Bí ngòi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Trứng hấp thịt băm",
+              "dinner_veg": "Giá đỗ luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2248.43,
+                "protein": 135.7,
+                "fat": 70.1,
+                "carb": 273.44,
+                "fiber": 13.46,
+                "sodium": 3796.39,
+                "potassium": 3272.27,
+                "cholesterol": 476.41,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Rau cần luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà xé phay",
+              "dinner_veg": "Rau ngót luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2270.6,
+                "protein": 126.91,
+                "fat": 68.41,
+                "carb": 282.98,
+                "fiber": 13.93,
+                "sodium": 3547.72,
+                "potassium": 3470.16,
+                "cholesterol": 341.49,
+                "trans": 0.0
+              },
+              "breakfast": "Phở Bê",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Cải bó xôi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Bò cuốn lá cải",
+              "dinner_veg": "Rau giền luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2281.05,
+                "protein": 102.35,
+                "fat": 81.2,
+                "carb": 278.23,
+                "fiber": 8.66,
+                "sodium": 3135.52,
+                "potassium": 2727.03,
+                "cholesterol": 348.94,
+                "trans": 0.0
+              },
+              "breakfast": "Bún gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "lunch_veg": "Rau mùng tơi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá hồi hấp",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2279.67,
+                "protein": 117.45,
+                "fat": 76.39,
+                "carb": 276.28,
+                "fiber": 12.68,
+                "sodium": 3649.34,
+                "potassium": 2850.74,
+                "cholesterol": 372.56,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau bắp cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt heo nạc băm hấp",
+              "dinner_veg": "Rau lang luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2297.95,
+                "protein": 122.65,
+                "fat": 78.69,
+                "carb": 268.75,
+                "fiber": 7.7,
+                "sodium": 2120.74,
+                "potassium": 2845.2,
+                "cholesterol": 252.04,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Bí xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Bí đỏ luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    },
+    {
+      "group_id": "PT",
+      "label": "Phẫu thuật / bệnh lý chung",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2100,
+        "kcal_max": 2550,
+        "p_pct_range": [
+          18,
+          25
+        ],
+        "l_pct_range": [
+          20,
+          32
+        ],
+        "g_pct_range": [
+          44,
+          58
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2286.9,
+        "protein": 120.4,
+        "fat": 73.7,
+        "carb": 282.4,
+        "fiber": 12.5,
+        "sodium": 3261.3,
+        "potassium": 2921.9,
+        "cholesterol": 380.9,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.2,
+      "monthly_l_pct": 29.2,
+      "monthly_g_pct": 49.7,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.1639,
+          "daily_totals": [
+            {
+              "kcal": 2284.52,
+              "protein": 130.6,
+              "fat": 73.08,
+              "carb": 282.67,
+              "fiber": 11.05,
+              "sodium": 3477.52,
+              "potassium": 3399.23,
+              "cholesterol": 423.08,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2268.7,
+              "protein": 125.83,
+              "fat": 69.64,
+              "carb": 278.77,
+              "fiber": 14.04,
+              "sodium": 3964.23,
+              "potassium": 3320.45,
+              "cholesterol": 300.75,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2326.22,
+              "protein": 120.57,
+              "fat": 75.39,
+              "carb": 286.72,
+              "fiber": 10.23,
+              "sodium": 3711.1,
+              "potassium": 3064.25,
+              "cholesterol": 338.65,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2298.05,
+              "protein": 99.36,
+              "fat": 80.64,
+              "carb": 288.63,
+              "fiber": 12.08,
+              "sodium": 3316.55,
+              "potassium": 2734.0,
+              "cholesterol": 285.85,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2257.41,
+              "protein": 112.88,
+              "fat": 68.93,
+              "carb": 294.64,
+              "fiber": 13.14,
+              "sodium": 3473.25,
+              "potassium": 2707.65,
+              "cholesterol": 349.7,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2299.9,
+              "protein": 130.44,
+              "fat": 75.22,
+              "carb": 267.68,
+              "fiber": 12.43,
+              "sodium": 2762.02,
+              "potassium": 1935.99,
+              "cholesterol": 603.05,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2273.17,
+              "protein": 123.3,
+              "fat": 73.19,
+              "carb": 277.85,
+              "fiber": 14.54,
+              "sodium": 2124.62,
+              "potassium": 3291.4,
+              "cholesterol": 365.05,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2286.9,
+            "protein_avg": 120.4,
+            "fat_avg": 73.7,
+            "carb_avg": 282.4,
+            "sodium_avg": 3261.3,
+            "potassium_avg": 2921.9,
+            "fiber_avg": 12.5,
+            "cholesterol_avg": 380.9
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2284.52,
+                "protein": 130.6,
+                "fat": 73.08,
+                "carb": 282.67,
+                "fiber": 11.05,
+                "sodium": 3477.52,
+                "potassium": 3399.23,
+                "cholesterol": 423.08,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Bí ngòi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Rau muống luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2268.7,
+                "protein": 125.83,
+                "fat": 69.64,
+                "carb": 278.77,
+                "fiber": 14.04,
+                "sodium": 3964.23,
+                "potassium": 3320.45,
+                "cholesterol": 300.75,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn thăn luộc",
+              "lunch_veg": "Ngọn su su luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Bông cải xanh luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2326.22,
+                "protein": 120.57,
+                "fat": 75.39,
+                "carb": 286.72,
+                "fiber": 10.23,
+                "sodium": 3711.1,
+                "potassium": 3064.25,
+                "cholesterol": 338.65,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Bò cuốn lá cải",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá hồi hấp",
+              "dinner_veg": "Rau lang luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2298.05,
+                "protein": 99.36,
+                "fat": 80.64,
+                "carb": 288.63,
+                "fiber": 12.08,
+                "sodium": 3316.55,
+                "potassium": 2734.0,
+                "cholesterol": 285.85,
+                "trans": 0.0
+              },
+              "breakfast": "Bún cá",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Rau bắp cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2257.41,
+                "protein": 112.88,
+                "fat": 68.93,
+                "carb": 294.64,
+                "fiber": 13.14,
+                "sodium": 3473.25,
+                "potassium": 2707.65,
+                "cholesterol": 349.7,
+                "trans": 0.0
+              },
+              "breakfast": "Bún tôm",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà xé phay",
+              "lunch_veg": "Su hào, cà rốt luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Cải bó xôi luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2299.9,
+                "protein": 130.44,
+                "fat": 75.22,
+                "carb": 267.68,
+                "fiber": 12.43,
+                "sodium": 2762.02,
+                "potassium": 1935.99,
+                "cholesterol": 603.05,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo khoái",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Bò cuốn lá cải",
+              "lunch_veg": "Giá đỗ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Trứng hấp thịt băm",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2273.17,
+                "protein": 123.3,
+                "fat": 73.19,
+                "carb": 277.85,
+                "fiber": 14.54,
+                "sodium": 2124.62,
+                "potassium": 3291.4,
+                "cholesterol": 365.05,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn thăn luộc",
+              "lunch_veg": "Rau dền đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm sốt cà chua",
+              "dinner_veg": "Rau ngót luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    },
+    {
+      "group_id": "SK",
+      "label": "Sản khoa",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2100,
+        "kcal_max": 2500,
+        "p_pct_range": [
+          14,
+          22
+        ],
+        "l_pct_range": [
+          18,
+          32
+        ],
+        "g_pct_range": [
+          45,
+          62
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2269.1,
+        "protein": 115.8,
+        "fat": 73.8,
+        "carb": 282.7,
+        "fiber": 12.0,
+        "sodium": 3327.6,
+        "potassium": 2665.6,
+        "cholesterol": 404.5,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 20.5,
+      "monthly_l_pct": 29.4,
+      "monthly_g_pct": 50.1,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.1343,
+          "daily_totals": [
+            {
+              "kcal": 2295.83,
+              "protein": 114.16,
+              "fat": 72.01,
+              "carb": 292.78,
+              "fiber": 11.85,
+              "sodium": 3017.55,
+              "potassium": 3065.0,
+              "cholesterol": 300.25,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2298.55,
+              "protein": 108.67,
+              "fat": 81.83,
+              "carb": 279.8,
+              "fiber": 8.69,
+              "sodium": 3835.5,
+              "potassium": 2732.0,
+              "cholesterol": 537.9,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2301.09,
+              "protein": 125.2,
+              "fat": 75.03,
+              "carb": 284.0,
+              "fiber": 8.45,
+              "sodium": 3835.55,
+              "potassium": 2901.95,
+              "cholesterol": 360.4,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2200.3,
+              "protein": 112.85,
+              "fat": 64.81,
+              "carb": 288.3,
+              "fiber": 11.93,
+              "sodium": 3121.75,
+              "potassium": 2500.32,
+              "cholesterol": 298.57,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2222.25,
+              "protein": 126.17,
+              "fat": 67.1,
+              "carb": 273.5,
+              "fiber": 14.22,
+              "sodium": 3346.2,
+              "potassium": 2412.95,
+              "cholesterol": 552.88,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2301.54,
+              "protein": 115.65,
+              "fat": 77.08,
+              "carb": 285.22,
+              "fiber": 13.58,
+              "sodium": 3766.15,
+              "potassium": 2665.0,
+              "cholesterol": 368.05,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2264.34,
+              "protein": 107.99,
+              "fat": 79.04,
+              "carb": 275.13,
+              "fiber": 15.03,
+              "sodium": 2370.64,
+              "potassium": 2382.07,
+              "cholesterol": 413.61,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2269.1,
+            "protein_avg": 115.8,
+            "fat_avg": 73.8,
+            "carb_avg": 282.7,
+            "sodium_avg": 3327.6,
+            "potassium_avg": 2665.6,
+            "fiber_avg": 12.0,
+            "cholesterol_avg": 404.5
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2295.83,
+                "protein": 114.16,
+                "fat": 72.01,
+                "carb": 292.78,
+                "fiber": 11.85,
+                "sodium": 3017.55,
+                "potassium": 3065.0,
+                "cholesterol": 300.25,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Su hào, cà rốt luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2298.55,
+                "protein": 108.67,
+                "fat": 81.83,
+                "carb": 279.8,
+                "fiber": 8.69,
+                "sodium": 3835.5,
+                "potassium": 2732.0,
+                "cholesterol": 537.9,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Cải thìa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt heo nạc băm hấp",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2301.09,
+                "protein": 125.2,
+                "fat": 75.03,
+                "carb": 284.0,
+                "fiber": 8.45,
+                "sodium": 3835.55,
+                "potassium": 2901.95,
+                "cholesterol": 360.4,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Bí xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Củ cải luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2200.3,
+                "protein": 112.85,
+                "fat": 64.81,
+                "carb": 288.3,
+                "fiber": 11.93,
+                "sodium": 3121.75,
+                "potassium": 2500.32,
+                "cholesterol": 298.57,
+                "trans": 0.0
+              },
+              "breakfast": "Bún tôm",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà xé phay",
+              "lunch_veg": "Rau bắp cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Giá đỗ luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2222.25,
+                "protein": 126.17,
+                "fat": 67.1,
+                "carb": 273.5,
+                "fiber": 14.22,
+                "sodium": 3346.2,
+                "potassium": 2412.95,
+                "cholesterol": 552.88,
+                "trans": 0.0
+              },
+              "breakfast": "Hủ tiếu nước",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Rau muống luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2301.54,
+                "protein": 115.65,
+                "fat": 77.08,
+                "carb": 285.22,
+                "fiber": 13.58,
+                "sodium": 3766.15,
+                "potassium": 2665.0,
+                "cholesterol": 368.05,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo thịt",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Bò cuốn lá cải",
+              "lunch_veg": "Đậu cove luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2264.34,
+                "protein": 107.99,
+                "fat": 79.04,
+                "carb": 275.13,
+                "fiber": 15.03,
+                "sodium": 2370.64,
+                "potassium": 2382.07,
+                "cholesterol": 413.61,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo yến mạch",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Đậu đũa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà xé phay",
+              "dinner_veg": "Rau giền luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    },
+    {
+      "group_id": "TN",
+      "label": "Bệnh thận",
+      "hospital_code": "TN08-X",
+      "target": {
+        "kcal_min": 2000,
+        "kcal_max": 2500,
+        "p_pct_range": [
+          14,
+          20
+        ],
+        "l_pct_range": [
+          18,
+          30
+        ],
+        "g_pct_range": [
+          48,
+          62
+        ],
+        "sodium_max": 3000
+      },
+      "monthly_avg": {
+        "kcal": 2024.6,
+        "protein": 89.1,
+        "fat": 46.1,
+        "carb": 306.8,
+        "fiber": 11.2,
+        "sodium": 1791.8,
+        "potassium": 2179.0,
+        "cholesterol": 157.2,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 17.8,
+      "monthly_l_pct": 20.8,
+      "monthly_g_pct": 61.4,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 2.0018,
+          "daily_totals": [
+            {
+              "kcal": 1970.85,
+              "protein": 72.14,
+              "fat": 44.86,
+              "carb": 315.36,
+              "fiber": 10.79,
+              "sodium": 2380.55,
+              "potassium": 2014.35,
+              "cholesterol": 98.3,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1988.99,
+              "protein": 85.94,
+              "fat": 46.87,
+              "carb": 293.74,
+              "fiber": 9.36,
+              "sodium": 1749.05,
+              "potassium": 1656.99,
+              "cholesterol": 134.8,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1970.39,
+              "protein": 77.86,
+              "fat": 40.36,
+              "carb": 319.06,
+              "fiber": 7.96,
+              "sodium": 1374.6,
+              "potassium": 1512.86,
+              "cholesterol": 146.3,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2019.2,
+              "protein": 88.33,
+              "fat": 42.97,
+              "carb": 312.53,
+              "fiber": 11.49,
+              "sodium": 1538.99,
+              "potassium": 2372.58,
+              "cholesterol": 190.02,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2100.72,
+              "protein": 101.05,
+              "fat": 56.39,
+              "carb": 291.06,
+              "fiber": 11.01,
+              "sodium": 1832.24,
+              "potassium": 2525.56,
+              "cholesterol": 130.47,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2031.54,
+              "protein": 102.48,
+              "fat": 44.64,
+              "carb": 300.2,
+              "fiber": 11.63,
+              "sodium": 1661.4,
+              "potassium": 2231.28,
+              "cholesterol": 243.34,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2090.57,
+              "protein": 96.02,
+              "fat": 46.84,
+              "carb": 315.84,
+              "fiber": 16.33,
+              "sodium": 2005.93,
+              "potassium": 2939.18,
+              "cholesterol": 157.25,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2024.6,
+            "protein_avg": 89.1,
+            "fat_avg": 46.1,
+            "carb_avg": 306.8,
+            "sodium_avg": 1791.8,
+            "potassium_avg": 2179.0,
+            "fiber_avg": 11.2,
+            "cholesterol_avg": 157.2
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: TN08-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 1970.85,
+                "protein": 72.14,
+                "fat": 44.86,
+                "carb": 315.36,
+                "fiber": 10.79,
+                "sodium": 2380.55,
+                "potassium": 2014.35,
+                "cholesterol": 98.3,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ luộc",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Cải thìa luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 1988.99,
+                "protein": 85.94,
+                "fat": 46.87,
+                "carb": 293.74,
+                "fiber": 9.36,
+                "sodium": 1749.05,
+                "potassium": 1656.99,
+                "cholesterol": 134.8,
+                "trans": 0.0
+              },
+              "breakfast": "Phở cuốn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu hũ non hấp",
+              "lunch_veg": "Bí đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn sốt cà chua",
+              "dinner_veg": "Ngọn su su luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 1970.39,
+                "protein": 77.86,
+                "fat": 40.36,
+                "carb": 319.06,
+                "fiber": 7.96,
+                "sodium": 1374.6,
+                "potassium": 1512.86,
+                "cholesterol": 146.3,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo trắng",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ luộc",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu hũ non hấp",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2019.2,
+                "protein": 88.33,
+                "fat": 42.97,
+                "carb": 312.53,
+                "fiber": 11.49,
+                "sodium": 1538.99,
+                "potassium": 2372.58,
+                "cholesterol": 190.02,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau giền luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2100.72,
+                "protein": 101.05,
+                "fat": 56.39,
+                "carb": 291.06,
+                "fiber": 11.01,
+                "sodium": 1832.24,
+                "potassium": 2525.56,
+                "cholesterol": 130.47,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Rau dền đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Củ cải luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2031.54,
+                "protein": 102.48,
+                "fat": 44.64,
+                "carb": 300.2,
+                "fiber": 11.63,
+                "sodium": 1661.4,
+                "potassium": 2231.28,
+                "cholesterol": 243.34,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo yến mạch",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá lóc hấp",
+              "lunch_veg": "Rau muống luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2090.57,
+                "protein": 96.02,
+                "fat": 46.84,
+                "carb": 315.84,
+                "fiber": 16.33,
+                "sodium": 2005.93,
+                "potassium": 2939.18,
+                "cholesterol": 157.25,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Cải bó xôi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Đậu cove luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: TN08-X"
+      ]
+    },
+    {
+      "group_id": "TM",
+      "label": "Tim mạch / Tăng huyết áp",
+      "hospital_code": "TM01-X",
+      "target": {
+        "kcal_min": 1650,
+        "kcal_max": 2000,
+        "p_pct_range": [
+          15,
+          22
+        ],
+        "l_pct_range": [
+          18,
+          30
+        ],
+        "g_pct_range": [
+          46,
+          60
+        ],
+        "sodium_max": 3000
+      },
+      "monthly_avg": {
+        "kcal": 1716.6,
+        "protein": 89.2,
+        "fat": 46.4,
+        "carb": 231.3,
+        "fiber": 12.0,
+        "sodium": 1858.2,
+        "potassium": 2266.2,
+        "cholesterol": 197.1,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.0,
+      "monthly_l_pct": 24.6,
+      "monthly_g_pct": 54.4,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.594,
+          "daily_totals": [
+            {
+              "kcal": 1757.88,
+              "protein": 101.62,
+              "fat": 48.49,
+              "carb": 223.21,
+              "fiber": 17.27,
+              "sodium": 2215.6,
+              "potassium": 2347.9,
+              "cholesterol": 170.2,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1703.06,
+              "protein": 83.88,
+              "fat": 42.06,
+              "carb": 244.33,
+              "fiber": 11.44,
+              "sodium": 2383.2,
+              "potassium": 2322.3,
+              "cholesterol": 248.15,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1688.27,
+              "protein": 89.16,
+              "fat": 49.81,
+              "carb": 218.25,
+              "fiber": 11.36,
+              "sodium": 1915.6,
+              "potassium": 2232.0,
+              "cholesterol": 215.1,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1695.56,
+              "protein": 74.23,
+              "fat": 47.76,
+              "carb": 239.07,
+              "fiber": 9.03,
+              "sodium": 1723.6,
+              "potassium": 2336.55,
+              "cholesterol": 197.75,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1704.2,
+              "protein": 87.3,
+              "fat": 44.34,
+              "carb": 232.38,
+              "fiber": 10.43,
+              "sodium": 1558.45,
+              "potassium": 2271.4,
+              "cholesterol": 158.25,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1794.02,
+              "protein": 101.07,
+              "fat": 50.13,
+              "carb": 230.8,
+              "fiber": 11.55,
+              "sodium": 1843.4,
+              "potassium": 2266.75,
+              "cholesterol": 187.95,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1673.35,
+              "protein": 87.01,
+              "fat": 42.42,
+              "carb": 230.76,
+              "fiber": 13.07,
+              "sodium": 1367.8,
+              "potassium": 2086.3,
+              "cholesterol": 202.35,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 1716.6,
+            "protein_avg": 89.2,
+            "fat_avg": 46.4,
+            "carb_avg": 231.3,
+            "sodium_avg": 1858.2,
+            "potassium_avg": 2266.2,
+            "fiber_avg": 12.0,
+            "cholesterol_avg": 197.1
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: TM01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 1757.88,
+                "protein": 101.62,
+                "fat": 48.49,
+                "carb": 223.21,
+                "fiber": 17.27,
+                "sodium": 2215.6,
+                "potassium": 2347.9,
+                "cholesterol": 170.2,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà hấp gừng",
+              "lunch_veg": "Cải thìa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Bông cải xanh luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 1703.06,
+                "protein": 83.88,
+                "fat": 42.06,
+                "carb": 244.33,
+                "fiber": 11.44,
+                "sodium": 2383.2,
+                "potassium": 2322.3,
+                "cholesterol": 248.15,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá basa hấp",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt bò bắp luộc",
+              "dinner_veg": "Cải bó xôi luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 1688.27,
+                "protein": 89.16,
+                "fat": 49.81,
+                "carb": 218.25,
+                "fiber": 11.36,
+                "sodium": 1915.6,
+                "potassium": 2232.0,
+                "cholesterol": 215.1,
+                "trans": 0.0
+              },
+              "breakfast": "Phở cuốn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá lóc hấp",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt heo nạc băm hấp",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 1695.56,
+                "protein": 74.23,
+                "fat": 47.76,
+                "carb": 239.07,
+                "fiber": 9.03,
+                "sodium": 1723.6,
+                "potassium": 2336.55,
+                "cholesterol": 197.75,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đỗ đen",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Bí đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm sốt cà chua",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 1704.2,
+                "protein": 87.3,
+                "fat": 44.34,
+                "carb": 232.38,
+                "fiber": 10.43,
+                "sodium": 1558.45,
+                "potassium": 2271.4,
+                "cholesterol": 158.25,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà hấp gừng",
+              "lunch_veg": "Ngọn su su luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá basa hấp",
+              "dinner_veg": "Bí xanh luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 1794.02,
+                "protein": 101.07,
+                "fat": 50.13,
+                "carb": 230.8,
+                "fiber": 11.55,
+                "sodium": 1843.4,
+                "potassium": 2266.75,
+                "cholesterol": 187.95,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo yến mạch",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Tôm biển hấp",
+              "lunch_veg": "Su hào, cà rốt luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Đậu đũa luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 1673.35,
+                "protein": 87.01,
+                "fat": 42.42,
+                "carb": 230.76,
+                "fiber": 13.07,
+                "sodium": 1367.8,
+                "potassium": 2086.3,
+                "cholesterol": 202.35,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Giá đỗ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ luộc",
+              "dinner_veg": "Rau giền luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: TM01-X"
+      ]
+    },
+    {
+      "group_id": "DD",
+      "label": "Đái tháo đường",
+      "hospital_code": "DD01-X",
+      "target": {
+        "kcal_min": 1600,
+        "kcal_max": 2400,
+        "p_pct_range": [
+          17,
+          25
+        ],
+        "l_pct_range": [
+          18,
+          32
+        ],
+        "g_pct_range": [
+          44,
+          58
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 1714.5,
+        "protein": 90.0,
+        "fat": 48.9,
+        "carb": 226.2,
+        "fiber": 11.0,
+        "sodium": 2857.8,
+        "potassium": 2487.9,
+        "cholesterol": 276.4,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.1,
+      "monthly_l_pct": 25.8,
+      "monthly_g_pct": 53.1,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 8.4275,
+          "daily_totals": [
+            {
+              "kcal": 1732.15,
+              "protein": 102.51,
+              "fat": 48.19,
+              "carb": 213.89,
+              "fiber": 12.05,
+              "sodium": 2822.9,
+              "potassium": 2308.3,
+              "cholesterol": 234.8,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1714.42,
+              "protein": 90.8,
+              "fat": 50.08,
+              "carb": 225.4,
+              "fiber": 10.17,
+              "sodium": 3053.1,
+              "potassium": 2762.8,
+              "cholesterol": 328.3,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1701.12,
+              "protein": 86.88,
+              "fat": 38.17,
+              "carb": 253.55,
+              "fiber": 12.11,
+              "sodium": 3036.7,
+              "potassium": 2580.5,
+              "cholesterol": 276.2,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1748.92,
+              "protein": 99.57,
+              "fat": 49.5,
+              "carb": 227.58,
+              "fiber": 12.63,
+              "sodium": 3346.25,
+              "potassium": 3124.25,
+              "cholesterol": 336.4,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1700.53,
+              "protein": 72.81,
+              "fat": 46.75,
+              "carb": 242.91,
+              "fiber": 9.32,
+              "sodium": 2738.8,
+              "potassium": 2247.5,
+              "cholesterol": 262.85,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1710.17,
+              "protein": 81.92,
+              "fat": 60.39,
+              "carb": 205.97,
+              "fiber": 8.64,
+              "sodium": 2218.4,
+              "potassium": 2279.45,
+              "cholesterol": 267.75,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1694.44,
+              "protein": 95.65,
+              "fat": 49.34,
+              "carb": 213.85,
+              "fiber": 12.06,
+              "sodium": 2788.2,
+              "potassium": 2112.3,
+              "cholesterol": 228.2,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 1714.5,
+            "protein_avg": 90.0,
+            "fat_avg": 48.9,
+            "carb_avg": 226.2,
+            "sodium_avg": 2857.8,
+            "potassium_avg": 2487.9,
+            "fiber_avg": 11.0,
+            "cholesterol_avg": 276.4
+          },
+          "warnings": [
+            "'Sữa tươi tiệt trùng có đường Vinamilk' excluded: added sugar - not suitable for diabetes",
+            "'Sữa chua có đường Ba Vì' excluded: added sugar - not suitable for diabetes",
+            "'Sữa bò tươi thanh trùng có đường Mộc Châu' excluded: added sugar - not suitable for diabetes",
+            "'Cháo dinh dưỡng tôm' excluded: added sugar - not suitable for diabetes",
+            "'Cháo đậu đen đường' excluded: added sugar - not suitable for diabetes",
+            "'Sữa dinh dưỡng bệnh viện (Ensure-type)' excluded: added sugar - not suitable for diabetes",
+            "Vietnamese hospital diet code selected: DD01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 1732.15,
+                "protein": 102.51,
+                "fat": 48.19,
+                "carb": 213.89,
+                "fiber": 12.05,
+                "sodium": 2822.9,
+                "potassium": 2308.3,
+                "cholesterol": 234.8,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau cần luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Rau ngót luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 1714.42,
+                "protein": 90.8,
+                "fat": 50.08,
+                "carb": 225.4,
+                "fiber": 10.17,
+                "sodium": 3053.1,
+                "potassium": 2762.8,
+                "cholesterol": 328.3,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà hấp gừng",
+              "lunch_veg": "Ngọn su su luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá hồi hấp",
+              "dinner_veg": "Rau dền đỏ luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 1701.12,
+                "protein": 86.88,
+                "fat": 38.17,
+                "carb": 253.55,
+                "fiber": 12.11,
+                "sodium": 3036.7,
+                "potassium": 2580.5,
+                "cholesterol": 276.2,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá lóc hấp",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Rau muống luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 1748.92,
+                "protein": 99.57,
+                "fat": 49.5,
+                "carb": 227.58,
+                "fiber": 12.63,
+                "sodium": 3346.25,
+                "potassium": 3124.25,
+                "cholesterol": 336.4,
+                "trans": 0.0
+              },
+              "breakfast": "Phở Bê",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Tôm sốt cà chua",
+              "lunch_veg": "Rau giền luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá basa hấp",
+              "dinner_veg": "Cải bó xôi luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 1700.53,
+                "protein": 72.81,
+                "fat": 46.75,
+                "carb": 242.91,
+                "fiber": 9.32,
+                "sodium": 2738.8,
+                "potassium": 2247.5,
+                "cholesterol": 262.85,
+                "trans": 0.0
+              },
+              "breakfast": "Miến gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 1710.17,
+                "protein": 81.92,
+                "fat": 60.39,
+                "carb": 205.97,
+                "fiber": 8.64,
+                "sodium": 2218.4,
+                "potassium": 2279.45,
+                "cholesterol": 267.75,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Tôm sốt cà chua",
+              "lunch_veg": "Bí xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Trứng hấp thịt băm",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 1694.44,
+                "protein": 95.65,
+                "fat": 49.34,
+                "carb": 213.85,
+                "fiber": 12.06,
+                "sodium": 2788.2,
+                "potassium": 2112.3,
+                "cholesterol": 228.2,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo cá",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Bí đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá Ngừ kho dứa",
+              "dinner_veg": "Giá đỗ luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: 'Sữa tươi tiệt trùng có đường Vinamilk' excluded: added sugar - not suitable for diabetes",
+        "Week 1: 'Sữa chua có đường Ba Vì' excluded: added sugar - not suitable for diabetes",
+        "Week 1: 'Sữa bò tươi thanh trùng có đường Mộc Châu' excluded: added sugar - not suitable for diabetes",
+        "Week 1: 'Cháo dinh dưỡng tôm' excluded: added sugar - not suitable for diabetes",
+        "Week 1: 'Cháo đậu đen đường' excluded: added sugar - not suitable for diabetes",
+        "Week 1: 'Sữa dinh dưỡng bệnh viện (Ensure-type)' excluded: added sugar - not suitable for diabetes",
+        "Week 1: Vietnamese hospital diet code selected: DD01-X"
+      ]
+    },
+    {
+      "group_id": "GM",
+      "label": "Gan mật",
+      "hospital_code": "TN08-X",
+      "target": {
+        "kcal_min": 1950,
+        "kcal_max": 2500,
+        "p_pct_range": [
+          14,
+          20
+        ],
+        "l_pct_range": [
+          10,
+          22
+        ],
+        "g_pct_range": [
+          52,
+          70
+        ],
+        "sodium_max": 3000
+      },
+      "monthly_avg": {
+        "kcal": 2005.8,
+        "protein": 86.1,
+        "fat": 43.9,
+        "carb": 311.0,
+        "fiber": 11.1,
+        "sodium": 1897.6,
+        "potassium": 2165.1,
+        "cholesterol": 159.1,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 17.4,
+      "monthly_l_pct": 19.9,
+      "monthly_g_pct": 62.7,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.9852,
+          "daily_totals": [
+            {
+              "kcal": 1973.11,
+              "protein": 75.43,
+              "fat": 42.91,
+              "carb": 319.92,
+              "fiber": 11.63,
+              "sodium": 2287.58,
+              "potassium": 2029.57,
+              "cholesterol": 129.5,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1989.28,
+              "protein": 68.34,
+              "fat": 43.46,
+              "carb": 323.83,
+              "fiber": 10.25,
+              "sodium": 1884.09,
+              "potassium": 1572.96,
+              "cholesterol": 162.9,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2062.02,
+              "protein": 107.32,
+              "fat": 46.37,
+              "carb": 294.33,
+              "fiber": 10.74,
+              "sodium": 1820.1,
+              "potassium": 2636.24,
+              "cholesterol": 160.49,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1952.39,
+              "protein": 89.29,
+              "fat": 34.43,
+              "carb": 313.61,
+              "fiber": 13.62,
+              "sodium": 2130.08,
+              "potassium": 2253.22,
+              "cholesterol": 189.7,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2014.96,
+              "protein": 84.47,
+              "fat": 50.74,
+              "carb": 300.08,
+              "fiber": 8.76,
+              "sodium": 1417.77,
+              "potassium": 2171.36,
+              "cholesterol": 148.34,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2075.71,
+              "protein": 101.21,
+              "fat": 49.88,
+              "carb": 301.57,
+              "fiber": 11.87,
+              "sodium": 1591.46,
+              "potassium": 2416.41,
+              "cholesterol": 196.97,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1973.46,
+              "protein": 76.61,
+              "fat": 39.33,
+              "carb": 323.38,
+              "fiber": 10.81,
+              "sodium": 2152.12,
+              "potassium": 2076.18,
+              "cholesterol": 125.55,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2005.8,
+            "protein_avg": 86.1,
+            "fat_avg": 43.9,
+            "carb_avg": 311.0,
+            "sodium_avg": 1897.6,
+            "potassium_avg": 2165.1,
+            "fiber_avg": 11.1,
+            "cholesterol_avg": 159.1
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: TN08-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 1973.11,
+                "protein": 75.43,
+                "fat": 42.91,
+                "carb": 319.92,
+                "fiber": 11.63,
+                "sodium": 2287.58,
+                "potassium": 2029.57,
+                "cholesterol": 129.5,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Súp hải sản",
+              "lunch_veg": "Đậu đũa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ luộc",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 1989.28,
+                "protein": 68.34,
+                "fat": 43.46,
+                "carb": 323.83,
+                "fiber": 10.25,
+                "sodium": 1884.09,
+                "potassium": 1572.96,
+                "cholesterol": 162.9,
+                "trans": 0.0
+              },
+              "breakfast": "Phở cuốn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn sốt cà chua",
+              "lunch_veg": "Đậu cove luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Rau lang luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2062.02,
+                "protein": 107.32,
+                "fat": 46.37,
+                "carb": 294.33,
+                "fiber": 10.74,
+                "sodium": 1820.1,
+                "potassium": 2636.24,
+                "cholesterol": 160.49,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá basa hấp",
+              "lunch_veg": "Rau ngót luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Rau muống luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 1952.39,
+                "protein": 89.29,
+                "fat": 34.43,
+                "carb": 313.61,
+                "fiber": 13.62,
+                "sodium": 2130.08,
+                "potassium": 2253.22,
+                "cholesterol": 189.7,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo yến mạch",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá lóc hấp",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2014.96,
+                "protein": 84.47,
+                "fat": 50.74,
+                "carb": 300.08,
+                "fiber": 8.76,
+                "sodium": 1417.77,
+                "potassium": 2171.36,
+                "cholesterol": 148.34,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo trắng",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Cải bó xôi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu hũ non hấp",
+              "dinner_veg": "Ngọn su su luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2075.71,
+                "protein": 101.21,
+                "fat": 49.88,
+                "carb": 301.57,
+                "fiber": 11.87,
+                "sodium": 1591.46,
+                "potassium": 2416.41,
+                "cholesterol": 196.97,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau giền luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá basa hấp",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 1973.46,
+                "protein": 76.61,
+                "fat": 39.33,
+                "carb": 323.38,
+                "fiber": 10.81,
+                "sodium": 2152.12,
+                "potassium": 2076.18,
+                "cholesterol": 125.55,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ luộc",
+              "lunch_veg": "Cải thìa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Bông cải xanh luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: TN08-X"
+      ]
+    },
+    {
+      "group_id": "UT",
+      "label": "Ung thư",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2000,
+        "kcal_max": 2550,
+        "p_pct_range": [
+          17,
+          24
+        ],
+        "l_pct_range": [
+          18,
+          30
+        ],
+        "g_pct_range": [
+          46,
+          60
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2279.2,
+        "protein": 118.0,
+        "fat": 75.2,
+        "carb": 280.5,
+        "fiber": 11.1,
+        "sodium": 3378.7,
+        "potassium": 2899.8,
+        "cholesterol": 423.3,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 20.8,
+      "monthly_l_pct": 29.8,
+      "monthly_g_pct": 49.4,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.0185,
+          "daily_totals": [
+            {
+              "kcal": 2274.94,
+              "protein": 136.1,
+              "fat": 72.51,
+              "carb": 269.65,
+              "fiber": 12.21,
+              "sodium": 3963.18,
+              "potassium": 2944.78,
+              "cholesterol": 370.41,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2292.91,
+              "protein": 116.2,
+              "fat": 78.48,
+              "carb": 277.42,
+              "fiber": 8.85,
+              "sodium": 3639.52,
+              "potassium": 2470.63,
+              "cholesterol": 545.78,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2300.95,
+              "protein": 115.88,
+              "fat": 69.96,
+              "carb": 298.07,
+              "fiber": 11.94,
+              "sodium": 3036.9,
+              "potassium": 3063.25,
+              "cholesterol": 316.15,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2299.34,
+              "protein": 123.83,
+              "fat": 72.75,
+              "carb": 283.2,
+              "fiber": 8.89,
+              "sodium": 3228.4,
+              "potassium": 3319.55,
+              "cholesterol": 350.2,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2298.54,
+              "protein": 99.32,
+              "fat": 80.65,
+              "carb": 290.21,
+              "fiber": 12.28,
+              "sodium": 3669.5,
+              "potassium": 2614.9,
+              "cholesterol": 528.2,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2231.05,
+              "protein": 104.89,
+              "fat": 75.77,
+              "carb": 279.35,
+              "fiber": 9.95,
+              "sodium": 3052.25,
+              "potassium": 2644.02,
+              "cholesterol": 273.62,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2256.45,
+              "protein": 130.09,
+              "fat": 76.19,
+              "carb": 265.6,
+              "fiber": 13.4,
+              "sodium": 3061.25,
+              "potassium": 3241.7,
+              "cholesterol": 578.85,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2279.2,
+            "protein_avg": 118.0,
+            "fat_avg": 75.2,
+            "carb_avg": 280.5,
+            "sodium_avg": 3378.7,
+            "potassium_avg": 2899.8,
+            "fiber_avg": 11.1,
+            "cholesterol_avg": 423.3
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2274.94,
+                "protein": 136.1,
+                "fat": 72.51,
+                "carb": 269.65,
+                "fiber": 12.21,
+                "sodium": 3963.18,
+                "potassium": 2944.78,
+                "cholesterol": 370.41,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Bò cuốn lá cải",
+              "lunch_veg": "Rau giền luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá lóc hấp",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2292.91,
+                "protein": 116.2,
+                "fat": 78.48,
+                "carb": 277.42,
+                "fiber": 8.85,
+                "sodium": 3639.52,
+                "potassium": 2470.63,
+                "cholesterol": 545.78,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Rau muống luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Bí xanh luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2300.95,
+                "protein": 115.88,
+                "fat": 69.96,
+                "carb": 298.07,
+                "fiber": 11.94,
+                "sodium": 3036.9,
+                "potassium": 3063.25,
+                "cholesterol": 316.15,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Ngọn su su luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Đậu đũa luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2299.34,
+                "protein": 123.83,
+                "fat": 72.75,
+                "carb": 283.2,
+                "fiber": 8.89,
+                "sodium": 3228.4,
+                "potassium": 3319.55,
+                "cholesterol": 350.2,
+                "trans": 0.0
+              },
+              "breakfast": "Phở Bê",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn thăn luộc",
+              "lunch_veg": "Cải thìa luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá hồi hấp",
+              "dinner_veg": "Bí đỏ luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2298.54,
+                "protein": 99.32,
+                "fat": 80.65,
+                "carb": 290.21,
+                "fiber": 12.28,
+                "sodium": 3669.5,
+                "potassium": 2614.9,
+                "cholesterol": 528.2,
+                "trans": 0.0
+              },
+              "breakfast": "Miến gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2231.05,
+                "protein": 104.89,
+                "fat": 75.77,
+                "carb": 279.35,
+                "fiber": 9.95,
+                "sodium": 3052.25,
+                "potassium": 2644.02,
+                "cholesterol": 273.62,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo dinh dưỡng tôm",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Bò cuốn lá cải",
+              "lunch_veg": "Rau bắp cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2256.45,
+                "protein": 130.09,
+                "fat": 76.19,
+                "carb": 265.6,
+                "fiber": 13.4,
+                "sodium": 3061.25,
+                "potassium": 3241.7,
+                "cholesterol": 578.85,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo thịt",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Trứng hấp thịt băm",
+              "lunch_veg": "Rau dền đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt bò bắp luộc",
+              "dinner_veg": "Rau lang luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    },
+    {
+      "group_id": "GU",
+      "label": "Gút",
+      "hospital_code": "TN08-X",
+      "target": {
+        "kcal_min": 1650,
+        "kcal_max": 2000,
+        "p_pct_range": [
+          14,
+          20
+        ],
+        "l_pct_range": [
+          10,
+          22
+        ],
+        "g_pct_range": [
+          52,
+          68
+        ],
+        "sodium_max": 3000
+      },
+      "monthly_avg": {
+        "kcal": 1983.6,
+        "protein": 81.5,
+        "fat": 43.9,
+        "carb": 309.1,
+        "fiber": 10.5,
+        "sodium": 2018.2,
+        "potassium": 1994.8,
+        "cholesterol": 148.2,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 16.7,
+      "monthly_l_pct": 20.2,
+      "monthly_g_pct": 63.2,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 5.869,
+          "daily_totals": [
+            {
+              "kcal": 1969.85,
+              "protein": 72.8,
+              "fat": 43.46,
+              "carb": 318.89,
+              "fiber": 11.18,
+              "sodium": 2127.12,
+              "potassium": 1837.43,
+              "cholesterol": 125.45,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1972.14,
+              "protein": 75.53,
+              "fat": 43.54,
+              "carb": 309.45,
+              "fiber": 9.75,
+              "sodium": 1897.2,
+              "potassium": 1752.7,
+              "cholesterol": 127.75,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1973.11,
+              "protein": 72.89,
+              "fat": 44.59,
+              "carb": 312.4,
+              "fiber": 7.68,
+              "sodium": 1752.43,
+              "potassium": 1750.64,
+              "cholesterol": 200.7,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1990.85,
+              "protein": 94.88,
+              "fat": 40.67,
+              "carb": 303.64,
+              "fiber": 13.21,
+              "sodium": 2225.68,
+              "potassium": 2205.3,
+              "cholesterol": 182.66,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1985.83,
+              "protein": 91.78,
+              "fat": 46.24,
+              "carb": 296.51,
+              "fiber": 11.48,
+              "sodium": 2323.05,
+              "potassium": 1757.1,
+              "cholesterol": 215.05,
+              "trans": 0.0
+            },
+            {
+              "kcal": 1972.47,
+              "protein": 67.55,
+              "fat": 39.89,
+              "carb": 330.68,
+              "fiber": 10.02,
+              "sodium": 1825.06,
+              "potassium": 1950.35,
+              "cholesterol": 88.5,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2020.75,
+              "protein": 95.25,
+              "fat": 48.67,
+              "carb": 291.96,
+              "fiber": 10.33,
+              "sodium": 1976.52,
+              "potassium": 2710.1,
+              "cholesterol": 97.1,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 1983.6,
+            "protein_avg": 81.5,
+            "fat_avg": 43.9,
+            "carb_avg": 309.1,
+            "sodium_avg": 2018.2,
+            "potassium_avg": 1994.8,
+            "fiber_avg": 10.5,
+            "cholesterol_avg": 148.2
+          },
+          "warnings": [
+            "'Thanh long' excluded: gout hospital food rule",
+            "'Nhãn' excluded: gout hospital food rule",
+            "'Canh cà tím nấu bung' excluded: gout hospital food rule",
+            "'Đậu đũa luộc' excluded: gout hospital food rule",
+            "Vietnamese hospital diet code selected: TN08-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 1969.85,
+                "protein": 72.8,
+                "fat": 43.46,
+                "carb": 318.89,
+                "fiber": 11.18,
+                "sodium": 2127.12,
+                "potassium": 1837.43,
+                "cholesterol": 125.45,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ luộc",
+              "lunch_veg": "Giá đỗ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Rau giền luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 1972.14,
+                "protein": 75.53,
+                "fat": 43.54,
+                "carb": 309.45,
+                "fiber": 9.75,
+                "sodium": 1897.2,
+                "potassium": 1752.7,
+                "cholesterol": 127.75,
+                "trans": 0.0
+              },
+              "breakfast": "Phở cuốn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu hũ non hấp",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Rau bắp cải luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 1973.11,
+                "protein": 72.89,
+                "fat": 44.59,
+                "carb": 312.4,
+                "fiber": 7.68,
+                "sodium": 1752.43,
+                "potassium": 1750.64,
+                "cholesterol": 200.7,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đỗ đen",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn sốt cà chua",
+              "lunch_veg": "Bí đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Súp hải sản",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 1990.85,
+                "protein": 94.88,
+                "fat": 40.67,
+                "carb": 303.64,
+                "fiber": 13.21,
+                "sodium": 2225.68,
+                "potassium": 2205.3,
+                "cholesterol": 182.66,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu đen đường",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Tôm biển hấp",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn thăn luộc",
+              "dinner_veg": "Bí xanh luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 1985.83,
+                "protein": 91.78,
+                "fat": 46.24,
+                "carb": 296.51,
+                "fiber": 11.48,
+                "sodium": 2323.05,
+                "potassium": 1757.1,
+                "cholesterol": 215.05,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ luộc",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn sốt cà chua",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 1972.47,
+                "protein": 67.55,
+                "fat": 39.89,
+                "carb": 330.68,
+                "fiber": 10.02,
+                "sodium": 1825.06,
+                "potassium": 1950.35,
+                "cholesterol": 88.5,
+                "trans": 0.0
+              },
+              "breakfast": "Phở cuốn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Súp hải sản",
+              "lunch_veg": "Đậu cove luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ luộc",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2020.75,
+                "protein": 95.25,
+                "fat": 48.67,
+                "carb": 291.96,
+                "fiber": 10.33,
+                "sodium": 1976.52,
+                "potassium": 2710.1,
+                "cholesterol": 97.1,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo đậu xanh",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá basa hấp",
+              "lunch_veg": "Cải bó xôi luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu hũ non hấp",
+              "dinner_veg": "Ngọn su su luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: 'Thanh long' excluded: gout hospital food rule",
+        "Week 1: 'Nhãn' excluded: gout hospital food rule",
+        "Week 1: 'Canh cà tím nấu bung' excluded: gout hospital food rule",
+        "Week 1: 'Đậu đũa luộc' excluded: gout hospital food rule",
+        "Week 1: Vietnamese hospital diet code selected: TN08-X"
+      ]
+    },
+    {
+      "group_id": "IOD",
+      "label": "Kiêng i-ốt (tuyến giáp)",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2000,
+        "kcal_max": 2550,
+        "p_pct_range": [
+          15,
+          22
+        ],
+        "l_pct_range": [
+          18,
+          30
+        ],
+        "g_pct_range": [
+          46,
+          62
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2270.2,
+        "protein": 119.2,
+        "fat": 73.0,
+        "carb": 281.0,
+        "fiber": 12.0,
+        "sodium": 3165.9,
+        "potassium": 2934.2,
+        "cholesterol": 382.7,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.1,
+      "monthly_l_pct": 29.1,
+      "monthly_g_pct": 49.8,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.0211,
+          "daily_totals": [
+            {
+              "kcal": 2289.57,
+              "protein": 120.38,
+              "fat": 73.37,
+              "carb": 280.56,
+              "fiber": 12.44,
+              "sodium": 2735.04,
+              "potassium": 3120.47,
+              "cholesterol": 288.33,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2266.42,
+              "protein": 136.14,
+              "fat": 71.43,
+              "carb": 272.73,
+              "fiber": 13.4,
+              "sodium": 3603.85,
+              "potassium": 2759.16,
+              "cholesterol": 595.43,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2291.96,
+              "protein": 112.75,
+              "fat": 71.48,
+              "carb": 297.86,
+              "fiber": 12.31,
+              "sodium": 3655.55,
+              "potassium": 3627.7,
+              "cholesterol": 297.0,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2299.0,
+              "protein": 106.62,
+              "fat": 77.93,
+              "carb": 288.58,
+              "fiber": 12.43,
+              "sodium": 3482.2,
+              "potassium": 2133.3,
+              "cholesterol": 323.6,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2254.83,
+              "protein": 119.42,
+              "fat": 67.35,
+              "carb": 289.21,
+              "fiber": 9.92,
+              "sodium": 2796.93,
+              "potassium": 2591.43,
+              "cholesterol": 351.26,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2277.01,
+              "protein": 121.98,
+              "fat": 76.24,
+              "carb": 267.57,
+              "fiber": 13.75,
+              "sodium": 3407.92,
+              "potassium": 3368.95,
+              "cholesterol": 401.27,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2212.55,
+              "protein": 116.81,
+              "fat": 73.12,
+              "carb": 270.82,
+              "fiber": 9.75,
+              "sodium": 2479.65,
+              "potassium": 2938.25,
+              "cholesterol": 422.33,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2270.2,
+            "protein_avg": 119.2,
+            "fat_avg": 73.0,
+            "carb_avg": 281.0,
+            "sodium_avg": 3165.9,
+            "potassium_avg": 2934.2,
+            "fiber_avg": 12.0,
+            "cholesterol_avg": 382.7
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2289.57,
+                "protein": 120.38,
+                "fat": 73.37,
+                "carb": 280.56,
+                "fiber": 12.44,
+                "sodium": 2735.04,
+                "potassium": 3120.47,
+                "cholesterol": 288.33,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Rau ngót luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Đậu đũa luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2266.42,
+                "protein": 136.14,
+                "fat": 71.43,
+                "carb": 272.73,
+                "fiber": 13.4,
+                "sodium": 3603.85,
+                "potassium": 2759.16,
+                "cholesterol": 595.43,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá lóc hấp",
+              "lunch_veg": "Rau lang luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Trứng hấp thịt băm",
+              "dinner_veg": "Rau giền luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2291.96,
+                "protein": 112.75,
+                "fat": 71.48,
+                "carb": 297.86,
+                "fiber": 12.31,
+                "sodium": 3655.55,
+                "potassium": 3627.7,
+                "cholesterol": 297.0,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt heo nạc băm hấp",
+              "lunch_veg": "Rau dền đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt bò bắp luộc",
+              "dinner_veg": "Cải bó xôi luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2299.0,
+                "protein": 106.62,
+                "fat": 77.93,
+                "carb": 288.58,
+                "fiber": 12.43,
+                "sodium": 3482.2,
+                "potassium": 2133.3,
+                "cholesterol": 323.6,
+                "trans": 0.0
+              },
+              "breakfast": "Bún cá",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "lunch_veg": "Giá đỗ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Bò cuốn lá cải",
+              "dinner_veg": "Rau bắp cải luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2254.83,
+                "protein": 119.42,
+                "fat": 67.35,
+                "carb": 289.21,
+                "fiber": 9.92,
+                "sodium": 2796.93,
+                "potassium": 2591.43,
+                "cholesterol": 351.26,
+                "trans": 0.0
+              },
+              "breakfast": "Bánh canh cá rô",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Củ cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà xé phay",
+              "dinner_veg": "Rau mùng tơi luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2277.01,
+                "protein": 121.98,
+                "fat": 76.24,
+                "carb": 267.57,
+                "fiber": 13.75,
+                "sodium": 3407.92,
+                "potassium": 3368.95,
+                "cholesterol": 401.27,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo sườn",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Rau muống luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt heo nạc băm hấp",
+              "dinner_veg": "Rau cần luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2212.55,
+                "protein": 116.81,
+                "fat": 73.12,
+                "carb": 270.82,
+                "fiber": 9.75,
+                "sodium": 2479.65,
+                "potassium": 2938.25,
+                "cholesterol": 422.33,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo cá",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Cá hồi hấp",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Tôm biển hấp",
+              "dinner_veg": "Ngọn su su luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    },
+    {
+      "group_id": "FAM",
+      "label": "Người nhà người bệnh",
+      "hospital_code": "BT01-X",
+      "target": {
+        "kcal_min": 2100,
+        "kcal_max": 2550,
+        "p_pct_range": [
+          17,
+          24
+        ],
+        "l_pct_range": [
+          20,
+          32
+        ],
+        "g_pct_range": [
+          46,
+          58
+        ],
+        "sodium_max": 3500
+      },
+      "monthly_avg": {
+        "kcal": 2266.4,
+        "protein": 118.3,
+        "fat": 74.3,
+        "carb": 277.9,
+        "fiber": 11.1,
+        "sodium": 3318.0,
+        "potassium": 2872.9,
+        "cholesterol": 361.7,
+        "trans": 0.0
+      },
+      "monthly_p_pct": 21.0,
+      "monthly_l_pct": 29.7,
+      "monthly_g_pct": 49.3,
+      "violations": [],
+      "weeks": [
+        {
+          "week_index": 0,
+          "score": 1.252,
+          "daily_totals": [
+            {
+              "kcal": 2301.46,
+              "protein": 111.12,
+              "fat": 78.17,
+              "carb": 284.59,
+              "fiber": 11.23,
+              "sodium": 3118.1,
+              "potassium": 3483.8,
+              "cholesterol": 313.1,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2290.3,
+              "protein": 118.46,
+              "fat": 69.82,
+              "carb": 288.85,
+              "fiber": 13.07,
+              "sodium": 4343.8,
+              "potassium": 3135.3,
+              "cholesterol": 314.45,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2246.02,
+              "protein": 122.04,
+              "fat": 72.47,
+              "carb": 278.81,
+              "fiber": 10.86,
+              "sodium": 3591.12,
+              "potassium": 3054.2,
+              "cholesterol": 493.55,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2330.18,
+              "protein": 121.3,
+              "fat": 80.95,
+              "carb": 273.41,
+              "fiber": 9.35,
+              "sodium": 3680.04,
+              "potassium": 2875.74,
+              "cholesterol": 274.06,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2201.12,
+              "protein": 132.12,
+              "fat": 66.2,
+              "carb": 264.9,
+              "fiber": 13.95,
+              "sodium": 2831.44,
+              "potassium": 2564.52,
+              "cholesterol": 408.33,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2291.13,
+              "protein": 115.04,
+              "fat": 80.88,
+              "carb": 275.76,
+              "fiber": 10.11,
+              "sodium": 2907.84,
+              "potassium": 2448.79,
+              "cholesterol": 354.81,
+              "trans": 0.0
+            },
+            {
+              "kcal": 2204.69,
+              "protein": 108.13,
+              "fat": 71.79,
+              "carb": 279.19,
+              "fiber": 9.35,
+              "sodium": 2753.62,
+              "potassium": 2548.08,
+              "cholesterol": 373.38,
+              "trans": 0.0
+            }
+          ],
+          "plan_summary": {
+            "kcal_avg": 2266.4,
+            "protein_avg": 118.3,
+            "fat_avg": 74.3,
+            "carb_avg": 277.9,
+            "sodium_avg": 3318.0,
+            "potassium_avg": 2872.9,
+            "fiber_avg": 11.1,
+            "cholesterol_avg": 361.7
+          },
+          "warnings": [
+            "Vietnamese hospital diet code selected: BT01-X"
+          ],
+          "days": [
+            {
+              "day": 1,
+              "label": "Thứ 2",
+              "totals": {
+                "kcal": 2301.46,
+                "protein": 111.12,
+                "fat": 78.17,
+                "carb": 284.59,
+                "fiber": 11.23,
+                "sodium": 3118.1,
+                "potassium": 3483.8,
+                "cholesterol": 313.1,
+                "trans": 0.0
+              },
+              "breakfast": "Phở gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Rau dền đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Cá hồi hấp",
+              "dinner_veg": "Rau ngót luộc",
+              "flags": []
+            },
+            {
+              "day": 2,
+              "label": "Thứ 3",
+              "totals": {
+                "kcal": 2290.3,
+                "protein": 118.46,
+                "fat": 69.82,
+                "carb": 288.85,
+                "fiber": 13.07,
+                "sodium": 4343.8,
+                "potassium": 3135.3,
+                "cholesterol": 314.45,
+                "trans": 0.0
+              },
+              "breakfast": "Phở bò chín",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà xé phay",
+              "lunch_veg": "Bí đỏ luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt heo nạc băm hấp",
+              "dinner_veg": "Rau lang luộc",
+              "flags": []
+            },
+            {
+              "day": 3,
+              "label": "Thứ 4",
+              "totals": {
+                "kcal": 2246.02,
+                "protein": 122.04,
+                "fat": 72.47,
+                "carb": 278.81,
+                "fiber": 10.86,
+                "sodium": 3591.12,
+                "potassium": 3054.2,
+                "cholesterol": 493.55,
+                "trans": 0.0
+              },
+              "breakfast": "Phở sốt vang",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn thăn luộc",
+              "lunch_veg": "Su hào, cà rốt luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Trứng hấp thịt băm",
+              "dinner_veg": "Bí ngòi luộc",
+              "flags": []
+            },
+            {
+              "day": 4,
+              "label": "Thứ 5",
+              "totals": {
+                "kcal": 2330.18,
+                "protein": 121.3,
+                "fat": 80.95,
+                "carb": 273.41,
+                "fiber": 9.35,
+                "sodium": 3680.04,
+                "potassium": 2875.74,
+                "cholesterol": 274.06,
+                "trans": 0.0
+              },
+              "breakfast": "Phở Bê",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau bắp cải luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ nhồi thịt sốt cà chua",
+              "dinner_veg": "Củ cải luộc",
+              "flags": []
+            },
+            {
+              "day": 5,
+              "label": "Thứ 6",
+              "totals": {
+                "kcal": 2201.12,
+                "protein": 132.12,
+                "fat": 66.2,
+                "carb": 264.9,
+                "fiber": 13.95,
+                "sodium": 2831.44,
+                "potassium": 2564.52,
+                "cholesterol": 408.33,
+                "trans": 0.0
+              },
+              "breakfast": "Bún gà",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt lợn nạc vai luộc",
+              "lunch_veg": "Bông cải xanh luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Gà hấp gừng",
+              "dinner_veg": "Ngọn su su luộc",
+              "flags": []
+            },
+            {
+              "day": 6,
+              "label": "Thứ 7",
+              "totals": {
+                "kcal": 2291.13,
+                "protein": 115.04,
+                "fat": 80.88,
+                "carb": 275.76,
+                "fiber": 10.11,
+                "sodium": 2907.84,
+                "potassium": 2448.79,
+                "cholesterol": 354.81,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo thịt",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Thịt bò bắp luộc",
+              "lunch_veg": "Rau muống luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Đậu phụ kho thịt",
+              "dinner_veg": "Cải thảo luộc",
+              "flags": []
+            },
+            {
+              "day": 7,
+              "label": "Chủ nhật",
+              "totals": {
+                "kcal": 2204.69,
+                "protein": 108.13,
+                "fat": 71.79,
+                "carb": 279.19,
+                "fiber": 9.35,
+                "sodium": 2753.62,
+                "potassium": 2548.08,
+                "cholesterol": 373.38,
+                "trans": 0.0
+              },
+              "breakfast": "Cháo dinh dưỡng tôm",
+              "lunch_rice": "Cơm trắng",
+              "lunch_protein": "Gà xé phay",
+              "lunch_veg": "Rau giền luộc",
+              "dinner_rice": "Cơm trắng",
+              "dinner_protein": "Thịt lợn nạc vai luộc",
+              "dinner_veg": "Bí xanh luộc",
+              "flags": []
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "Week 1: Vietnamese hospital diet code selected: BT01-X"
+      ]
+    }
+  ]
+}
