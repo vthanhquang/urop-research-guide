@@ -126,20 +126,23 @@ FCT_NAMES: dict[str, str] = {
     "cà chua":                "cà chua",
     "ớt":                      "ớt đỏ to",
     "hành lá":                 "hành lá",
-    "rau mùi":                 "rau mùi",
+    "rau mùi":                 None,   # not in FCT → zero kcal (herb garnish)
+    "rau thơm":                "rau thơm",
 
     # ── Proteins (raw weight, after cooking adjustments) ──
     # Weights in the plan are cooked weights → use raw FCT values but note the caveat
     "thịt bò":                "thịt bò loại i",
-    "thịt bê":                "thịt bê",
-    "thịt lợn":               "thịt lợn",
+    "thịt bê":                "thịt bò loại i",       # thịt bê không có trong FCT → proxy bằng thịt bò loại i (118 kcal/100g)
+    "thịt bê nạc":           "thịt bò loại i",          # thịt bê nạc not in FCT → proxy bằng thịt bò loại i (118 kcal/100g)
+    "thịt lợn":               "thịt lợn nạc",    # generic pork → lean pork (118 kcal); "thịt lợn mỡ" (315 kcal) should NOT be auto-matched
     "thịt lợn nạc":            "thịt lợn nạc",
-    "thịt lợn nửa nạc":        "thịt lợn nửa nạc",
+    "thịt lợn nửa nạc":        "thịt lợn nửa nạc nửa mỡ",
+    "thịt lợn nửa nạc nửa mỡ": "thịt lợn nửa nạc, nửa mỡ",  # FCT uses comma, plan uses dash
+    "thịt lợn vai luộc":       "thịt lợn nạc",               # cooked lean pork → lean pork FCT (111 kcal)
     "thịt lợn mỡ":            "thịt lợn mỡ",
     "thịt nạc":                "thịt lợn nạc",
     "thịt vai quay":           "thịt lợn nửa nạc, nửa mỡ",
     "thịt lợn vai":           "thịt lợn nửa nạc, nửa mỡ",
-    "thịt lợn vai quay":       "thịt lợn nửa nạc, nửa mỡ",
     "sườn lợn":               "sườn lợn",
     "thịt ngan":               "thịt ngỗng",
     "ức gà":                  "thịt gà ta",
@@ -187,6 +190,10 @@ FCT_NAMES: dict[str, str] = {
     "cải thảo xào thì là":   "cải bắp",
     "canh bí xanh nấu thịt nạc": "bí đao (bí xanh)",
     "canh mồng tơi nấu bột nêm": "rau mồng tơi",
+    # Soup patterns with 2 ingredients: the first weight is vegetable, second is meat (broth)
+    # Meat in soup is broth → kcal contribution is negligible (the meat is simmered for flavor)
+    "canh cải bắp nấu cà chua": "cải bắp",     # 20g cải bắp only; 10g cà chua and meat excluded
+    "canh cải xanh nấu thịt nạc": "cải xanh",   # 20g cải xanh only; meat excluded
 
     # ── Bone soup (xương ống) — mostly water, minimal nutrition ──────────
     # FCT has Tủy xương (bone marrow) which is very high-fat; xương ống soup
@@ -197,7 +204,7 @@ FCT_NAMES: dict[str, str] = {
     # Cooking yield: ~85% for stir-fried (xào/rang) → apply 0.85 factor in resolve()
     # Boiled/steamed dishes: ~90% yield → apply 0.90 factor
     "thịt bò xào cần tỏi tây":    ("thịt bò loại i",          0.85),
-    "thịt bê xào sả ớt":            ("thịt bê nạc",              0.85),
+    "thịt bê xào sả ớt":            ("thịt lợn nạc",            0.85),
     "thịt lợn vai quay mềm":        ("thịt lợn nạc",            0.90),
     "thịt lợn băm xào cà rốt":     ("thịt lợn nạc",            0.85),
     "thịt lợn băm xào hành lá":    ("thịt lợn nạc",            0.85),
@@ -244,6 +251,16 @@ FCT_NAMES: dict[str, str] = {
     # "tôm rang thịt lợn": None,  # kept as tuple above → uses tôm đồng
     # "tôm rang thịt lợn, hành lá": None,  # removed → resolve() returns None → excluded
     # "thịt lợn băm xào cà rốt, hành lá": None,  # removed → resolve() returns None → excluded
+}
+
+
+# ── Soup-specific vegetable weights (not all soups use 20g vegetable) ──────
+# Map: lowercased soup raw string → vegetable weight in grams
+# These override the default 20g in calc_day.
+SOUP_VEG_WEIGHTS: dict[str, float] = {
+    # IOD group: heavier vegetable portions
+    "canh khoai tây nấu thịt nạc": 50.0,   # IOD: 50g khoai tây (vs 30g in BT01)
+    "canh bí xanh nấu thịt nạc": 30.0,       # IOD: 30g bí xanh (vs 20g in BT01)
 }
 
 
@@ -355,7 +372,7 @@ def parse_compound_dish(raw: str) -> list[tuple[str, float]] | None:
         # "Thịt bê xào sả ớt: 50g, 10g, 5g"
         (
             "bê xào sả ớt",
-            [("thịt bê nạc", 0), ("hành tây", 1), ("ớt đỏ to", 2)],
+            [("thịt lợn nạc", 0), ("hành tây", 1), ("ớt đỏ to", 2)],
         ),
         # "Thịt lợn băm xào hành lá: 50g, 5g"
         (
@@ -418,14 +435,53 @@ def parse_items(raw: str) -> list[tuple[str, float]]:
       "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
       "Cá trắm rán xốt cà chua: 140g, 20g"
       "Trứng đúc thịt: 01 quả"
+      "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
     """
     if not raw or not isinstance(raw, str):
         return []
 
     items = []
 
+    # ── Step 0: Pre-process — extract known compound display names ─────────────
+    # These appear as part of a larger breakfast string without comma separators.
+    # e.g. "Gạo: 50g, thịt lợn: 50g Gia vị vừa đủ Sữa Grandcare Gold 180ml: 01 hộp"
+    # We collect them first, then strip them from raw before normal parsing so that
+    # the preceding items ("Gạo", "thịt lợn") are still parseable.
+    compound_name_re = re.compile(
+        r"((?:Gia vị vừa đủ |Thịt lợn gia vị vừa đủ )?"
+        r"Sữa Grandcare Gold 180ml)\b",
+        re.IGNORECASE
+    )
+    # Collect all compound items first (don't modify raw while iterating)
+    raw_matches = list(compound_name_re.finditer(raw))
+    for m in raw_matches:
+        full_name = m.group(1).strip()
+        tail = raw[m.end():]
+        wm = re.search(r":\s*(\d+(?:[.,]\d+)?)\s*(hộp|ml|g|quả)\b", tail, re.IGNORECASE)
+        if wm:
+            unit = wm.group(2).lower()
+            if unit in ("hộp", "ml"):
+                weight = 180.0
+            elif unit == "quả":
+                weight = 50.0
+            else:
+                weight = float(wm.group(1).replace(",", "."))
+            items.append((full_name, weight))
+    # Strip only the compound display names (not their weights) so preceding
+    # dishes can still be parsed via normal comma-splitting logic.
+    raw = compound_name_re.sub("", raw).strip()
+    if not raw:
+        return items
+
+    # Clean up orphaned weight fragments left behind after stripping the display name.
+    # e.g. "Gạo: 50g, thịt lợn: 50g: 01 hộp" → "Gạo: 50g, thịt lợn: 50g"
+    # e.g. ": 01 hộp" → ""
+    raw = re.sub(r":\s*(\d+(?:[.,]\d+)?)\s*(hộp|ml)\b\s*:", ":", raw)
+    raw = re.sub(r"^\s*:\s*(\d+(?:[.,]\d+)?)\s*(hộp|ml)\b", "", raw)
+    raw = raw.strip(":").strip()
+
     weight_re = re.compile(
-        r":\s*(\d+(?:[.,]\d+)?)\s*(g|quả|khẩu phần)\b", re.IGNORECASE
+        r":\s*(\d+(?:[.,]\d+)?)\s*(g|quả|khẩu phần|hộp|ml)\b", re.IGNORECASE
     )
     all_weights = list(weight_re.finditer(raw))
 
@@ -438,9 +494,12 @@ def parse_items(raw: str) -> list[tuple[str, float]]:
 
     last_wm = all_weights[-1]
     unit = last_wm.group(2).lower()
-    main_weight = 50.0 if unit == "quả" else float(
-        last_wm.group(1).replace(",", ".")
-    )
+    if unit == "quả":
+        main_weight = 50.0
+    elif unit in ("hộp", "ml"):
+        main_weight = 180.0   # 01 hộp = 180ml (Grandcare Gold)
+    else:  # g
+        main_weight = float(last_wm.group(1).replace(",", "."))
 
     dish_part = raw[:last_wm.start()].strip()
     garnish_part = raw[last_wm.end():].strip(", ").strip()
@@ -453,7 +512,7 @@ def parse_items(raw: str) -> list[tuple[str, float]]:
             before_slice = dish_part[max(0, cp - 6):cp]
             after_slice = dish_part[cp + 1:]
             preceded_by_weight = bool(re.search(
-                r"\d+(?:[.,]\d+)?\s*(?:g|quả|khẩu phần)\b",
+                r"\d+(?:[.,]\d+)?\s*(?:g|quả|khẩu phần|hộp|ml)\b",
                 before_slice, re.IGNORECASE
             ))
             followed_by_weight = weight_re.search(after_slice) is not None
@@ -479,9 +538,12 @@ def parse_items(raw: str) -> list[tuple[str, float]]:
             if seg_weights:
                 first = seg_weights[0]
                 unit2 = first.group(2).lower()
-                w = 50.0 if unit2 == "quả" else float(
-                    first.group(1).replace(",", ".")
-                )
+                if unit2 == "quả":
+                    w = 50.0
+                elif unit2 in ("hộp", "ml"):
+                    w = 180.0
+                else:
+                    w = float(first.group(1).replace(",", "."))
                 dish_name = seg[:first.start()].strip()
                 if dish_name and len(dish_name) >= 2:
                     items.append((dish_name, w))
@@ -496,7 +558,7 @@ def parse_items(raw: str) -> list[tuple[str, float]]:
             if not sub or len(sub) < 2:
                 continue
             # Skip pure-numeric tokens (e.g. "10g", "1 quả", "20", "1.5")
-            if re.match(r"^[\d]+(?:[.,][\d]+)?(?:\s+(?:g|ml|quả|lít|khẩu phần))?$", sub, re.IGNORECASE):
+            if re.match(r"^[\d]+(?:[.,][\d]+)?(?:\s+(?:g|ml|quả|lít|khẩu phần|hộp))?$", sub, re.IGNORECASE):
                 continue
             if sub.replace(",", "").replace(".", "").isdigit():
                 continue
@@ -543,8 +605,8 @@ def calc_day(day: dict, fct: dict) -> dict:
     if bf:
         detail = bf.get("detail") or ""
         for name, weight in parse_breakfast_detail(detail):
-            if weight <= 0:
-                weight = 50
+            # Garnishes without weight get 0 (resolve() will zero them out)
+            # Do NOT default to 50g — that inflates kcal for hành lá, rau mùi etc.
             # Skip bare numeric tokens (e.g. "10g", "20g", "1 quả")
             key = name.lower().strip()
             if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
@@ -553,7 +615,7 @@ def calc_day(day: dict, fct: dict) -> dict:
             if n is None:
                 unfound.append(name)
             elif n["kcal"] == 0 and name.lower() not in (
-                "gia vị", "hành lá", "rau mùi",
+                "gia vị", "hành lá", "rau mùi", "rau thơm",
             ):
                 unfound.append(name)
             if n is not None:
@@ -581,6 +643,7 @@ def calc_day(day: dict, fct: dict) -> dict:
                 "gia vị", "hành lá",
             ):
                 unfound.append(name)
+
             if n is not None:
                 for k in totals:
                     totals[k] += n[k]
@@ -628,9 +691,11 @@ def calc_day(day: dict, fct: dict) -> dict:
 
         # Soup
         soup_raw = meal.get("soup") or ""
+        soup_key = soup_raw.lower().strip()
+        soup_weight = SOUP_VEG_WEIGHTS.get(soup_key, 20.0)
         for name, weight in parse_items(soup_raw):
             if weight <= 0:
-                weight = 20
+                weight = soup_weight
             key = name.lower().strip()
             if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
                 continue
