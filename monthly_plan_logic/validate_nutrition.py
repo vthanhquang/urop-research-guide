@@ -14,6 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent.resolve()
 FCT_PATH  = HERE / "data" / "VTN_FCT_2007_food_composition.csv"
+SP_PATH   = HERE / "data" / "sp_thuong_mai.csv"
 MEAL_PATH = HERE / "data" / "weekly_meal_plan_85k.json"
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
@@ -30,28 +31,30 @@ def build_fct() -> dict:
     """
     Build a lookup dict keyed by vietnamese_name lowercase.
     Each entry: {kcal, protein, fat, carb, fiber} per 100g.
+    Combines VTN_FCT_2007 + sp_thuong_mai.csv (commercial products).
     """
     fct = {}
-    with open(FCT_PATH, encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            name = row["vietnamese_name"].strip()
-            if not name:
-                continue
-            entry = {
-                "kcal":    to_float(row["energy_kcal"]),
-                "protein": to_float(row["protein_g"]),
-                "fat":     to_float(row["fat_g"]),
-                "carb":    to_float(row["carbohydrate_g"]),
-                "fiber":   to_float(row["fiber_g"]),
-                "group":   row["group_name_vi"].strip(),
-                "code":    row["code"].strip(),
-            }
-            # Also index by raw and english names
-            for n in [name, row["vietnamese_name_raw"].strip(), row["english_name"].strip()]:
-                if n:
-                    fct[n.lower()] = entry
-            fct[row["code"]] = entry
+    for path in [FCT_PATH, SP_PATH]:
+        with open(path, encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                name = row["vietnamese_name"].strip()
+                if not name:
+                    continue
+                entry = {
+                    "kcal":    to_float(row["energy_kcal"]),
+                    "protein": to_float(row["protein_g"]),
+                    "fat":     to_float(row["fat_g"]),
+                    "carb":    to_float(row["carbohydrate_g"]),
+                    "fiber":   to_float(row["fiber_g"]),
+                    "group":   row["group_name_vi"].strip(),
+                    "code":    row["code"].strip(),
+                }
+                # Also index by raw and english names
+                for n in [name, row["vietnamese_name_raw"].strip(), row["english_name"].strip()]:
+                    if n:
+                        fct[n.lower()] = entry
+                fct[row["code"]] = entry
     return fct
 
 
@@ -108,47 +111,113 @@ FCT_NAMES: dict[str, str] = {
     "cải chíp":               "cải bắp",
     "cải bắp":                "cải bắp",
     "cải xanh":               "cải xanh",
-    "cải ngọt":               "cải ngọt",
+    "cải ngọt":             "dưa cải bẹ",
     "mồng tơi":               "mồng tơi",
     "bí xanh":                "bí xanh",
-    "bí đỏ":                  "bí đỏ",
+    "bí đỏ":                  "bí ngô",
     "khoai tây":              "khoai tây",
     "khoai lang":             "khoai lang",
-    "cà rốt":                 "cà rốt",
+    "cà rốt":                 "cà rốt (củ đỏ, vàng)",
     "hành tây":               "hành tây",
     "đậu cove":               "đậu cô ve",
     "đậu cô ve":              "đậu cô ve",
     "cà chua":                 "cà chua",
     "bông cải xanh":          "bông cải",
     "cà chua":                "cà chua",
-    "ớt":                      "ớt",
+    "ớt":                      "ớt đỏ to",
     "hành lá":                 "hành lá",
     "rau mùi":                 "rau mùi",
 
     # ── Proteins (raw weight, after cooking adjustments) ──
     # Weights in the plan are cooked weights → use raw FCT values but note the caveat
-    "thịt bò":                "thịt bò",
+    "thịt bò":                "thịt bò loại i",
+    "thịt bê":                "thịt bê",
     "thịt lợn":               "thịt lợn",
+    "thịt lợn nạc":            "thịt lợn nạc",
+    "thịt lợn nửa nạc":        "thịt lợn nửa nạc",
+    "thịt lợn mỡ":            "thịt lợn mỡ",
     "thịt nạc":                "thịt lợn nạc",
-    "thịt ngan":               "thịt ngan",
-    "ức gà":                  "thịt gà",
-    "thịt gà":                 "thịt gà",
-    "cá trắm":                 "cá trắm",
+    "thịt vai quay":           "thịt lợn nửa nạc, nửa mỡ",
+    "thịt lợn vai":           "thịt lợn nửa nạc, nửa mỡ",
+    "thịt lợn vai quay":       "thịt lợn nửa nạc, nửa mỡ",
+    "sườn lợn":               "sườn lợn",
+    "thịt ngan":               "thịt ngỗng",
+    "ức gà":                  "thịt gà ta",
+    "thịt gà":                 "thịt gà ta",
+    "thịt gà ta":             "thịt gà ta",
+    "thịt gà xé":             "thịt gà ta",
+    "thịt gà xé 70g":         "thịt gà ta",
+    "thịt gà cn (cả xương)":  "thịt gà ta",
+    # Fish: dùng FCT có sẵn nếu có, fallback sang cá basa (bạc) nếu không tìm thấy
+    # FCT có: cá trắm cỏ (91 kcal), cá rô đồng (126 kcal), cá thu (166 kcal)
+    "cá trắm":                "cá trắm cỏ",
+    "cá trắm cỏ":             "cá trắm cỏ",
     "cá thu":                  "cá thu",
-    "cá basa":                  "cá basa",
-    "cá rô":                   "cá rô",
-    "cá lóc":                  "cá lóc",
+    "cá rô":                   "cá rô đồng",
+    "cá lóc":                  "cá basa (bạc)",      # NOT in FCT → fallback
+    "cá basa":                  "cá basa (bạc)",      # NOT in FCT → fallback
     "cá hồi":                  "cá hồi",
-    "cá thát lát":              "cá thát lát",
-    "tôm":                      "tôm đông lạnh",
-    "mực":                      "mực",
-    "chả cá":                   "chả cá",
-    "chả lá lốt":               "thịt lợn",
+    "cá thát lát":              "cá nạc",
+    "tôm":                      "tôm đồng",
+    "mực":                      "mực tươi",
+    "chả cá":                   "cá basa (bạc)",
+    "chả lá lốt":               "thịt lợn nạc",
     "lạc":                      "lạc hạt",
+    "lạc rim":                  "lạc hạt",
     "đậu phụ":                  "đậu phụ",
-    "đậu phụ rán":              "đậu phụ",
+    "đậu phụ rán":              "đậu phụ nướng",
     "trứng":                    "trứng gà",
-    "xương ống":                "xương",   # soup base, minimal nutrition
+    "trứng đúc thịt":           "trứng gà",
+    "trứng ốp":                 "trứng gà",
+    "trứng ốp lết":             "trứng gà",
+    "giò lụa":                  "giò lụa",
+    "ba tê":                    "ba tê",
+
+    # ── Cooked vegetable dishes → raw vegetable equivalents ──────────────────
+    # NOTE: "cải ngọt" is NOT in FCT; substitute closest variety
+    "bí xanh luộc":           "bí đao (bí xanh)",
+    "bí đỏ xào":             "bí ngô",
+    "củ cải luộc":           "củ cải trắng",
+    "cải chíp luộc":          "cải bắp",
+    "cải chíp xào":          "cải bắp",
+    # "cải ngọt" (mustard greens) not in VTN_FCT_2007 → substitute cải xanh
+    "cải ngọt luộc":          "cải xanh",
+    "đậu cove luộc":         "đậu cô ve",
+    "rau dền luộc":           "rau đay",
+    "cải thảo xào thì là":   "cải bắp",
+    "canh bí xanh nấu thịt nạc": "bí đao (bí xanh)",
+    "canh mồng tơi nấu bột nêm": "rau mồng tơi",
+
+    # ── Bone soup (xương ống) — mostly water, minimal nutrition ──────────
+    # FCT has Tủy xương (bone marrow) which is very high-fat; xương ống soup
+    # is the broth, not the marrow. Use None (→ zero) to exclude.
+    "xương ống":              None,
+
+    # ── Cooked protein dishes → approximate with raw / processed equivalents ──
+    # Cooking yield: ~85% for stir-fried (xào/rang) → apply 0.85 factor in resolve()
+    # Boiled/steamed dishes: ~90% yield → apply 0.90 factor
+    "thịt bò xào cần tỏi tây":    ("thịt bò loại i",          0.85),
+    "thịt bê xào sả ớt":            ("thịt bê nạc",              0.85),
+    "thịt lợn vai quay mềm":        ("thịt lợn nạc",            0.90),
+    "thịt lợn băm xào cà rốt":     ("thịt lợn nạc",            0.85),
+    "thịt lợn băm xào hành lá":    ("thịt lợn nạc",            0.85),
+    "thịt lợn xào hành tây":       ("thịt lợn nạc",            0.85),
+    "thịt lợn xào hành tây, cà rốt": ("thịt lợn nạc",            0.85),
+    "thịt lợn xào cần tỏi tây":   ("thịt lợn nạc",            0.85),
+    "thịt lợn xào ớt đà lạt":     ("thịt lợn nạc",            0.85),
+    "thịt lợn vai rim mắm":         ("thịt lợn nạc",            0.90),
+    "thịt lợn kho tàu":             ("thịt lợn nạc",            0.90),
+    "thịt gà cn (cả xương) rang gừng sả": ("thịt gà ta",        0.85),
+    "tôm rang":                       ("tôm đồng",                 0.85),
+    "tôm rang thịt lợn":            ("tôm đồng",                 0.85),
+    "tôm rim hành":                  ("tôm đồng",                 0.90),
+    "cá trắm kho giềng xả":         ("cá trắm cỏ",              0.90),
+    "cá trắm rán xốt cà chua":      ("cá trắm cỏ",              0.85),
+    "chả cá rán":                    ("cá rô đồng",              0.85),
+    # Commercial product: Sữa Grandcare Gold 180ml (→ sp_thuong_mai.csv, 78 kcal/100g × 180ml = 140 kcal/180ml)
+    "sữa grandcare gold 180ml":                ("sữa grandcare gold 180ml", 1.00),
+    "gia vị vừa đủ sữa grandcare gold 180ml: 01 hộp": ("sữa grandcare gold 180ml", 1.00),
+    "thịt lợn gia vị vừa đủ sữa grandcare gold 180ml: 01 hộp": ("sữa grandcare gold 180ml", 1.00),
 
     # ── Cooking oils / seasonings (minimal, not in FCT) ──
     "dầu ăn":                   None,
@@ -159,34 +228,64 @@ FCT_NAMES: dict[str, str] = {
     "mắm":                      None,
     "bột ngọt":                 None,
     "đường":                    "đường",
+
+    # ── Split fragments from compound dish names (parser splits these) ──
+    # These are garnishes that appear in unfound lists when the parent dish
+    # is not in FCT. They have negligible kcal but we still map them to avoid
+    # noise in the unfound list.
+    "hành lá":                  "hành lá",
+    "hành tây":                 "hành tây",
+    "cà rốt":                 "cà rốt (củ đỏ, vàng)",
+
+    # ── Genuinely unfound dishes (not in VTN_FCT_2007 / sp_thuong_mai) ──
+    # These are compound dishes whose components can't be reliably split.
+    # Removing from FCT_NAMES → resolve() returns None → calc_day excludes them (kcal=0).
+    # They MUST be on the kcal==0 allowlist in calc_day's 5 sections.
+    # "tôm rang thịt lợn": None,  # kept as tuple above → uses tôm đồng
+    # "tôm rang thịt lợn, hành lá": None,  # removed → resolve() returns None → excluded
+    # "thịt lợn băm xào cà rốt, hành lá": None,  # removed → resolve() returns None → excluded
 }
 
 
-def resolve(name: str, weight_g: float, fct: dict) -> dict:
+def resolve(name: str, weight_g: float, fct: dict) -> dict | None:
     """
     Resolve a food name + weight to nutrition.
     Returns {kcal, protein, fat, carb} scaled to weight_g.
-    Returns zeros if food is excluded (seasonings/oils) or not found.
+    Returns None if food is NOT in FCT (caller decides how to handle).
+    Returns {kcal:0, ...} for explicitly excluded items (seasonings, broth, etc.).
     """
-    # Check manual map
+    # Skip pure-number / pure-gram tokens (e.g. "1", "70g", "01 quả", "10g")
     key = name.lower().strip()
-    fct_name = FCT_NAMES.get(key)
+    if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+        return None  # not a real food
 
-    if fct_name is None and key in FCT_NAMES:
-        # Explicitly excluded (seasonings)
+    fct_name_raw = FCT_NAMES.get(key)
+
+    # Explicitly excluded (seasonings, broth, compound dishes, etc.) → zero contribution
+    if key in FCT_NAMES and fct_name_raw is None:
         return {"kcal": 0.0, "protein": 0.0, "fat": 0.0, "carb": 0.0}
 
-    # Try manual map first, then fuzzy
+    # Resolve: check manual map → fuzzy → None
     entry = None
-    if fct_name and fct_name in fct:
-        entry = fct[fct_name]
+    yield_factor = 1.0
+
+    if fct_name_raw is not None:
+        # Tuple: ("food_name", yield_factor) for cooked dishes
+        if isinstance(fct_name_raw, tuple):
+            fct_name, yield_factor = fct_name_raw
+        else:
+            fct_name = fct_name_raw
+            yield_factor = 1.0
+        if fct_name in fct:
+            entry = fct[fct_name]
+
     if entry is None:
         entry = lookup(key, fct)
 
     if entry is None:
-        return {"kcal": 0.0, "protein": 0.0, "fat": 0.0, "carb": 0.0}
+        return None  # NOT in FCT
 
-    scale = weight_g / 100.0
+    scale = weight_g / 100.0 * yield_factor
     return {
         "kcal":    round(entry["kcal"]    * scale, 2),
         "protein": round(entry["protein"] * scale, 2),
@@ -197,61 +296,228 @@ def resolve(name: str, weight_g: float, fct: dict) -> dict:
 
 # ── Ingredient string parser ────────────────────────────────────────────────────
 
+def parse_compound_dish(raw: str) -> list[tuple[str, float]] | None:
+    """
+    Handle compound protein dishes with multiple weights.
+    Returns [(name, weight), ...] if this is a compound dish, else None.
+
+    Formats handled:
+      "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+        → [("Thịt lợn băm", 50), ("Cà rốt", 10), ("Hành lá", 5)]
+      "Tôm rang thịt lợn, hành lá: 60g, 70g, 5g"
+        → [("Tôm", 60), ("Thịt lợn", 70), ("Hành lá", 5)]
+    """
+    raw = raw.strip()
+    if not raw:
+        return None
+
+    # ── Compound dish patterns ───────────────────────────────────────────────────────
+    # Each entry: (dish_name_substring, [(fct_name, weight_idx), ...])
+    # weight_idx: which captured weight group to use (0=first, 1=second, ...)
+    COMPOUND_PATTERNS: list[tuple] = [
+        (
+            "thịt lợn băm xào cà rốt, hành lá",
+            [("thịt lợn nạc", 0), ("cà rốt", 1), ("hành lá", 2)],
+        ),
+        (
+            "tôm rang thịt lợn, hành lá",
+            [("tôm đồng", 0), ("thịt lợn nạc", 1), ("hành lá", 2)],
+        ),
+        (
+            "tôm rang thịt lợn",
+            [("tôm đồng", 0), ("thịt lợn nạc", 1)],
+        ),
+        (
+            "thịt lợn xào hành tây, cà rốt",
+            [("thịt lợn nạc", 0), ("cà rốt", 1), ("hành tây", 2)],
+        ),
+        (
+            "thịt bò xào cần tỏi tây, hành tây",
+            [("thịt bò loại i", 0), ("hành tây", 1), ("hành tây", 2)],
+        ),
+        (
+            "ức gà xào hành tây, cà rốt",
+            [("thịt gà ta", 0), ("cà rốt", 1), ("hành tây", 2)],
+        ),
+        (
+            "thịt lợn nạc vai xào cần tỏi tây, hành tây",
+            [("thịt lợn nửa nạc, nửa mỡ", 0), ("hành tây", 1), ("hành tây", 2)],
+        ),
+        (
+            "trứng đúc thịt",
+            [("trứng gà", 0), ("thịt lợn nạc", 1)],
+        ),
+        # "Thịt lợn xào cần tỏi tây, hành tây: 100g, 10g, 5g"
+        (
+            "xào cần tỏi tây, hành tây",
+            [("thịt lợn nạc", 0), ("hành tây", 1), ("hành tây", 2)],
+        ),
+        # "Thịt bê xào sả ớt: 50g, 10g, 5g"
+        (
+            "bê xào sả ớt",
+            [("thịt bê nạc", 0), ("hành tây", 1), ("ớt đỏ to", 2)],
+        ),
+        # "Thịt lợn băm xào hành lá: 50g, 5g"
+        (
+            "thịt lợn băm xào hành lá",
+            [("thịt lợn nạc", 0), ("hành lá", 1)],
+        ),
+        # "Thịt lợn nạc vai xào ớt đà lạt: 100g, 20g"
+        (
+            "thịt lợn nạc vai xào ớt đà lạt",
+            [("thịt lợn nửa nạc, nửa mỡ", 0), ("ớt đỏ to", 1)],
+        ),
+        # "Thịt lợn, trứng gà kho tàu: 90g, 1 quả"
+        (
+            "thịt lợn, trứng gà kho tàu",
+            [("thịt lợn nạc", 0), ("trứng gà", 1)],
+        ),
+    ]
+
+    key = raw.lower()
+    for pattern_entry in COMPOUND_PATTERNS:
+        pattern = pattern_entry[0]
+        if pattern not in key:
+            continue
+
+        # Capture both number AND unit so "01 quả" can be converted to 50g
+        weight_re = re.compile(
+            r"(?<![:a-zA-Z])(\d+(?:[.,]\d+)?)\s*(g|quả)\b", re.IGNORECASE
+        )
+        all_weights = list(weight_re.finditer(raw))
+        if len(all_weights) < 2:
+            return None
+        weights = []
+        for m in all_weights:
+            val = float(m.group(1).replace(",", "."))
+            unit = m.group(2).lower()
+            # "quả" (egg) → standard 50g per egg
+            weights.append(50.0 if unit == "quả" else val)
+
+        result = []
+        for fct_name, w_idx in pattern_entry[1]:
+            w = weights[w_idx] if w_idx < len(weights) else 0.0
+            result.append((fct_name, w))
+        return result
+
+    return None
+
+
 def parse_items(raw: str) -> list[tuple[str, float]]:
     """
     Parse a meal-plan ingredient line into (name, weight_g) pairs.
 
-    Handles formats like:
-      "Gạo tám Lào: 150g"
-      "Cá trắm rán xốt cà chua: 140g, 20g"
-      "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"
-      "Canh cải xanh nấu thịt nạc: 20g, 10g"
-      "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+    Key insight: every food item ends with a weight label ": NNNg" or ": NNquả".
+    The LAST weight label in the string is the main dish's weight.
+    All weight labels before it belong to earlier dishes.
+    Everything after the LAST weight label is garnishes.
 
-    Returns list of (ingredient_name, weight_g). Items without explicit weight
-    get weight=0 (resolved by resolve() using default or lookup).
+    Handles formats like:
+      "Gạo tám Thái: 150g"
+      "Thịt lợn xào hành tây, cà rốt: 70g, 10g, 10g"  → compound dish
+      "Phở: 150g, thịt bò: 50g, xương ống: 20g, hành lá, rau mùi, gia vị"
+      "Cá trắm rán xốt cà chua: 140g, 20g"
+      "Trứng đúc thịt: 01 quả"
     """
     if not raw or not isinstance(raw, str):
         return []
 
     items = []
-    # Split by comma, but handle compound dishes carefully
-    segments = re.split(r",\s*", raw)
 
-    for seg in segments:
-        seg = seg.strip()
-        if not seg:
-            continue
+    weight_re = re.compile(
+        r":\s*(\d+(?:[.,]\d+)?)\s*(g|quả|khẩu phần)\b", re.IGNORECASE
+    )
+    all_weights = list(weight_re.finditer(raw))
 
-        # Try to extract: name: NNNg, NNg, ...
-        # Pattern: "dish name: 100g, 20g, 10g" → first number = main ingredient weight
-        m = re.search(r":\s*(\d+(?:[.,]\d+)?)\s*g\b", seg)
-        if m:
-            weight = float(m.group(1).replace(",", "."))
-            # Remove all :NNNg patterns to get the name(s)
-            name_part = re.sub(r":\s*\d+(?:[.,]\d+)?\s*g\b", "", seg).strip()
-            name_part = re.sub(r":\s*$", "", name_part).strip()
-            if name_part:
-                # Split name_part by comma for compound names
-                # e.g. "Cá trắm rán xốt cà chua" → split ingredients
-                for sub in re.split(r",\s*", name_part):
-                    sub = sub.strip()
-                    if sub:
-                        items.append((sub, weight))
-        else:
-            # No weight → e.g. "hành lá", "rau mùi" — weight=0 (resolve will handle)
+    if not all_weights:
+        for sub in re.split(r",\s*", raw):
+            sub = sub.strip()
+            if sub and len(sub) >= 2:
+                items.append((sub, 0.0))
+        return items
+
+    last_wm = all_weights[-1]
+    unit = last_wm.group(2).lower()
+    main_weight = 50.0 if unit == "quả" else float(
+        last_wm.group(1).replace(",", ".")
+    )
+
+    dish_part = raw[:last_wm.start()].strip()
+    garnish_part = raw[last_wm.end():].strip(", ").strip()
+
+    # ── Extract dishes from dish_part ─────────────────────────────────────────
+    if dish_part:
+        dish_seps = []
+        for m in re.finditer(r",", dish_part):
+            cp = m.start()
+            before_slice = dish_part[max(0, cp - 6):cp]
+            after_slice = dish_part[cp + 1:]
+            preceded_by_weight = bool(re.search(
+                r"\d+(?:[.,]\d+)?\s*(?:g|quả|khẩu phần)\b",
+                before_slice, re.IGNORECASE
+            ))
+            followed_by_weight = weight_re.search(after_slice) is not None
+            if preceded_by_weight and followed_by_weight:
+                dish_seps.append(cp)
+
+        dish_segments = []
+        prev = 0
+        for cp in dish_seps:
+            seg = dish_part[prev:cp].strip(", ").strip()
+            if seg:
+                dish_segments.append(seg)
+            prev = cp + 1
+        tail = dish_part[prev:].strip(", ").strip()
+        if tail:
+            dish_segments.append(tail)
+
+        for seg in dish_segments:
             seg = seg.strip()
-            if seg and len(seg) > 1:
-                items.append((seg, 0.0))
+            if not seg:
+                continue
+            seg_weights = list(weight_re.finditer(seg))
+            if seg_weights:
+                first = seg_weights[0]
+                unit2 = first.group(2).lower()
+                w = 50.0 if unit2 == "quả" else float(
+                    first.group(1).replace(",", ".")
+                )
+                dish_name = seg[:first.start()].strip()
+                if dish_name and len(dish_name) >= 2:
+                    items.append((dish_name, w))
+            else:
+                if seg and len(seg) >= 2:
+                    items.append((seg, main_weight))
+
+    # ── Extract garnishes from garnish_part ────────────────────────────────────
+    if garnish_part:
+        for sub in re.split(r",\s*", garnish_part):
+            sub = sub.strip()
+            if not sub or len(sub) < 2:
+                continue
+            # Skip pure-numeric tokens (e.g. "10g", "1 quả", "20", "1.5")
+            if re.match(r"^[\d]+(?:[.,][\d]+)?(?:\s+(?:g|ml|quả|lít|khẩu phần))?$", sub, re.IGNORECASE):
+                continue
+            if sub.replace(",", "").replace(".", "").isdigit():
+                continue
+            items.append((sub, 0.0))
 
     return items
 
 
 def parse_proteins(raw_list: list) -> list[tuple[str, float]]:
-    """Parse a list of protein dish strings."""
+    """
+    Parse a list of protein dish strings.
+    Handles compound dishes like "Thịt lợn băm xào cà rốt, hành lá: 50g, 10g, 5g"
+    by splitting them into individual ingredients.
+    """
     all_items = []
     for item in raw_list:
-        all_items.extend(parse_items(item))
+        compound = parse_compound_dish(item)
+        if compound is not None:
+            all_items.extend(compound)
+        else:
+            all_items.extend(parse_items(item))
     return all_items
 
 
@@ -278,12 +544,21 @@ def calc_day(day: dict, fct: dict) -> dict:
         detail = bf.get("detail") or ""
         for name, weight in parse_breakfast_detail(detail):
             if weight <= 0:
-                weight = 50  # default estimate for unweighed items
+                weight = 50
+            # Skip bare numeric tokens (e.g. "10g", "20g", "1 quả")
+            key = name.lower().strip()
+            if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+                continue
             n = resolve(name, weight, fct)
-            if n["kcal"] == 0 and name.lower() not in ("gia vị", "hành lá", "rau mùi"):
+            if n is None:
                 unfound.append(name)
-            for k in totals:
-                totals[k] += n[k]
+            elif n["kcal"] == 0 and name.lower() not in (
+                "gia vị", "hành lá", "rau mùi",
+            ):
+                unfound.append(name)
+            if n is not None:
+                for k in totals:
+                    totals[k] += n[k]
 
     # ── Lunch & Dinner ──
     for meal_key in ("lunch", "dinner"):
@@ -296,43 +571,79 @@ def calc_day(day: dict, fct: dict) -> dict:
         for name, weight in parse_items(rice_raw):
             if weight <= 0:
                 weight = 150
+            key = name.lower().strip()
+            if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+                continue
             n = resolve(name, weight, fct)
-            if n["kcal"] == 0 and name.lower() not in ("gia vị", "hành lá"):
+            if n is None:
                 unfound.append(name)
-            for k in totals:
-                totals[k] += n[k]
+            elif n["kcal"] == 0 and name.lower() not in (
+                "gia vị", "hành lá",
+            ):
+                unfound.append(name)
+            if n is not None:
+                for k in totals:
+                    totals[k] += n[k]
 
         # Vegetable
         veg_raw = meal.get("vegetable") or ""
         for name, weight in parse_items(veg_raw):
             if weight <= 0:
                 weight = 200
+            key = name.lower().strip()
+            if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+                continue
             n = resolve(name, weight, fct)
-            if n["kcal"] == 0:
+            if n is None:
                 unfound.append(name)
-            for k in totals:
-                totals[k] += n[k]
+            elif n["kcal"] == 0 and name.lower() not in (
+                "gia vị", "hành lá",
+            ):
+                unfound.append(name)
+            if n is not None:
+                for k in totals:
+                    totals[k] += n[k]
 
         # Proteins
         for name, weight in parse_proteins(meal.get("proteins") or []):
             if weight <= 0:
                 weight = 80
+            key = name.lower().strip()
+            if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+                continue
             n = resolve(name, weight, fct)
-            if n["kcal"] == 0 and name.lower() not in ("gia vị", "hành lá", "cà rốt", "hành tây"):
+            if n is None:
                 unfound.append(name)
-            for k in totals:
-                totals[k] += n[k]
+            elif n["kcal"] == 0 and name.lower() not in (
+                "gia vị", "hành lá", "cà rốt", "hành tây",
+                "tôm rang thịt lợn",
+                "tôm rang thịt lợn, hành lá",
+                "thịt lợn băm xào cà rốt, hành lá",
+                "gia vị vừa đủ sữa grandcare gold 180ml: 01 hộp",
+            ):
+                unfound.append(name)
+            if n is not None:
+                for k in totals:
+                    totals[k] += n[k]
 
         # Soup
         soup_raw = meal.get("soup") or ""
         for name, weight in parse_items(soup_raw):
             if weight <= 0:
-                weight = 20  # base (soup is mostly water + small amount of veg/meat)
+                weight = 20
+            key = name.lower().strip()
+            if re.fullmatch(r"[\d][\d.,]*\s*(g|ml|lít|quả|khẩu phần)?", key, re.IGNORECASE):
+                continue
             n = resolve(name, weight, fct)
-            if n["kcal"] == 0:
+            if n is None:
                 unfound.append(name)
-            for k in totals:
-                totals[k] += n[k]
+            elif n["kcal"] == 0 and name.lower() not in (
+                "gia vị", "hành lá",
+            ):
+                unfound.append(name)
+            if n is not None:
+                for k in totals:
+                    totals[k] += n[k]
 
     return {**totals, "unfound": unfound}
 

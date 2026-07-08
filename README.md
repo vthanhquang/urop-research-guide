@@ -1,6 +1,6 @@
 # urop-research-guide
 
-Research guide: Hospital meal plan analysis, diet group comparison, and nutritional rules.
+Research guide: Hospital meal plan analysis, diet group comparison, and nutritional validation.
 
 ## Project Structure
 
@@ -9,12 +9,46 @@ urop-research-guide/
 ├── monthly_plan_logic/
 │   ├── data/
 │   │   ├── weekly_meal_plan_85k.json   # Meal plan data (10 diet groups)
-│   │   └── rules.txt                    # Extracted text from rules.pdf
-│   ├── compare_diet_groups.py           # Script: diff each diet group vs baseline
-│   ├── extract_rules.py                 # Script: extract PDF rules to text
-│   └── ANALYSIS_diet_group_differences.md  # Analysis report
-└── README.md
+│   │   ├── VTN_FCT_2007_food_composition.csv  # Vietnamese FCT 2007 (2077 entries)
+│   │   ├── sp_thuong_mai.csv          # Supplemental market foods
+│   │   └── rules.txt                  # Extracted text from rules.pdf
+│   ├── validate_nutrition.py            # Main: parse + FCT lookup + validation
+│   ├── extract_rules.py                # Extract PDF rules to text
+│   ├── compare_diet_groups.py          # Diff each diet group vs baseline
+│   ├── parse_85k_weekly.py            # Parse raw meal plan CSV → JSON
+│   ├── special_case.md                 # FCT mapping decisions & known gaps
+│   └── ANALYSIS_*.md                   # Analysis & validation reports
+└── README.md                          # (this file)
 ```
+
+## Meal Plan Validation Pipeline
+
+```
+Input: weekly_meal_plan_85k.json + VTN_FCT_2007_food_composition.csv
+  │
+  ├─ parse_85k_weekly.py       → weekly_meal_plan_85k.json (one-time)
+  │
+  └─ validate_nutrition.py     → validation_summary.json
+       │
+       ├─ parse_breakfast_detail()   Parse breakfast: sữa + thực phẩm
+       ├─ parse_items()              Parse rice/veg/soup lines
+       ├─ parse_proteins()           Parse protein section (with compound dishes)
+       ├─ parse_compound_dish()      Split multi-ingredient dishes into components
+       ├─ FCT_NAMES{}                Manual name → FCT entry mapping
+       ├─ resolve()                  Name + weight → {kcal, P, L, G}
+       ├─ build_fct()                Load & cache FCT + sp_thuong_mai
+       ├─ calc_day()                 Sum 5 sections → daily totals + %
+       └─ validate()                 Compare vs diet-group rules → ⚠️/✅
+```
+
+Run:
+```bash
+python monthly_plan_logic/validate_nutrition.py
+```
+
+See `monthly_plan_logic/special_case.md` for FCT mapping decisions and known gaps.
+
+---
 
 ## Analysis
 
@@ -40,9 +74,16 @@ The weekly meal plan (`weekly_meal_plan_85k.json`) contains **10 diet groups** a
 | Kiêng i-ốt (P10) | 35 | Gạo Lào→Thái; bỏ rau cải |
 | Người nhà (P11) | 0 | Identical to baseline |
 
-See `ANALYSIS_diet_group_differences.md` for full details with nutritional rules citations.
+See `monthly_plan_logic/REPORT_nutrition_validation.md` for full validation report and FCT mapping decisions.
 
 ## Scripts
+
+### `validate_nutrition.py` (primary)
+Parses the meal plan, resolves every dish against FCT, computes daily kcal/protein/fat/carb, and validates against diet-group rules.
+
+```bash
+python monthly_plan_logic/validate_nutrition.py
+```
 
 ### `compare_diet_groups.py`
 Compares each diet group (pages 2–11) against the baseline standard menu (page 1).
@@ -61,4 +102,7 @@ python monthly_plan_logic/extract_rules.py
 ## Data Sources
 
 - `weekly_meal_plan_85k.json` — Thực đơn cơm tháng 5/2026, mức ăn 85.680đ (10 nhóm bệnh)
+- `VTN_FCT_2007_food_composition.csv` — Bảng thành phần dinh dưỡng thực phẩm Việt Nam 2007 (2077 entries)
+- `sp_thuong_mai.csv` — Thành phần dinh dưỡng thực phẩm thương mại Việt Nam (bổ sung)
 - `rules.pdf` — Hướng dẫn chế độ ăn bệnh viện (QĐ 2879/QĐ-BYT ngày 10/8/2006)
+
